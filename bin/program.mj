@@ -37,6 +37,9 @@ char cniz[];
 			print(b);
 		}else{
 			foreach(n: niz){
+				read(n);	
+			}
+			foreach(n: niz){
 				print(n);	
 			}
 			print(eol);
@@ -59,7 +62,7 @@ char cniz[];
 		cniz[1]='a';
 		cniz[2]='o';
 		cniz[3]=' ';
-		meth3(5, cniz);
+		//meth3(5, cniz);
 		//print(meth3(meth3(5, cniz),cniz));
 		
 		print(eol);

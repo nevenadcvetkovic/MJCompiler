@@ -195,7 +195,7 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(DesignEqExpr designExpr) {
 		if (designExpr.getDesignator() instanceof DesignatorClass) {
 			setArrDesignObj(designExpr.getDesignator());
-		}else if (feIterArray.containsKey(((DesignatorName) designExpr.getDesignator()).getName())) {
+		} else if (feIterArray.containsKey(((DesignatorName) designExpr.getDesignator()).getName())) {
 			// is an iterator
 			String name = ((DesignatorName) designExpr.getDesignator()).getName();
 			Obj design = feIterArray.get(name);
@@ -240,7 +240,8 @@ public class CodeGenerator extends VisitorAdaptor {
 			}
 
 			Designator designator = factorVar.getDesignator();
-			if ((factorVar.getDesignator() instanceof DesignatorClass || feIterArray.containsKey(((DesignatorName) factorVar.getDesignator()).getName()))//
+			if ((factorVar.getDesignator() instanceof DesignatorClass
+					|| feIterArray.containsKey(((DesignatorName) factorVar.getDesignator()).getName()))//
 					&& factorVar.getParent() instanceof TermFactor
 					&& (factorVar.getParent().getParent() instanceof MulTerm
 							&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight
@@ -288,16 +289,17 @@ public class CodeGenerator extends VisitorAdaptor {
 			Code.put(Code.pop);
 		}
 	}
+
 	private void printWord(Struct struct, String str, int value) {
 		Code.load(new Obj(Obj.Con, "$num", struct, str.charAt(0), 0));
 		Code.loadConst(value);
 		Code.put(Code.bprint);
-		for(int i=1; i<str.length(); i++) {
+		for (int i = 1; i < str.length(); i++) {
 			Code.load(new Obj(Obj.Con, "$num", struct, str.charAt(i), 0));
 			Code.loadConst(1);
 			Code.put(Code.bprint);
 		}
-		
+
 	}
 
 	@Override
@@ -312,32 +314,29 @@ public class CodeGenerator extends VisitorAdaptor {
 			else
 				Code.loadConst(5);
 			Code.put(Code.print);
-		} else if(struct==Tab.charType){
+		} else if (struct == Tab.charType) {
 			if (PrintStmt.getPrintNumConst() instanceof PrintNum)
 				Code.loadConst(((PrintNum) PrintStmt.getPrintNumConst()).getN1());
 			else
 				Code.loadConst(1);
 			Code.put(Code.bprint);
-		}else {
-			int value=1;
+		} else {
+			int value = 1;
 			if (PrintStmt.getPrintNumConst() instanceof PrintNum)
-				value=((PrintNum) PrintStmt.getPrintNumConst()).getN1();
-			
+				value = ((PrintNum) PrintStmt.getPrintNumConst()).getN1();
+
 			Code.loadConst(1);
 			Code.putFalseJump(Code.eq, 0);
-			int backpatch=Code.pc-2;
+			int backpatch = Code.pc - 2;
 			printWord(struct, "true", value);
 			Code.loadConst(1);
 			Code.loadConst(1);
 			Code.putFalseJump(Code.ne, 0);
-			int backpatchTrue=Code.pc-2;
+			int backpatchTrue = Code.pc - 2;
 			Code.fixup(backpatch);
 			printWord(struct, "false", value);
 			Code.fixup(backpatchTrue);
-			
-			
-			
-			
+
 		}
 	}
 
@@ -347,6 +346,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		while (struct != null && struct.getElemType() != null) {
 			struct = struct.getElemType();
 		}
+
 		if (struct == Tab.intType) {
 			Code.put(Code.read);
 		} else {
@@ -354,6 +354,13 @@ public class CodeGenerator extends VisitorAdaptor {
 		}
 		if (readDesign.getDesignator() instanceof DesignatorClass) {
 			setArrDesignObj(readDesign.getDesignator());
+		} else if (feIterArray.containsKey(((DesignatorName) readDesign.getDesignator()).getName())) {
+			// is an iterator
+			String name = ((DesignatorName) readDesign.getDesignator()).getName();
+			Obj design = feIterArray.get(name);
+			Obj arrayElem = new Obj(Obj.Elem, name, readDesign.getDesignator().obj.getType(), design.getAdr(),
+					design.getLevel());
+			readDesign.getDesignator().obj = arrayElem;
 		}
 
 		Code.store(readDesign.getDesignator().obj);
@@ -426,6 +433,9 @@ public class CodeGenerator extends VisitorAdaptor {
 				if (designator.getParent().getClass() != ForEach.class)
 					Code.load(designator.obj);
 			}
+		}else if(parrent.getClass()==ReadDesign.class && feIterArray.containsKey(designator.getName())) {
+			Code.load(feIterArray.get(designator.getName()));
+			Code.load(designator.obj);
 		}
 	}
 
