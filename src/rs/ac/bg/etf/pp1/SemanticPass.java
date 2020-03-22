@@ -22,7 +22,7 @@ public class SemanticPass extends VisitorAdaptor {
 	ArrayList<Struct> currentParamList = null;
 	ArrayList<ArrayList<Struct>> currParamStack = new ArrayList<>();
 	private Struct currType = null;
-	private int nVarsFE=-1;
+	private int nVarsFE = -1;
 
 	public SemanticPass() {
 		Struct struct = new Struct(Struct.Int);
@@ -66,11 +66,11 @@ public class SemanticPass extends VisitorAdaptor {
 					+ " je vec deklarisan!", null);
 
 		} else {
-			if(formalParDecl.getSquares() instanceof NoSquares) {
+			if (formalParDecl.getSquares() instanceof NoSquares) {
 				report_info("Deklarisan parametar " + formalParDecl.getName(), formalParDecl);
 				Obj parNode = Tab.insert(Obj.Var, formalParDecl.getName(), formalParDecl.getType().struct);
 				parNode.setFpPos(++paramCount);
-			}else {
+			} else {
 				report_info("Deklarisan parametar " + formalParDecl.getName(), formalParDecl);
 				Struct type = new Struct(Struct.Array, formalParDecl.getType().struct);
 				Obj parNode = Tab.insert(Obj.Var, formalParDecl.getName(), type);
@@ -543,8 +543,8 @@ public class SemanticPass extends VisitorAdaptor {
 					report_error("Greska na liniji " + designator.getLine() + " : Ime " + designator.getName()
 							+ " nije tipa niz! ", null);
 				} else {
-					if(nVarsFE==-1)
-						nVarsFE=Tab.currentScope().getnVars();
+					if (nVarsFE == -1)
+						nVarsFE = Tab.currentScope().getnVars();
 					Tab.openScope();
 					parrent.getIdent().obj = Tab.insert(Obj.Var, parrent.getIdent().getName(),
 							obj.getType().getElemType());
@@ -555,8 +555,8 @@ public class SemanticPass extends VisitorAdaptor {
 	}
 
 	public void visit(ForEach forEach) {
-		Tab.closeScope();		
-		
+		Tab.closeScope();
+
 	}
 
 	public void visit(ConstFactor constFactor) {
@@ -785,12 +785,24 @@ public class SemanticPass extends VisitorAdaptor {
 		return !errorDetected;
 	}
 
+	private boolean isDesignatorClass(Expr expr) {
+		if (expr instanceof TermExpr && ((TermExpr) expr).getTerm() instanceof TermFactor) {
+			TermFactor termFactor = (TermFactor) ((TermExpr) expr).getTerm();
+			if (termFactor.getFactor() instanceof FactorVar
+					&& ((FactorVar) termFactor.getFactor()).getDesignator() instanceof DesignatorClass)
+				return true;
+		}
+		return false;
+	}
+
 	public void visit(ActualParams actualParams) {
 		actualParams.struct = actualParams.getExpr().struct;
 		Struct struct = actualParams.struct;
-	/*	while (struct != null && struct.getElemType() != null) {
-			struct = struct.getElemType();
-		}*/
+		if (isDesignatorClass(actualParams.getExpr())) {
+			while (struct != null && struct.getElemType() != null) {
+				struct = struct.getElemType();
+			}
+		}
 		currentParamList.add(struct);
 
 	}
@@ -798,9 +810,11 @@ public class SemanticPass extends VisitorAdaptor {
 	public void visit(ActualParam actualParam) {
 		actualParam.struct = actualParam.getExpr().struct;
 		Struct struct = actualParam.struct;
-		/*while (struct != null && struct.getElemType() != null) {
-			struct = struct.getElemType();
-		}*/
+		if (isDesignatorClass(actualParam.getExpr())) {
+			while (struct != null && struct.getElemType() != null) {
+				struct = struct.getElemType();
+			}
+		}
 		currentParamList.add(struct);
 	}
 

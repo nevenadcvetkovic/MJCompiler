@@ -1,0 +1,86 @@
+INFO  16:52:17,192 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:52:17,325 - #2 program
+INFO  16:52:17,325 - #17 vars
+INFO  16:52:17,325 - #17 char
+INFO  16:52:17,328 - #17 cniz
+INFO  16:52:17,331 - #25 [
+INFO  16:52:17,331 - #26 ]
+INFO  16:52:17,332 - #5 ;
+INFO  16:52:17,336 - #3 {
+INFO  16:52:17,337 - #14 void
+INFO  16:52:17,338 - #17 main
+INFO  16:52:17,340 - #6 (
+INFO  16:52:17,342 - #7 )
+INFO  16:52:17,343 - #3 {
+INFO  16:52:17,344 - #9 print
+INFO  16:52:17,345 - #6 (
+INFO  16:52:17,345 - #16 2
+INFO  16:52:17,346 - #7 )
+INFO  16:52:17,347 - #5 ;
+INFO  16:52:17,348 - #4 }
+INFO  16:52:17,349 - #4 }
+INFO  16:52:17,387 - Program(
+  ProgName(
+   vars
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    NoDecl(
+    ) [NoDecl]
+    DeclVars(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           cniz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              ConstFactor(
+                FactNumConst(
+                 2
+                ) [FactNumConst]
+              ) [ConstFactor]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:52:17,390 - ===================================
+INFO  16:52:17,397 - Deklarisan niz cniz na liniji 6
+INFO  16:52:17,397 - Obradjuje se funkcija main na liniji 12
+INFO  16:52:17,397 - Print calls = 1
+INFO  16:52:17,397 - Read calls = 0
+INFO  16:52:17,397 - Broj promenljivih = 0
+INFO  16:52:17,397 - Broj nizova = 1
+INFO  16:52:17,398 - Broj konstanti = 0
+INFO  16:52:17,400 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:52:17,417 - Parsiranje uspesno zavrseno!
