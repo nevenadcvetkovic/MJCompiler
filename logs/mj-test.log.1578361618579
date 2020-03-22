@@ -1,0 +1,47 @@
+INFO  02:46:29,360 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  02:46:29,437 - #2 program
+INFO  02:46:29,437 - #15 MJProgram
+INFO  02:46:29,438 - #15 int
+INFO  02:46:29,441 - #15 x
+INFO  02:46:29,442 - #5 ;
+INFO  02:46:29,445 - #15 int
+INFO  02:46:29,447 - #15 y
+INFO  02:46:29,447 - #5 ;
+INFO  02:46:29,447 - #3 {
+INFO  02:46:29,448 - #15 int
+INFO  02:46:29,449 - #15 k
+INFO  02:46:29,449 - #6 (
+INFO  02:46:29,451 - #15 int
+INFO  02:46:29,452 - #15 p
+INFO  02:46:29,452 - #8 ,
+INFO  02:46:29,455 - #15 int
+INFO  02:46:29,455 - #15 zzz
+INFO  02:46:29,455 - #7 )
+INFO  02:46:29,456 - #15 int
+INFO  02:46:29,457 - #15 ggg
+INFO  02:46:29,458 - #5 ;
+INFO  02:46:29,458 - #3 {
+INFO  02:46:29,459 - #9 print
+INFO  02:46:29,460 - #6 (
+INFO  02:46:29,460 - #15 p
+ERROR 02:46:29,460 - 
+Sintaksna greska na liniji 7
+INFO  02:46:29,460 - #7 )
+INFO  02:46:29,460 - #5 ;
+INFO  02:46:29,460 - #10 return
+INFO  02:46:29,462 - #14 5
+INFO  02:46:29,462 - #38 *
+ERROR 02:46:29,463 - Izvrsen oporavak do ; u liniji 7
+INFO  02:46:29,465 - #14 6
+INFO  02:46:29,466 - #11 +
+INFO  02:46:29,466 - #14 7
+INFO  02:46:29,467 - #5 ;
+INFO  02:46:29,468 - #4 }
+INFO  02:46:29,468 - #4 }
+INFO  02:46:29,495 - Deklarisana promenljiva x na liniji 2
+INFO  02:46:29,496 - Deklarisana promenljiva y na liniji 2
+INFO  02:46:29,496 - Obradjuje se funkcija k na liniji 6
+INFO  02:46:29,496 - Deklarisana promenljiva ggg na liniji 6
+ERROR 02:46:29,497 - Greska na liniji 8 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije k
+INFO  02:46:29,497 - Print calls = 0
+ERROR 02:46:29,499 - Parsiranje NIJE uspesno zavrseno!

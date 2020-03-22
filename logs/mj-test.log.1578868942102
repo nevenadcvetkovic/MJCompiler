@@ -1,0 +1,187 @@
+INFO  23:32:00,244 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:32:00,323 - #2 program
+INFO  23:32:00,323 - #15 test302
+INFO  23:32:00,323 - #21 const
+INFO  23:32:00,325 - #15 int
+INFO  23:32:00,325 - #15 jedan
+INFO  23:32:00,326 - #12 =
+INFO  23:32:00,327 - #14 1
+INFO  23:32:00,327 - #5 ;
+INFO  23:32:00,329 - #15 int
+INFO  23:32:00,330 - #15 i
+INFO  23:32:00,330 - #8 ,
+INFO  23:32:00,332 - #15 n
+INFO  23:32:00,333 - #5 ;
+INFO  23:32:00,333 - #15 int
+INFO  23:32:00,334 - #15 u
+INFO  23:32:00,334 - #39 /
+ERROR 23:32:00,336 - 
+Sintaksna greska na liniji 8
+INFO  23:32:00,336 - #38 *
+INFO  23:32:00,336 - #5 ;
+INFO  23:32:00,337 - #15 bool
+INFO  23:32:00,352 - #15 ibool
+INFO  23:32:00,352 - #5 ;
+ERROR 23:32:00,353 - Izvrsen oporavak do ; u liniji 8
+INFO  23:32:00,354 - #15 char
+INFO  23:32:00,355 - #15 nizc
+INFO  23:32:00,355 - #22 [
+INFO  23:32:00,356 - #23 ]
+INFO  23:32:00,356 - #5 ;
+INFO  23:32:00,358 - #15 int
+INFO  23:32:00,358 - #15 niz
+INFO  23:32:00,359 - #22 [
+INFO  23:32:00,359 - #23 ]
+INFO  23:32:00,359 - #5 ;
+INFO  23:32:00,360 - #3 {
+INFO  23:32:00,360 - #13 void
+INFO  23:32:00,362 - #15 main
+INFO  23:32:00,363 - #6 (
+INFO  23:32:00,365 - #7 )
+INFO  23:32:00,366 - #3 {
+INFO  23:32:00,367 - #15 i
+INFO  23:32:00,369 - #12 =
+INFO  23:32:00,370 - #11 +
+ERROR 23:32:00,370 - 
+Sintaksna greska na liniji 20
+INFO  23:32:00,371 - #14 17
+INFO  23:32:00,371 - #5 ;
+INFO  23:32:00,371 - #4 }
+INFO  23:32:00,372 - #4 }
+ERROR 23:32:00,373 - Izvrsen oporavak do ; u liniji 20
+INFO  23:32:00,405 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          DeclarationsVarsConsts(
+            DeclarationsVarsConsts(
+              NoDecl(
+              ) [NoDecl]
+              DeclConsts(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  SingleConst(
+                    ConstIdent(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [ConstIdent]
+                  ) [SingleConst]
+                ) [ConstDecl]
+              ) [DeclConsts]
+            ) [DeclarationsVarsConsts]
+            DeclVars(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarIdents(
+                  SingleIdent(
+                    VarIdent(
+                     i
+                      NoVarSquares(
+                      ) [NoVarSquares]
+                    ) [VarIdent]
+                  ) [SingleIdent]
+                  VarIdent(
+                   n
+                    NoVarSquares(
+                    ) [NoVarSquares]
+                  ) [VarIdent]
+                ) [VarIdents]
+              ) [VarDecl]
+            ) [DeclVars]
+          ) [DeclarationsVarsConsts]
+          DeclVars(
+            ErrorVarDecl(
+            ) [ErrorVarDecl]
+          ) [DeclVars]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               ibool
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             nizc
+              VarSquare(
+              ) [VarSquare]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:32:00,407 - ===================================
+INFO  23:32:00,416 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  23:32:00,417 - Deklarisana promenljiva i na liniji 7
+INFO  23:32:00,418 - Deklarisana promenljiva n na liniji 7
+INFO  23:32:00,419 - Deklarisana promenljiva ibool na liniji 9
+INFO  23:32:00,419 - Deklarisan niz nizc na liniji 11
+INFO  23:32:00,420 - Deklarisan niz niz na liniji 13
+INFO  23:32:00,421 - Obradjuje se funkcija main na liniji 17
+INFO  23:32:00,422 - Print calls = 0
+INFO  23:32:00,431 - Read calls = 0
+INFO  23:32:00,431 - Broj promenljivih = 3
+INFO  23:32:00,431 - Broj nizova = 2
+INFO  23:32:00,432 - Broj konstanti = 1
+ERROR 23:32:00,434 - Parsiranje NIJE uspesno zavrseno!

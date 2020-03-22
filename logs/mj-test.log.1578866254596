@@ -1,0 +1,210 @@
+INFO  22:52:40,645 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:52:40,730 - #2 program
+INFO  22:52:40,730 - #15 test302
+INFO  22:52:40,731 - #21 const
+INFO  22:52:40,733 - #15 int
+INFO  22:52:40,734 - #15 jedan
+INFO  22:52:40,735 - #12 =
+INFO  22:52:40,735 - #14 1
+INFO  22:52:40,736 - #5 ;
+INFO  22:52:40,738 - #15 int
+INFO  22:52:40,740 - #15 i
+INFO  22:52:40,740 - #8 ,
+INFO  22:52:40,743 - #15 n
+INFO  22:52:40,744 - #5 ;
+INFO  22:52:40,744 - #15 bool
+INFO  22:52:40,746 - #15 ibool
+INFO  22:52:40,746 - #5 ;
+INFO  22:52:40,746 - #15 char
+INFO  22:52:40,746 - #15 nizc
+INFO  22:52:40,746 - #22 [
+INFO  22:52:40,747 - #23 ]
+INFO  22:52:40,761 - #5 ;
+INFO  22:52:40,763 - #15 int
+INFO  22:52:40,764 - #15 niz
+INFO  22:52:40,764 - #22 [
+INFO  22:52:40,765 - #23 ]
+INFO  22:52:40,766 - #5 ;
+INFO  22:52:40,766 - #3 {
+INFO  22:52:40,767 - #13 void
+INFO  22:52:40,768 - #15 main
+INFO  22:52:40,769 - #6 (
+INFO  22:52:40,771 - #7 )
+INFO  22:52:40,772 - #3 {
+INFO  22:52:40,773 - #15 niz
+INFO  22:52:40,774 - #12 =
+INFO  22:52:40,775 - #41 new
+INFO  22:52:40,775 - #15 int
+INFO  22:52:40,776 - #22 [
+INFO  22:52:40,776 - #14 3
+INFO  22:52:40,776 - #23 ]
+INFO  22:52:40,777 - #5 ;
+INFO  22:52:40,778 - #15 niz
+INFO  22:52:40,779 - #22 [
+INFO  22:52:40,779 - #14 1
+INFO  22:52:40,779 - #23 ]
+INFO  22:52:40,780 - #12 =
+INFO  22:52:40,781 - #14 0
+INFO  22:52:40,782 - #5 ;
+INFO  22:52:40,782 - #15 niz
+INFO  22:52:40,782 - #22 [
+INFO  22:52:40,783 - #14 1
+INFO  22:52:40,784 - #23 ]
+INFO  22:52:40,785 - #12 =
+INFO  22:52:40,785 - #15 niz
+INFO  22:52:40,786 - #22 [
+INFO  22:52:40,788 - #14 1
+INFO  22:52:40,788 - #23 ]
+INFO  22:52:40,789 - #11 +
+INFO  22:52:40,791 - #14 1
+INFO  22:52:40,793 - #5 ;
+INFO  22:52:40,801 - #15 niz
+INFO  22:52:40,801 - #22 [
+INFO  22:52:40,802 - #14 1
+INFO  22:52:40,804 - #23 ]
+INFO  22:52:40,805 - #28 --
+INFO  22:52:40,805 - #5 ;
+INFO  22:52:40,806 - #9 print
+INFO  22:52:40,806 - #6 (
+INFO  22:52:40,807 - #15 niz
+INFO  22:52:40,807 - #22 [
+INFO  22:52:40,807 - #14 1
+INFO  22:52:40,808 - #23 ]
+INFO  22:52:40,808 - #7 )
+INFO  22:52:40,809 - #5 ;
+INFO  22:52:40,810 - #4 }
+INFO  22:52:40,810 - #4 }
+INFO  22:52:40,834 - ===================================
+INFO  22:52:40,839 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  22:52:40,839 - Deklarisana promenljiva i na liniji 7
+INFO  22:52:40,840 - Deklarisana promenljiva n na liniji 7
+INFO  22:52:40,840 - Deklarisana promenljiva ibool na liniji 8
+INFO  22:52:40,841 - Deklarisan niz nizc na liniji 10
+INFO  22:52:40,841 - Deklarisan niz niz na liniji 12
+INFO  22:52:40,842 - Obradjuje se funkcija main na liniji 16
+INFO  22:52:40,842 - Koriscenje promenljive  na liniji 19
+INFO  22:52:40,842 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 19
+INFO  22:52:40,843 - Koriscenje promenljive  na liniji 20
+INFO  22:52:40,843 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 20
+INFO  22:52:40,844 - Pristup nizu  na liniji 20
+INFO  22:52:40,844 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 20
+INFO  22:52:40,845 - Koriscenje promenljive  na liniji 21
+INFO  22:52:40,845 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 21
+INFO  22:52:40,845 - Pristup nizu  na liniji 21
+INFO  22:52:40,845 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 21
+INFO  22:52:40,846 - Koriscenje promenljive  na liniji 21
+INFO  22:52:40,846 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 21
+INFO  22:52:40,847 - Pristup nizu  na liniji 21
+INFO  22:52:40,847 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 21
+INFO  22:52:40,847 - Koriscenje promenljive  na liniji 22
+INFO  22:52:40,849 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 22
+INFO  22:52:40,849 - Pristup nizu  na liniji 22
+INFO  22:52:40,849 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 22
+INFO  22:52:40,849 - Koriscenje promenljive  na liniji 23
+INFO  22:52:40,849 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 23
+INFO  22:52:40,851 - Pristup nizu  na liniji 23
+INFO  22:52:40,851 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 23
+INFO  22:52:40,852 - Print calls = 1
+INFO  22:52:40,852 - Read calls = 0
+INFO  22:52:40,852 - Broj promenljivih = 3
+INFO  22:52:40,852 - Broj nizova = 2
+INFO  22:52:40,853 - Broj konstanti = 1
+INFO  22:52:40,854 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  22:52:40,864 - Parsiranje uspesno zavrseno!

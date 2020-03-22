@@ -1,0 +1,531 @@
+INFO  04:06:05,878 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  04:06:05,970 - #2 program
+INFO  04:06:05,970 - #15 test302
+INFO  04:06:05,970 - #21 const
+INFO  04:06:05,973 - #15 int
+INFO  04:06:05,974 - #15 jedan
+INFO  04:06:05,975 - #12 =
+INFO  04:06:05,976 - #14 1
+INFO  04:06:05,976 - #5 ;
+INFO  04:06:05,978 - #15 int
+INFO  04:06:05,981 - #15 i
+INFO  04:06:05,981 - #5 ;
+INFO  04:06:05,985 - #15 bool
+INFO  04:06:05,987 - #15 ibool
+INFO  04:06:05,987 - #5 ;
+INFO  04:06:05,987 - #15 int
+INFO  04:06:05,988 - #15 niz
+INFO  04:06:05,988 - #22 [
+INFO  04:06:05,988 - #23 ]
+INFO  04:06:05,988 - #5 ;
+INFO  04:06:05,990 - #3 {
+INFO  04:06:05,990 - #15 int
+INFO  04:06:05,992 - #15 sum
+INFO  04:06:05,992 - #6 (
+INFO  04:06:05,994 - #15 int
+INFO  04:06:05,994 - #15 z
+INFO  04:06:05,994 - #8 ,
+INFO  04:06:05,997 - #15 int
+INFO  04:06:05,997 - #15 d
+INFO  04:06:05,998 - #7 )
+INFO  04:06:05,998 - #3 {
+INFO  04:06:05,999 - #10 return
+INFO  04:06:06,000 - #15 z
+INFO  04:06:06,000 - #11 +
+INFO  04:06:06,004 - #15 d
+INFO  04:06:06,006 - #5 ;
+INFO  04:06:06,007 - #4 }
+INFO  04:06:06,008 - #15 int
+INFO  04:06:06,010 - #15 inkrement
+INFO  04:06:06,011 - #6 (
+INFO  04:06:06,011 - #15 int
+INFO  04:06:06,011 - #15 a
+INFO  04:06:06,011 - #8 ,
+INFO  04:06:06,011 - #15 int
+INFO  04:06:06,012 - #15 inc
+INFO  04:06:06,012 - #7 )
+INFO  04:06:06,012 - #15 int
+INFO  04:06:06,012 - #15 pom
+INFO  04:06:06,012 - #5 ;
+INFO  04:06:06,012 - #3 {
+INFO  04:06:06,013 - #16 if
+INFO  04:06:06,013 - #6 (
+INFO  04:06:06,013 - #15 inc
+INFO  04:06:06,013 - #29 ==
+INFO  04:06:06,013 - #15 jedan
+INFO  04:06:06,016 - #7 )
+INFO  04:06:06,018 - #15 pom
+INFO  04:06:06,018 - #12 =
+INFO  04:06:06,019 - #14 1
+INFO  04:06:06,019 - #5 ;
+INFO  04:06:06,028 - #17 else
+INFO  04:06:06,029 - #16 if
+INFO  04:06:06,030 - #6 (
+INFO  04:06:06,034 - #15 inc
+INFO  04:06:06,035 - #29 ==
+INFO  04:06:06,035 - #14 2
+INFO  04:06:06,035 - #7 )
+INFO  04:06:06,035 - #15 pom
+INFO  04:06:06,035 - #12 =
+INFO  04:06:06,035 - #15 a
+INFO  04:06:06,036 - #5 ;
+INFO  04:06:06,036 - #10 return
+INFO  04:06:06,037 - #15 sum
+INFO  04:06:06,037 - #6 (
+INFO  04:06:06,037 - #15 a
+INFO  04:06:06,037 - #8 ,
+INFO  04:06:06,038 - #15 pom
+INFO  04:06:06,038 - #7 )
+INFO  04:06:06,038 - #5 ;
+INFO  04:06:06,039 - #4 }
+INFO  04:06:06,039 - #15 bool
+INFO  04:06:06,039 - #15 verify
+INFO  04:06:06,039 - #6 (
+INFO  04:06:06,039 - #7 )
+INFO  04:06:06,041 - #3 {
+INFO  04:06:06,041 - #9 print
+INFO  04:06:06,041 - #6 (
+INFO  04:06:06,042 - #19 v
+INFO  04:06:06,042 - #7 )
+INFO  04:06:06,043 - #5 ;
+INFO  04:06:06,044 - #10 return
+INFO  04:06:06,044 - #20 false
+INFO  04:06:06,044 - #5 ;
+INFO  04:06:06,044 - #4 }
+INFO  04:06:06,045 - #13 void
+INFO  04:06:06,045 - #15 main
+INFO  04:06:06,046 - #6 (
+INFO  04:06:06,046 - #7 )
+INFO  04:06:06,046 - #3 {
+INFO  04:06:06,046 - #16 if
+INFO  04:06:06,047 - #6 (
+INFO  04:06:06,047 - #14 1
+INFO  04:06:06,047 - #30 !=
+INFO  04:06:06,047 - #14 1
+INFO  04:06:06,048 - #7 )
+INFO  04:06:06,049 - #9 print
+INFO  04:06:06,049 - #6 (
+INFO  04:06:06,049 - #37 -
+INFO  04:06:06,049 - #14 6
+INFO  04:06:06,049 - #7 )
+INFO  04:06:06,049 - #5 ;
+INFO  04:06:06,049 - #17 else
+INFO  04:06:06,049 - #9 print
+INFO  04:06:06,050 - #6 (
+INFO  04:06:06,050 - #14 0
+INFO  04:06:06,050 - #7 )
+INFO  04:06:06,050 - #5 ;
+INFO  04:06:06,050 - #15 ibool
+INFO  04:06:06,050 - #12 =
+INFO  04:06:06,050 - #20 false
+INFO  04:06:06,050 - #5 ;
+INFO  04:06:06,050 - #15 i
+INFO  04:06:06,050 - #12 =
+INFO  04:06:06,051 - #14 0
+INFO  04:06:06,051 - #5 ;
+INFO  04:06:06,051 - #18 for
+INFO  04:06:06,051 - #6 (
+INFO  04:06:06,051 - #15 i
+INFO  04:06:06,051 - #12 =
+INFO  04:06:06,051 - #14 0
+INFO  04:06:06,051 - #5 ;
+INFO  04:06:06,052 - #15 i
+INFO  04:06:06,052 - #33 <
+INFO  04:06:06,052 - #14 5
+INFO  04:06:06,053 - #5 ;
+INFO  04:06:06,054 - #15 i
+INFO  04:06:06,054 - #27 ++
+INFO  04:06:06,054 - #7 )
+INFO  04:06:06,054 - #3 {
+INFO  04:06:06,054 - #16 if
+INFO  04:06:06,054 - #6 (
+INFO  04:06:06,055 - #15 i
+INFO  04:06:06,055 - #29 ==
+INFO  04:06:06,055 - #14 2
+INFO  04:06:06,055 - #7 )
+INFO  04:06:06,055 - #15 ibool
+INFO  04:06:06,055 - #12 =
+INFO  04:06:06,055 - #20 true
+INFO  04:06:06,055 - #5 ;
+INFO  04:06:06,055 - #4 }
+INFO  04:06:06,055 - #16 if
+INFO  04:06:06,056 - #6 (
+INFO  04:06:06,056 - #15 ibool
+INFO  04:06:06,056 - #7 )
+INFO  04:06:06,057 - #16 if
+INFO  04:06:06,058 - #6 (
+INFO  04:06:06,058 - #15 i
+INFO  04:06:06,058 - #29 ==
+INFO  04:06:06,058 - #14 5
+INFO  04:06:06,058 - #7 )
+INFO  04:06:06,059 - #9 print
+INFO  04:06:06,059 - #6 (
+INFO  04:06:06,059 - #14 1
+INFO  04:06:06,059 - #7 )
+INFO  04:06:06,059 - #5 ;
+INFO  04:06:06,060 - #17 else
+INFO  04:06:06,060 - #9 print
+INFO  04:06:06,060 - #6 (
+INFO  04:06:06,060 - #37 -
+INFO  04:06:06,060 - #14 1
+INFO  04:06:06,060 - #7 )
+INFO  04:06:06,060 - #5 ;
+INFO  04:06:06,060 - #15 niz
+INFO  04:06:06,060 - #12 =
+INFO  04:06:06,060 - #41 new
+INFO  04:06:06,060 - #15 int
+INFO  04:06:06,060 - #22 [
+INFO  04:06:06,061 - #14 3
+INFO  04:06:06,061 - #23 ]
+INFO  04:06:06,061 - #5 ;
+INFO  04:06:06,061 - #15 niz
+INFO  04:06:06,062 - #22 [
+INFO  04:06:06,062 - #14 0
+INFO  04:06:06,062 - #23 ]
+INFO  04:06:06,062 - #12 =
+INFO  04:06:06,062 - #14 1
+INFO  04:06:06,062 - #5 ;
+INFO  04:06:06,063 - #15 niz
+INFO  04:06:06,063 - #22 [
+INFO  04:06:06,063 - #14 1
+INFO  04:06:06,063 - #23 ]
+INFO  04:06:06,063 - #12 =
+INFO  04:06:06,063 - #14 2
+INFO  04:06:06,063 - #5 ;
+INFO  04:06:06,063 - #15 niz
+INFO  04:06:06,063 - #22 [
+INFO  04:06:06,063 - #14 2
+INFO  04:06:06,063 - #23 ]
+INFO  04:06:06,064 - #12 =
+INFO  04:06:06,064 - #15 sum
+INFO  04:06:06,064 - #6 (
+INFO  04:06:06,064 - #15 niz
+INFO  04:06:06,064 - #22 [
+INFO  04:06:06,064 - #14 1
+INFO  04:06:06,064 - #23 ]
+INFO  04:06:06,064 - #8 ,
+INFO  04:06:06,064 - #15 niz
+INFO  04:06:06,064 - #22 [
+INFO  04:06:06,064 - #14 0
+INFO  04:06:06,064 - #23 ]
+INFO  04:06:06,064 - #7 )
+INFO  04:06:06,065 - #11 +
+INFO  04:06:06,065 - #14 1
+INFO  04:06:06,065 - #5 ;
+INFO  04:06:06,065 - #16 if
+INFO  04:06:06,065 - #6 (
+INFO  04:06:06,065 - #15 niz
+INFO  04:06:06,065 - #22 [
+INFO  04:06:06,065 - #14 2
+INFO  04:06:06,065 - #23 ]
+INFO  04:06:06,065 - #29 ==
+INFO  04:06:06,065 - #14 4
+INFO  04:06:06,065 - #35 ||
+INFO  04:06:06,066 - #15 verify
+INFO  04:06:06,066 - #6 (
+INFO  04:06:06,066 - #7 )
+INFO  04:06:06,067 - #7 )
+INFO  04:06:06,067 - #9 print
+INFO  04:06:06,067 - #6 (
+INFO  04:06:06,067 - #15 ord
+INFO  04:06:06,068 - #6 (
+INFO  04:06:06,068 - #19 A
+INFO  04:06:06,068 - #7 )
+INFO  04:06:06,068 - #7 )
+INFO  04:06:06,068 - #5 ;
+INFO  04:06:06,068 - #17 else
+INFO  04:06:06,068 - #9 print
+INFO  04:06:06,068 - #6 (
+INFO  04:06:06,068 - #15 ord
+INFO  04:06:06,068 - #6 (
+INFO  04:06:06,068 - #19 a
+INFO  04:06:06,068 - #7 )
+INFO  04:06:06,068 - #7 )
+INFO  04:06:06,069 - #5 ;
+INFO  04:06:06,069 - #9 print
+INFO  04:06:06,069 - #6 (
+INFO  04:06:06,069 - #15 eol
+INFO  04:06:06,069 - #7 )
+INFO  04:06:06,069 - #5 ;
+INFO  04:06:06,069 - #15 i
+INFO  04:06:06,069 - #12 =
+INFO  04:06:06,069 - #14 0
+INFO  04:06:06,069 - #5 ;
+INFO  04:06:06,069 - #18 for
+INFO  04:06:06,069 - #6 (
+INFO  04:06:06,070 - #5 ;
+INFO  04:06:06,073 - #15 i
+INFO  04:06:06,074 - #33 <
+INFO  04:06:06,074 - #14 10
+INFO  04:06:06,074 - #5 ;
+INFO  04:06:06,074 - #7 )
+INFO  04:06:06,074 - #3 {
+INFO  04:06:06,074 - #16 if
+INFO  04:06:06,074 - #6 (
+INFO  04:06:06,074 - #15 i
+INFO  04:06:06,075 - #29 ==
+INFO  04:06:06,075 - #14 3
+INFO  04:06:06,075 - #7 )
+INFO  04:06:06,075 - #3 {
+INFO  04:06:06,075 - #15 i
+INFO  04:06:06,075 - #27 ++
+INFO  04:06:06,075 - #5 ;
+INFO  04:06:06,075 - #26 continue
+INFO  04:06:06,075 - #5 ;
+INFO  04:06:06,075 - #4 }
+INFO  04:06:06,077 - #16 if
+INFO  04:06:06,077 - #6 (
+INFO  04:06:06,077 - #15 i
+INFO  04:06:06,077 - #29 ==
+INFO  04:06:06,077 - #14 4
+INFO  04:06:06,077 - #7 )
+INFO  04:06:06,077 - #25 break
+INFO  04:06:06,077 - #5 ;
+INFO  04:06:06,077 - #15 i
+INFO  04:06:06,078 - #12 =
+INFO  04:06:06,079 - #15 inkrement
+INFO  04:06:06,079 - #6 (
+INFO  04:06:06,079 - #15 i
+INFO  04:06:06,079 - #8 ,
+INFO  04:06:06,079 - #14 1
+INFO  04:06:06,079 - #7 )
+INFO  04:06:06,079 - #5 ;
+INFO  04:06:06,079 - #4 }
+INFO  04:06:06,079 - #16 if
+INFO  04:06:06,079 - #6 (
+INFO  04:06:06,079 - #15 i
+INFO  04:06:06,080 - #29 ==
+INFO  04:06:06,080 - #14 3
+INFO  04:06:06,080 - #36 &&
+INFO  04:06:06,080 - #15 verify
+INFO  04:06:06,080 - #6 (
+INFO  04:06:06,080 - #7 )
+INFO  04:06:06,080 - #7 )
+INFO  04:06:06,080 - #9 print
+INFO  04:06:06,081 - #6 (
+INFO  04:06:06,081 - #14 4
+INFO  04:06:06,081 - #7 )
+INFO  04:06:06,081 - #5 ;
+INFO  04:06:06,081 - #17 else
+INFO  04:06:06,081 - #9 print
+INFO  04:06:06,081 - #6 (
+INFO  04:06:06,081 - #37 -
+INFO  04:06:06,081 - #14 4
+INFO  04:06:06,081 - #7 )
+INFO  04:06:06,081 - #5 ;
+INFO  04:06:06,081 - #24 read
+INFO  04:06:06,081 - #6 (
+INFO  04:06:06,081 - #15 niz
+INFO  04:06:06,081 - #22 [
+INFO  04:06:06,082 - #14 0
+INFO  04:06:06,083 - #23 ]
+INFO  04:06:06,083 - #7 )
+INFO  04:06:06,083 - #5 ;
+INFO  04:06:06,083 - #24 read
+INFO  04:06:06,083 - #6 (
+INFO  04:06:06,083 - #15 niz
+INFO  04:06:06,083 - #22 [
+INFO  04:06:06,084 - #14 1
+INFO  04:06:06,084 - #23 ]
+INFO  04:06:06,084 - #7 )
+INFO  04:06:06,084 - #5 ;
+INFO  04:06:06,084 - #24 read
+INFO  04:06:06,084 - #6 (
+INFO  04:06:06,084 - #15 niz
+INFO  04:06:06,084 - #22 [
+INFO  04:06:06,084 - #14 2
+INFO  04:06:06,084 - #23 ]
+INFO  04:06:06,084 - #7 )
+INFO  04:06:06,084 - #5 ;
+INFO  04:06:06,085 - #9 print
+INFO  04:06:06,085 - #6 (
+INFO  04:06:06,085 - #15 eol
+INFO  04:06:06,085 - #7 )
+INFO  04:06:06,085 - #5 ;
+INFO  04:06:06,085 - #9 print
+INFO  04:06:06,085 - #6 (
+INFO  04:06:06,085 - #15 sum
+INFO  04:06:06,085 - #6 (
+INFO  04:06:06,085 - #15 sum
+INFO  04:06:06,085 - #6 (
+INFO  04:06:06,085 - #15 niz
+INFO  04:06:06,085 - #22 [
+INFO  04:06:06,085 - #14 0
+INFO  04:06:06,085 - #23 ]
+INFO  04:06:06,085 - #8 ,
+INFO  04:06:06,085 - #15 niz
+INFO  04:06:06,085 - #22 [
+INFO  04:06:06,085 - #14 1
+INFO  04:06:06,085 - #23 ]
+INFO  04:06:06,085 - #7 )
+INFO  04:06:06,085 - #8 ,
+INFO  04:06:06,085 - #15 niz
+INFO  04:06:06,085 - #22 [
+INFO  04:06:06,085 - #14 2
+INFO  04:06:06,085 - #23 ]
+INFO  04:06:06,085 - #7 )
+INFO  04:06:06,085 - #7 )
+INFO  04:06:06,085 - #5 ;
+INFO  04:06:06,085 - #9 print
+INFO  04:06:06,087 - #6 (
+INFO  04:06:06,087 - #15 eol
+INFO  04:06:06,087 - #7 )
+INFO  04:06:06,087 - #5 ;
+INFO  04:06:06,087 - #9 print
+INFO  04:06:06,087 - #6 (
+INFO  04:06:06,087 - #15 inkrement
+INFO  04:06:06,087 - #6 (
+INFO  04:06:06,087 - #15 niz
+INFO  04:06:06,087 - #22 [
+INFO  04:06:06,087 - #14 2
+INFO  04:06:06,087 - #23 ]
+INFO  04:06:06,087 - #8 ,
+INFO  04:06:06,087 - #14 2
+INFO  04:06:06,087 - #7 )
+INFO  04:06:06,088 - #7 )
+INFO  04:06:06,088 - #5 ;
+INFO  04:06:06,088 - #4 }
+INFO  04:06:06,088 - #4 }
+INFO  04:06:06,101 - ===================================
+INFO  04:06:06,123 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  04:06:06,123 - Deklarisana promenljiva i na liniji 7
+INFO  04:06:06,123 - Deklarisana promenljiva ibool na liniji 8
+INFO  04:06:06,124 - Deklarisan niz niz na liniji 10
+INFO  04:06:06,124 - Obradjuje se funkcija sum na liniji 13
+INFO  04:06:06,124 - Deklarisan parametar z na liniji 13
+INFO  04:06:06,125 - Deklarisan parametar d na liniji 13
+INFO  04:06:06,125 - Funkcija sum uspesno definisana na liniji 15
+INFO  04:06:06,125 - Obradjuje se funkcija inkrement na liniji 18
+INFO  04:06:06,125 - Deklarisan parametar a na liniji 18
+INFO  04:06:06,125 - Deklarisan parametar inc na liniji 18
+INFO  04:06:06,126 - Deklarisana promenljiva pom na liniji 18
+INFO  04:06:06,126 - Postavljen formalni parametar z na liniji 23
+INFO  04:06:06,127 - Postavljen formalni parametar d na liniji 23
+INFO  04:06:06,127 - Poziv funkcije sum na liniji 23
+INFO  04:06:06,127 - Funkcija inkrement uspesno definisana na liniji 23
+INFO  04:06:06,127 - Obradjuje se funkcija verify na liniji 26
+INFO  04:06:06,127 - Funkcija verify uspesno definisana na liniji 28
+INFO  04:06:06,127 - Obradjuje se funkcija main na liniji 31
+INFO  04:06:06,129 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      NoMinus(
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               0
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [NoMinus]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactNumConst(
+                     5
+                    ) [FactNumConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign]
+  StatementInside(
+    Statements(
+      NoStmt(
+      ) [NoStmt]
+      IfStatementNotMatch(
+        SingleCondition(
+          SingleFact(
+            CondFact(
+              NoMinus(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+              ) [NoMinus]
+              RelExpression(
+                Equal(
+                ) [Equal]
+                NoMinus(
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         2
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [NoMinus]
+              ) [RelExpression]
+            ) [CondFact]
+          ) [SingleFact]
+        ) [SingleCondition]
+        Assignment(
+          DesignEqExpr(
+            DesignatorName(
+             ibool
+            ) [DesignatorName]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactBoolConst(
+                     true
+                    ) [FactBoolConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [DesignEqExpr]
+        ) [Assignment]
+      ) [IfStatementNotMatch]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 38

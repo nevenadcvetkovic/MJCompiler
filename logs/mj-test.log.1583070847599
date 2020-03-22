@@ -1,0 +1,407 @@
+INFO  14:32:23,686 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  14:32:23,972 - #2 program
+INFO  14:32:23,972 - #16 test302
+INFO  14:32:23,972 - #22 const
+INFO  14:32:23,976 - #16 int
+INFO  14:32:23,976 - #16 jedan
+INFO  14:32:23,978 - #13 =
+INFO  14:32:23,980 - #15 1
+INFO  14:32:23,980 - #5 ;
+INFO  14:32:23,983 - #16 int
+INFO  14:32:23,986 - #16 i
+INFO  14:32:23,986 - #8 ,
+INFO  14:32:23,991 - #16 j
+INFO  14:32:23,991 - #5 ;
+INFO  14:32:23,992 - #16 bool
+INFO  14:32:23,993 - #16 ibool
+INFO  14:32:23,993 - #5 ;
+INFO  14:32:23,993 - #16 int
+INFO  14:32:23,993 - #16 niz
+INFO  14:32:23,993 - #23 [
+INFO  14:32:23,993 - #24 ]
+INFO  14:32:23,994 - #5 ;
+INFO  14:32:23,996 - #3 {
+INFO  14:32:23,996 - #16 int
+INFO  14:32:23,999 - #16 fib
+INFO  14:32:24,000 - #6 (
+INFO  14:32:24,001 - #16 int
+INFO  14:32:24,001 - #16 n
+INFO  14:32:24,002 - #7 )
+INFO  14:32:24,009 - #3 {
+INFO  14:32:24,010 - #17 if
+INFO  14:32:24,011 - #6 (
+INFO  14:32:24,011 - #16 n
+INFO  14:32:24,012 - #35 <=
+INFO  14:32:24,017 - #15 1
+INFO  14:32:24,021 - #7 )
+INFO  14:32:24,024 - #10 return
+INFO  14:32:24,024 - #16 n
+INFO  14:32:24,025 - #5 ;
+INFO  14:32:24,025 - #10 return
+INFO  14:32:24,026 - #16 fib
+INFO  14:32:24,026 - #6 (
+INFO  14:32:24,026 - #16 n
+INFO  14:32:24,026 - #38 -
+INFO  14:32:24,027 - #15 1
+INFO  14:32:24,032 - #7 )
+INFO  14:32:24,038 - #11 +
+INFO  14:32:24,039 - #16 fib
+INFO  14:32:24,041 - #6 (
+INFO  14:32:24,041 - #16 n
+INFO  14:32:24,042 - #38 -
+INFO  14:32:24,042 - #15 2
+INFO  14:32:24,042 - #7 )
+INFO  14:32:24,042 - #5 ;
+INFO  14:32:24,043 - #4 }
+INFO  14:32:24,043 - #14 void
+INFO  14:32:24,056 - #16 main
+INFO  14:32:24,057 - #6 (
+INFO  14:32:24,057 - #7 )
+INFO  14:32:24,059 - #3 {
+INFO  14:32:24,066 - #16 i
+INFO  14:32:24,067 - #13 =
+INFO  14:32:24,067 - #16 fib
+INFO  14:32:24,068 - #6 (
+INFO  14:32:24,068 - #15 3
+INFO  14:32:24,068 - #7 )
+INFO  14:32:24,068 - #5 ;
+INFO  14:32:24,068 - #9 print
+INFO  14:32:24,069 - #6 (
+INFO  14:32:24,069 - #16 i
+INFO  14:32:24,069 - #7 )
+INFO  14:32:24,070 - #5 ;
+INFO  14:32:24,070 - #4 }
+INFO  14:32:24,070 - #4 }
+INFO  14:32:24,123 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdents(
+              SingleIdent(
+                VarIdent(
+                 i
+                  NoVarSquares(
+                  ) [NoVarSquares]
+                ) [VarIdent]
+              ) [SingleIdent]
+              VarIdent(
+               j
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [VarIdents]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          ReturnTypes(
+            Type(
+             int
+            ) [Type]
+          ) [ReturnTypes]
+         fib
+        ) [MethodTypeName]
+        FormParamss(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             n
+              NoSquares(
+              ) [NoSquares]
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+        ) [FormParamss]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            IfStatementNotMatch(
+              SingleCondition(
+                SingleFact(
+                  CondFact(
+                    TermExpr(
+                      TermFactor(
+                        FactorVar(
+                          DesignatorName(
+                           n
+                          ) [DesignatorName]
+                          NoFuncParens(
+                          ) [NoFuncParens]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                    RelExpression(
+                      LessEq(
+                      ) [LessEq]
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             1
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [RelExpression]
+                  ) [CondFact]
+                ) [SingleFact]
+              ) [SingleCondition]
+              ReturnExpr(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       n
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+              ) [ReturnExpr]
+            ) [IfStatementNotMatch]
+          ) [Statements]
+          ReturnExpr(
+            AddExpr(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     fib
+                    ) [DesignatorName]
+                    FactorFuncParen(
+                      Actuals(
+                        ActualParam(
+                          AddExpr(
+                            TermExpr(
+                              TermFactor(
+                                FactorVar(
+                                  DesignatorName(
+                                   n
+                                  ) [DesignatorName]
+                                  NoFuncParens(
+                                  ) [NoFuncParens]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                            AddLeft(
+                              Sub(
+                              ) [Sub]
+                            ) [AddLeft]
+                            TermFactor(
+                              ConstFactor(
+                                FactNumConst(
+                                 1
+                                ) [FactNumConst]
+                              ) [ConstFactor]
+                            ) [TermFactor]
+                          ) [AddExpr]
+                        ) [ActualParam]
+                      ) [Actuals]
+                    ) [FactorFuncParen]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+              AddLeft(
+                Add(
+                ) [Add]
+              ) [AddLeft]
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   fib
+                  ) [DesignatorName]
+                  FactorFuncParen(
+                    Actuals(
+                      ActualParam(
+                        AddExpr(
+                          TermExpr(
+                            TermFactor(
+                              FactorVar(
+                                DesignatorName(
+                                 n
+                                ) [DesignatorName]
+                                NoFuncParens(
+                                ) [NoFuncParens]
+                              ) [FactorVar]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                          AddLeft(
+                            Sub(
+                            ) [Sub]
+                          ) [AddLeft]
+                          TermFactor(
+                            ConstFactor(
+                              FactNumConst(
+                               2
+                              ) [FactNumConst]
+                            ) [ConstFactor]
+                          ) [TermFactor]
+                        ) [AddExpr]
+                      ) [ActualParam]
+                    ) [Actuals]
+                  ) [FactorFuncParen]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [AddExpr]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          DesStatementClass(
+            DesignEqExpr(
+              DesignatorName(
+               i
+              ) [DesignatorName]
+              AssEq(
+              ) [AssEq]
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     fib
+                    ) [DesignatorName]
+                    FactorFuncParen(
+                      Actuals(
+                        ActualParam(
+                          TermExpr(
+                            TermFactor(
+                              ConstFactor(
+                                FactNumConst(
+                                 3
+                                ) [FactNumConst]
+                              ) [ConstFactor]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [ActualParam]
+                      ) [Actuals]
+                    ) [FactorFuncParen]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [DesignEqExpr]
+          ) [DesStatementClass]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:32:24,123 - ===================================
+INFO  14:32:24,232 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  14:32:24,232 - Deklarisana promenljiva i na liniji 7
+INFO  14:32:24,232 - Deklarisana promenljiva j na liniji 7
+INFO  14:32:24,233 - Deklarisana promenljiva ibool na liniji 8
+INFO  14:32:24,233 - Deklarisan niz niz na liniji 10
+INFO  14:32:37,558 - Obradjuje se funkcija fib na liniji 13
+INFO  14:32:46,853 - Deklarisan parametar n na liniji 13
+INFO  14:32:50,014 - Koriscenje formalnog parametra  na liniji 14
+INFO  14:32:50,015 - DesignatorName(
+ n
+) [DesignatorName] na liniji 14
+INFO  14:32:50,015 - Koriscenje formalnog parametra  na liniji 15
+INFO  14:32:50,016 - DesignatorName(
+ n
+) [DesignatorName] na liniji 15
+INFO  14:32:50,016 - Funkcija fib uspesno definisana na liniji 15
+INFO  14:32:50,016 - DesignatorName(
+ fib
+) [DesignatorName] na liniji 16
+INFO  14:32:50,016 - Koriscenje formalnog parametra  na liniji 16
+INFO  14:32:50,016 - DesignatorName(
+ n
+) [DesignatorName] na liniji 16

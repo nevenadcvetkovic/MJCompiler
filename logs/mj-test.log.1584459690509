@@ -1,0 +1,3137 @@
+INFO  16:37:55,915 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:37:56,033 - #2 program
+INFO  16:37:56,033 - #17 test302
+INFO  16:37:56,033 - #24 const
+INFO  16:37:56,035 - #17 int
+INFO  16:37:56,036 - #17 jedan
+INFO  16:37:56,037 - #13 =
+INFO  16:37:56,037 - #16 1
+INFO  16:37:56,037 - #5 ;
+INFO  16:37:56,039 - #17 int
+INFO  16:37:56,042 - #17 i
+INFO  16:37:56,043 - #5 ;
+INFO  16:37:56,046 - #17 bool
+INFO  16:37:56,047 - #17 ibool
+INFO  16:37:56,047 - #5 ;
+INFO  16:37:56,047 - #17 int
+INFO  16:37:56,048 - #17 niz
+INFO  16:37:56,048 - #25 [
+INFO  16:37:56,048 - #26 ]
+INFO  16:37:56,049 - #5 ;
+INFO  16:37:56,050 - #3 {
+INFO  16:37:56,055 - #17 int
+INFO  16:37:56,056 - #17 sum
+INFO  16:37:56,057 - #6 (
+INFO  16:37:56,058 - #17 int
+INFO  16:37:56,058 - #17 z
+INFO  16:37:56,059 - #8 ,
+INFO  16:37:56,062 - #17 int
+INFO  16:37:56,062 - #17 d
+INFO  16:37:56,062 - #7 )
+INFO  16:37:56,062 - #3 {
+INFO  16:37:56,063 - #10 return
+INFO  16:37:56,064 - #17 z
+INFO  16:37:56,064 - #11 +
+INFO  16:37:56,066 - #17 d
+INFO  16:37:56,067 - #5 ;
+INFO  16:37:56,067 - #4 }
+INFO  16:37:56,068 - #17 int
+INFO  16:37:56,069 - #17 inkrement
+INFO  16:37:56,069 - #6 (
+INFO  16:37:56,069 - #17 int
+INFO  16:37:56,070 - #17 a
+INFO  16:37:56,070 - #8 ,
+INFO  16:37:56,070 - #17 int
+INFO  16:37:56,070 - #17 inc
+INFO  16:37:56,070 - #7 )
+INFO  16:37:56,070 - #17 int
+INFO  16:37:56,070 - #17 pom
+INFO  16:37:56,071 - #5 ;
+INFO  16:37:56,071 - #3 {
+INFO  16:37:56,072 - #18 if
+INFO  16:37:56,073 - #6 (
+INFO  16:37:56,073 - #17 inc
+INFO  16:37:56,073 - #32 ==
+INFO  16:37:56,073 - #17 jedan
+INFO  16:37:56,075 - #7 )
+INFO  16:37:56,077 - #17 pom
+INFO  16:37:56,077 - #13 =
+INFO  16:37:56,078 - #16 1
+INFO  16:37:56,079 - #5 ;
+INFO  16:37:56,086 - #19 else
+INFO  16:37:56,087 - #18 if
+INFO  16:37:56,088 - #6 (
+INFO  16:37:56,088 - #17 inc
+INFO  16:37:56,088 - #32 ==
+INFO  16:37:56,088 - #16 2
+INFO  16:37:56,088 - #7 )
+INFO  16:37:56,089 - #17 pom
+INFO  16:37:56,089 - #13 =
+INFO  16:37:56,089 - #17 a
+INFO  16:37:56,089 - #5 ;
+INFO  16:37:56,089 - #10 return
+INFO  16:37:56,090 - #17 sum
+INFO  16:37:56,090 - #6 (
+INFO  16:37:56,090 - #17 a
+INFO  16:37:56,090 - #8 ,
+INFO  16:37:56,090 - #17 pom
+INFO  16:37:56,091 - #7 )
+INFO  16:37:56,092 - #5 ;
+INFO  16:37:56,092 - #4 }
+INFO  16:37:56,092 - #17 bool
+INFO  16:37:56,092 - #17 verify
+INFO  16:37:56,092 - #6 (
+INFO  16:37:56,092 - #7 )
+INFO  16:37:56,093 - #3 {
+INFO  16:37:56,093 - #9 print
+INFO  16:37:56,094 - #6 (
+INFO  16:37:56,094 - #22 v
+INFO  16:37:56,094 - #7 )
+INFO  16:37:56,095 - #5 ;
+INFO  16:37:56,095 - #10 return
+INFO  16:37:56,095 - #23 false
+INFO  16:37:56,095 - #5 ;
+INFO  16:37:56,095 - #4 }
+INFO  16:37:56,096 - #14 void
+INFO  16:37:56,096 - #17 main
+INFO  16:37:56,097 - #6 (
+INFO  16:37:56,097 - #7 )
+INFO  16:37:56,097 - #3 {
+INFO  16:37:56,097 - #18 if
+INFO  16:37:56,097 - #6 (
+INFO  16:37:56,097 - #16 1
+INFO  16:37:56,097 - #33 !=
+INFO  16:37:56,097 - #16 1
+INFO  16:37:56,098 - #7 )
+INFO  16:37:56,098 - #9 print
+INFO  16:37:56,098 - #6 (
+INFO  16:37:56,098 - #40 -
+INFO  16:37:56,099 - #16 6
+INFO  16:37:56,099 - #7 )
+INFO  16:37:56,099 - #5 ;
+INFO  16:37:56,099 - #19 else
+INFO  16:37:56,099 - #9 print
+INFO  16:37:56,099 - #6 (
+INFO  16:37:56,099 - #16 0
+INFO  16:37:56,099 - #7 )
+INFO  16:37:56,099 - #5 ;
+INFO  16:37:56,099 - #17 ibool
+INFO  16:37:56,100 - #13 =
+INFO  16:37:56,100 - #23 false
+INFO  16:37:56,100 - #5 ;
+INFO  16:37:56,100 - #17 i
+INFO  16:37:56,100 - #13 =
+INFO  16:37:56,100 - #16 0
+INFO  16:37:56,100 - #5 ;
+INFO  16:37:56,101 - #20 for
+INFO  16:37:56,101 - #6 (
+INFO  16:37:56,101 - #17 i
+INFO  16:37:56,101 - #13 =
+INFO  16:37:56,101 - #16 0
+INFO  16:37:56,101 - #5 ;
+INFO  16:37:56,102 - #17 i
+INFO  16:37:56,102 - #36 <
+INFO  16:37:56,102 - #16 5
+INFO  16:37:56,103 - #5 ;
+INFO  16:37:56,103 - #17 i
+INFO  16:37:56,103 - #30 ++
+INFO  16:37:56,103 - #7 )
+INFO  16:37:56,104 - #3 {
+INFO  16:37:56,104 - #18 if
+INFO  16:37:56,104 - #6 (
+INFO  16:37:56,104 - #17 i
+INFO  16:37:56,104 - #32 ==
+INFO  16:37:56,104 - #16 2
+INFO  16:37:56,104 - #7 )
+INFO  16:37:56,105 - #17 ibool
+INFO  16:37:56,105 - #13 =
+INFO  16:37:56,105 - #23 true
+INFO  16:37:56,105 - #5 ;
+INFO  16:37:56,105 - #4 }
+INFO  16:37:56,105 - #18 if
+INFO  16:37:56,106 - #6 (
+INFO  16:37:56,106 - #17 ibool
+INFO  16:37:56,106 - #7 )
+INFO  16:37:56,107 - #18 if
+INFO  16:37:56,107 - #6 (
+INFO  16:37:56,107 - #17 i
+INFO  16:37:56,107 - #32 ==
+INFO  16:37:56,107 - #16 5
+INFO  16:37:56,107 - #7 )
+INFO  16:37:56,108 - #9 print
+INFO  16:37:56,108 - #6 (
+INFO  16:37:56,108 - #16 1
+INFO  16:37:56,108 - #7 )
+INFO  16:37:56,108 - #5 ;
+INFO  16:37:56,108 - #19 else
+INFO  16:37:56,108 - #9 print
+INFO  16:37:56,109 - #6 (
+INFO  16:37:56,109 - #40 -
+INFO  16:37:56,109 - #16 1
+INFO  16:37:56,109 - #7 )
+INFO  16:37:56,109 - #5 ;
+INFO  16:37:56,109 - #17 niz
+INFO  16:37:56,109 - #13 =
+INFO  16:37:56,109 - #48 new
+INFO  16:37:56,109 - #17 int
+INFO  16:37:56,110 - #25 [
+INFO  16:37:56,110 - #16 3
+INFO  16:37:56,110 - #26 ]
+INFO  16:37:56,110 - #5 ;
+INFO  16:37:56,110 - #17 niz
+INFO  16:37:56,110 - #25 [
+INFO  16:37:56,111 - #16 0
+INFO  16:37:56,111 - #26 ]
+INFO  16:37:56,111 - #13 =
+INFO  16:37:56,111 - #16 1
+INFO  16:37:56,111 - #5 ;
+INFO  16:37:56,112 - #17 niz
+INFO  16:37:56,112 - #25 [
+INFO  16:37:56,112 - #16 1
+INFO  16:37:56,112 - #26 ]
+INFO  16:37:56,112 - #13 =
+INFO  16:37:56,112 - #16 2
+INFO  16:37:56,112 - #5 ;
+INFO  16:37:56,113 - #17 niz
+INFO  16:37:56,113 - #25 [
+INFO  16:37:56,113 - #16 2
+INFO  16:37:56,113 - #26 ]
+INFO  16:37:56,113 - #13 =
+INFO  16:37:56,113 - #17 sum
+INFO  16:37:56,113 - #6 (
+INFO  16:37:56,113 - #17 niz
+INFO  16:37:56,113 - #25 [
+INFO  16:37:56,114 - #16 1
+INFO  16:37:56,114 - #26 ]
+INFO  16:37:56,114 - #8 ,
+INFO  16:37:56,114 - #17 niz
+INFO  16:37:56,114 - #25 [
+INFO  16:37:56,114 - #16 0
+INFO  16:37:56,114 - #26 ]
+INFO  16:37:56,114 - #7 )
+INFO  16:37:56,114 - #11 +
+INFO  16:37:56,114 - #16 1
+INFO  16:37:56,114 - #5 ;
+INFO  16:37:56,115 - #18 if
+INFO  16:37:56,115 - #6 (
+INFO  16:37:56,115 - #17 niz
+INFO  16:37:56,115 - #25 [
+INFO  16:37:56,115 - #16 2
+INFO  16:37:56,115 - #26 ]
+INFO  16:37:56,115 - #32 ==
+INFO  16:37:56,115 - #16 4
+INFO  16:37:56,115 - #38 ||
+INFO  16:37:56,115 - #17 verify
+INFO  16:37:56,115 - #6 (
+INFO  16:37:56,115 - #7 )
+INFO  16:37:56,116 - #7 )
+INFO  16:37:56,117 - #9 print
+INFO  16:37:56,117 - #6 (
+INFO  16:37:56,117 - #17 ord
+INFO  16:37:56,117 - #6 (
+INFO  16:37:56,117 - #22 A
+INFO  16:37:56,117 - #7 )
+INFO  16:37:56,118 - #7 )
+INFO  16:37:56,118 - #5 ;
+INFO  16:37:56,118 - #19 else
+INFO  16:37:56,118 - #9 print
+INFO  16:37:56,118 - #6 (
+INFO  16:37:56,118 - #17 ord
+INFO  16:37:56,118 - #6 (
+INFO  16:37:56,118 - #22 a
+INFO  16:37:56,118 - #7 )
+INFO  16:37:56,118 - #7 )
+INFO  16:37:56,118 - #5 ;
+INFO  16:37:56,118 - #9 print
+INFO  16:37:56,119 - #6 (
+INFO  16:37:56,119 - #17 eol
+INFO  16:37:56,119 - #7 )
+INFO  16:37:56,119 - #5 ;
+INFO  16:37:56,119 - #17 i
+INFO  16:37:56,119 - #13 =
+INFO  16:37:56,119 - #16 0
+INFO  16:37:56,119 - #5 ;
+INFO  16:37:56,119 - #20 for
+INFO  16:37:56,120 - #6 (
+INFO  16:37:56,120 - #5 ;
+INFO  16:37:56,121 - #17 i
+INFO  16:37:56,122 - #36 <
+INFO  16:37:56,122 - #16 10
+INFO  16:37:56,122 - #5 ;
+INFO  16:37:56,122 - #7 )
+INFO  16:37:56,123 - #3 {
+INFO  16:37:56,124 - #18 if
+INFO  16:37:56,124 - #6 (
+INFO  16:37:56,124 - #17 i
+INFO  16:37:56,125 - #32 ==
+INFO  16:37:56,125 - #16 3
+INFO  16:37:56,125 - #7 )
+INFO  16:37:56,125 - #3 {
+INFO  16:37:56,126 - #17 i
+INFO  16:37:56,126 - #30 ++
+INFO  16:37:56,126 - #5 ;
+INFO  16:37:56,126 - #29 continue
+INFO  16:37:56,126 - #5 ;
+INFO  16:37:56,126 - #4 }
+INFO  16:37:56,127 - #18 if
+INFO  16:37:56,127 - #6 (
+INFO  16:37:56,128 - #17 i
+INFO  16:37:56,128 - #32 ==
+INFO  16:37:56,128 - #16 4
+INFO  16:37:56,128 - #7 )
+INFO  16:37:56,128 - #28 break
+INFO  16:37:56,129 - #5 ;
+INFO  16:37:56,129 - #17 i
+INFO  16:37:56,130 - #13 =
+INFO  16:37:56,130 - #17 inkrement
+INFO  16:37:56,131 - #6 (
+INFO  16:37:56,131 - #17 i
+INFO  16:37:56,131 - #8 ,
+INFO  16:37:56,131 - #16 1
+INFO  16:37:56,131 - #7 )
+INFO  16:37:56,131 - #5 ;
+INFO  16:37:56,131 - #4 }
+INFO  16:37:56,131 - #18 if
+INFO  16:37:56,131 - #6 (
+INFO  16:37:56,131 - #17 i
+INFO  16:37:56,132 - #32 ==
+INFO  16:37:56,132 - #16 3
+INFO  16:37:56,132 - #39 &&
+INFO  16:37:56,132 - #17 verify
+INFO  16:37:56,132 - #6 (
+INFO  16:37:56,132 - #7 )
+INFO  16:37:56,132 - #7 )
+INFO  16:37:56,132 - #9 print
+INFO  16:37:56,132 - #6 (
+INFO  16:37:56,132 - #16 4
+INFO  16:37:56,132 - #7 )
+INFO  16:37:56,132 - #5 ;
+INFO  16:37:56,132 - #19 else
+INFO  16:37:56,132 - #9 print
+INFO  16:37:56,132 - #6 (
+INFO  16:37:56,132 - #40 -
+INFO  16:37:56,132 - #16 4
+INFO  16:37:56,132 - #7 )
+INFO  16:37:56,133 - #5 ;
+INFO  16:37:56,133 - #27 read
+INFO  16:37:56,133 - #6 (
+INFO  16:37:56,133 - #17 niz
+INFO  16:37:56,133 - #25 [
+INFO  16:37:56,133 - #16 0
+INFO  16:37:56,133 - #26 ]
+INFO  16:37:56,134 - #7 )
+INFO  16:37:56,134 - #5 ;
+INFO  16:37:56,134 - #27 read
+INFO  16:37:56,134 - #6 (
+INFO  16:37:56,134 - #17 niz
+INFO  16:37:56,135 - #25 [
+INFO  16:37:56,135 - #16 1
+INFO  16:37:56,135 - #26 ]
+INFO  16:37:56,135 - #7 )
+INFO  16:37:56,135 - #5 ;
+INFO  16:37:56,135 - #27 read
+INFO  16:37:56,135 - #6 (
+INFO  16:37:56,135 - #17 niz
+INFO  16:37:56,135 - #25 [
+INFO  16:37:56,135 - #16 2
+INFO  16:37:56,135 - #26 ]
+INFO  16:37:56,135 - #7 )
+INFO  16:37:56,135 - #5 ;
+INFO  16:37:56,136 - #9 print
+INFO  16:37:56,136 - #6 (
+INFO  16:37:56,136 - #17 eol
+INFO  16:37:56,136 - #7 )
+INFO  16:37:56,136 - #5 ;
+INFO  16:37:56,136 - #9 print
+INFO  16:37:56,136 - #6 (
+INFO  16:37:56,136 - #17 sum
+INFO  16:37:56,136 - #6 (
+INFO  16:37:56,136 - #17 sum
+INFO  16:37:56,136 - #6 (
+INFO  16:37:56,136 - #17 niz
+INFO  16:37:56,136 - #25 [
+INFO  16:37:56,136 - #16 0
+INFO  16:37:56,137 - #26 ]
+INFO  16:37:56,137 - #8 ,
+INFO  16:37:56,137 - #17 niz
+INFO  16:37:56,137 - #25 [
+INFO  16:37:56,137 - #16 1
+INFO  16:37:56,137 - #26 ]
+INFO  16:37:56,137 - #7 )
+INFO  16:37:56,137 - #8 ,
+INFO  16:37:56,137 - #17 niz
+INFO  16:37:56,137 - #25 [
+INFO  16:37:56,137 - #16 2
+INFO  16:37:56,137 - #26 ]
+INFO  16:37:56,137 - #7 )
+INFO  16:37:56,138 - #7 )
+INFO  16:37:56,138 - #5 ;
+INFO  16:37:56,138 - #21 foreach
+INFO  16:37:56,138 - #6 (
+INFO  16:37:56,138 - #17 i
+INFO  16:37:56,138 - #15 :
+INFO  16:37:56,139 - #17 niz
+INFO  16:37:56,139 - #7 )
+INFO  16:37:56,139 - #3 {
+INFO  16:37:56,140 - #9 print
+INFO  16:37:56,141 - #6 (
+INFO  16:37:56,141 - #17 i
+INFO  16:37:56,141 - #7 )
+INFO  16:37:56,141 - #5 ;
+INFO  16:37:56,141 - #4 }
+INFO  16:37:56,141 - #9 print
+INFO  16:37:56,141 - #6 (
+INFO  16:37:56,142 - #17 eol
+INFO  16:37:56,142 - #7 )
+INFO  16:37:56,142 - #5 ;
+INFO  16:37:56,142 - #9 print
+INFO  16:37:56,142 - #6 (
+INFO  16:37:56,142 - #17 inkrement
+INFO  16:37:56,142 - #6 (
+INFO  16:37:56,142 - #17 niz
+INFO  16:37:56,142 - #25 [
+INFO  16:37:56,143 - #16 2
+INFO  16:37:56,143 - #26 ]
+INFO  16:37:56,143 - #8 ,
+INFO  16:37:56,143 - #16 2
+INFO  16:37:56,143 - #7 )
+INFO  16:37:56,143 - #7 )
+INFO  16:37:56,144 - #5 ;
+INFO  16:37:56,144 - #4 }
+INFO  16:37:56,144 - #4 }
+INFO  16:37:56,388 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          NoMethodDecl(
+          ) [NoMethodDecl]
+          MethodDecl(
+            MethodTypeName(
+              ReturnTypes(
+                Type(
+                 int
+                ) [Type]
+              ) [ReturnTypes]
+             sum
+            ) [MethodTypeName]
+            FormParamss(
+              FormalParamLists(
+                SingleFormalParamDecl(
+                  FormalParamDecl(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                    NoSquares(
+                    ) [NoSquares]
+                  ) [FormalParamDecl]
+                ) [SingleFormalParamDecl]
+                FormalParamDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 d
+                  NoSquares(
+                  ) [NoSquares]
+                ) [FormalParamDecl]
+              ) [FormalParamLists]
+            ) [FormParamss]
+            NoVarDecl(
+            ) [NoVarDecl]
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              ReturnExpr(
+                AddExpr(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         z
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                  AddLeft(
+                    Add(
+                    ) [Add]
+                  ) [AddLeft]
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       d
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [AddExpr]
+              ) [ReturnExpr]
+            ) [Statements]
+          ) [MethodDecl]
+        ) [MethodDeclarations]
+        MethodDecl(
+          MethodTypeName(
+            ReturnTypes(
+              Type(
+               int
+              ) [Type]
+            ) [ReturnTypes]
+           inkrement
+          ) [MethodTypeName]
+          FormParamss(
+            FormalParamLists(
+              SingleFormalParamDecl(
+                FormalParamDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                  NoSquares(
+                  ) [NoSquares]
+                ) [FormalParamDecl]
+              ) [SingleFormalParamDecl]
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               inc
+                NoSquares(
+                ) [NoSquares]
+              ) [FormalParamDecl]
+            ) [FormalParamLists]
+          ) [FormParamss]
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              SingleIdent(
+                VarIdent(
+                 pom
+                  NoVarSquares(
+                  ) [NoVarSquares]
+                ) [VarIdent]
+              ) [SingleIdent]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              IfStatementMatch(
+                SingleCondition(
+                  SingleFact(
+                    CondFact(
+                      TermExpr(
+                        TermFactor(
+                          FactorVar(
+                            DesignatorName(
+                             inc
+                            ) [DesignatorName]
+                            NoFuncParens(
+                            ) [NoFuncParens]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                      RelExpression(
+                        Equal(
+                        ) [Equal]
+                        TermExpr(
+                          TermFactor(
+                            FactorVar(
+                              DesignatorName(
+                               jedan
+                              ) [DesignatorName]
+                              NoFuncParens(
+                              ) [NoFuncParens]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [RelExpression]
+                    ) [CondFact]
+                  ) [SingleFact]
+                ) [SingleCondition]
+                DesStatementClass(
+                  DesignEqExpr(
+                    DesignatorName(
+                     pom
+                    ) [DesignatorName]
+                    AssEq(
+                    ) [AssEq]
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           1
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [DesignEqExpr]
+                ) [DesStatementClass]
+                Else(
+                ) [Else]
+                IfStatementNotMatch(
+                  SingleCondition(
+                    SingleFact(
+                      CondFact(
+                        TermExpr(
+                          TermFactor(
+                            FactorVar(
+                              DesignatorName(
+                               inc
+                              ) [DesignatorName]
+                              NoFuncParens(
+                              ) [NoFuncParens]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                        RelExpression(
+                          Equal(
+                          ) [Equal]
+                          TermExpr(
+                            TermFactor(
+                              ConstFactor(
+                                FactNumConst(
+                                 2
+                                ) [FactNumConst]
+                              ) [ConstFactor]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [RelExpression]
+                      ) [CondFact]
+                    ) [SingleFact]
+                  ) [SingleCondition]
+                  DesStatementClass(
+                    DesignEqExpr(
+                      DesignatorName(
+                       pom
+                      ) [DesignatorName]
+                      AssEq(
+                      ) [AssEq]
+                      TermExpr(
+                        TermFactor(
+                          FactorVar(
+                            DesignatorName(
+                             a
+                            ) [DesignatorName]
+                            NoFuncParens(
+                            ) [NoFuncParens]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [DesignEqExpr]
+                  ) [DesStatementClass]
+                ) [IfStatementNotMatch]
+              ) [IfStatementMatch]
+            ) [Statements]
+            ReturnExpr(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     sum
+                    ) [DesignatorName]
+                    FactorFuncParen(
+                      Actuals(
+                        ActualParams(
+                          ActualParam(
+                            TermExpr(
+                              TermFactor(
+                                FactorVar(
+                                  DesignatorName(
+                                   a
+                                  ) [DesignatorName]
+                                  NoFuncParens(
+                                  ) [NoFuncParens]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                          ) [ActualParam]
+                          TermExpr(
+                            TermFactor(
+                              FactorVar(
+                                DesignatorName(
+                                 pom
+                                ) [DesignatorName]
+                                NoFuncParens(
+                                ) [NoFuncParens]
+                              ) [FactorVar]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [ActualParams]
+                      ) [Actuals]
+                    ) [FactorFuncParen]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [ReturnExpr]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          ReturnTypes(
+            Type(
+             bool
+            ) [Type]
+          ) [ReturnTypes]
+         verify
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmt(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactCharConst(
+                     v
+                    ) [FactCharConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+              DontPrintNum(
+              ) [DontPrintNum]
+            ) [PrintStmt]
+          ) [Statements]
+          ReturnExpr(
+            TermExpr(
+              TermFactor(
+                ConstFactor(
+                  FactBoolConst(
+                   false
+                  ) [FactBoolConst]
+                ) [ConstFactor]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  NoStmt(
+                                                  ) [NoStmt]
+                                                  IfStatementMatch(
+                                                    SingleCondition(
+                                                      SingleFact(
+                                                        CondFact(
+                                                          TermExpr(
+                                                            TermFactor(
+                                                              ConstFactor(
+                                                                FactNumConst(
+                                                                 1
+                                                                ) [FactNumConst]
+                                                              ) [ConstFactor]
+                                                            ) [TermFactor]
+                                                          ) [TermExpr]
+                                                          RelExpression(
+                                                            NotEqual(
+                                                            ) [NotEqual]
+                                                            TermExpr(
+                                                              TermFactor(
+                                                                ConstFactor(
+                                                                  FactNumConst(
+                                                                   1
+                                                                  ) [FactNumConst]
+                                                                ) [ConstFactor]
+                                                              ) [TermFactor]
+                                                            ) [TermExpr]
+                                                          ) [RelExpression]
+                                                        ) [CondFact]
+                                                      ) [SingleFact]
+                                                    ) [SingleCondition]
+                                                    PrintStmt(
+                                                      MinusExpr(
+                                                        TermFactor(
+                                                          ConstFactor(
+                                                            FactNumConst(
+                                                             6
+                                                            ) [FactNumConst]
+                                                          ) [ConstFactor]
+                                                        ) [TermFactor]
+                                                      ) [MinusExpr]
+                                                      DontPrintNum(
+                                                      ) [DontPrintNum]
+                                                    ) [PrintStmt]
+                                                    Else(
+                                                    ) [Else]
+                                                    PrintStmt(
+                                                      TermExpr(
+                                                        TermFactor(
+                                                          ConstFactor(
+                                                            FactNumConst(
+                                                             0
+                                                            ) [FactNumConst]
+                                                          ) [ConstFactor]
+                                                        ) [TermFactor]
+                                                      ) [TermExpr]
+                                                      DontPrintNum(
+                                                      ) [DontPrintNum]
+                                                    ) [PrintStmt]
+                                                  ) [IfStatementMatch]
+                                                ) [Statements]
+                                                DesStatementClass(
+                                                  DesignEqExpr(
+                                                    DesignatorName(
+                                                     ibool
+                                                    ) [DesignatorName]
+                                                    AssEq(
+                                                    ) [AssEq]
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        ConstFactor(
+                                                          FactBoolConst(
+                                                           false
+                                                          ) [FactBoolConst]
+                                                        ) [ConstFactor]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                  ) [DesignEqExpr]
+                                                ) [DesStatementClass]
+                                              ) [Statements]
+                                              DesStatementClass(
+                                                DesignEqExpr(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                  AssEq(
+                                                  ) [AssEq]
+                                                  TermExpr(
+                                                    TermFactor(
+                                                      ConstFactor(
+                                                        FactNumConst(
+                                                         0
+                                                        ) [FactNumConst]
+                                                      ) [ConstFactor]
+                                                    ) [TermFactor]
+                                                  ) [TermExpr]
+                                                ) [DesignEqExpr]
+                                              ) [DesStatementClass]
+                                            ) [Statements]
+                                            ForStm(
+                                              ForStmtDesign(
+                                                DesignEqExpr(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                  AssEq(
+                                                  ) [AssEq]
+                                                  TermExpr(
+                                                    TermFactor(
+                                                      ConstFactor(
+                                                        FactNumConst(
+                                                         0
+                                                        ) [FactNumConst]
+                                                      ) [ConstFactor]
+                                                    ) [TermFactor]
+                                                  ) [TermExpr]
+                                                ) [DesignEqExpr]
+                                              ) [ForStmtDesign]
+                                              ForCond(
+                                                SingleCondition(
+                                                  SingleFact(
+                                                    CondFact(
+                                                      TermExpr(
+                                                        TermFactor(
+                                                          FactorVar(
+                                                            DesignatorName(
+                                                             i
+                                                            ) [DesignatorName]
+                                                            NoFuncParens(
+                                                            ) [NoFuncParens]
+                                                          ) [FactorVar]
+                                                        ) [TermFactor]
+                                                      ) [TermExpr]
+                                                      RelExpression(
+                                                        Less(
+                                                        ) [Less]
+                                                        TermExpr(
+                                                          TermFactor(
+                                                            ConstFactor(
+                                                              FactNumConst(
+                                                               5
+                                                              ) [FactNumConst]
+                                                            ) [ConstFactor]
+                                                          ) [TermFactor]
+                                                        ) [TermExpr]
+                                                      ) [RelExpression]
+                                                    ) [CondFact]
+                                                  ) [SingleFact]
+                                                ) [SingleCondition]
+                                              ) [ForCond]
+                                              ForStmtDesign1(
+                                                DesignInc(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                ) [DesignInc]
+                                              ) [ForStmtDesign1]
+                                              StatementInside(
+                                                Statements(
+                                                  NoStmt(
+                                                  ) [NoStmt]
+                                                  IfStatementNotMatch(
+                                                    SingleCondition(
+                                                      SingleFact(
+                                                        CondFact(
+                                                          TermExpr(
+                                                            TermFactor(
+                                                              FactorVar(
+                                                                DesignatorName(
+                                                                 i
+                                                                ) [DesignatorName]
+                                                                NoFuncParens(
+                                                                ) [NoFuncParens]
+                                                              ) [FactorVar]
+                                                            ) [TermFactor]
+                                                          ) [TermExpr]
+                                                          RelExpression(
+                                                            Equal(
+                                                            ) [Equal]
+                                                            TermExpr(
+                                                              TermFactor(
+                                                                ConstFactor(
+                                                                  FactNumConst(
+                                                                   2
+                                                                  ) [FactNumConst]
+                                                                ) [ConstFactor]
+                                                              ) [TermFactor]
+                                                            ) [TermExpr]
+                                                          ) [RelExpression]
+                                                        ) [CondFact]
+                                                      ) [SingleFact]
+                                                    ) [SingleCondition]
+                                                    DesStatementClass(
+                                                      DesignEqExpr(
+                                                        DesignatorName(
+                                                         ibool
+                                                        ) [DesignatorName]
+                                                        AssEq(
+                                                        ) [AssEq]
+                                                        TermExpr(
+                                                          TermFactor(
+                                                            ConstFactor(
+                                                              FactBoolConst(
+                                                               true
+                                                              ) [FactBoolConst]
+                                                            ) [ConstFactor]
+                                                          ) [TermFactor]
+                                                        ) [TermExpr]
+                                                      ) [DesignEqExpr]
+                                                    ) [DesStatementClass]
+                                                  ) [IfStatementNotMatch]
+                                                ) [Statements]
+                                              ) [StatementInside]
+                                            ) [ForStm]
+                                          ) [Statements]
+                                          IfStatementNotMatch(
+                                            SingleCondition(
+                                              SingleFact(
+                                                CondFact(
+                                                  TermExpr(
+                                                    TermFactor(
+                                                      FactorVar(
+                                                        DesignatorName(
+                                                         ibool
+                                                        ) [DesignatorName]
+                                                        NoFuncParens(
+                                                        ) [NoFuncParens]
+                                                      ) [FactorVar]
+                                                    ) [TermFactor]
+                                                  ) [TermExpr]
+                                                  NoRelop(
+                                                  ) [NoRelop]
+                                                ) [CondFact]
+                                              ) [SingleFact]
+                                            ) [SingleCondition]
+                                            IfStatementMatch(
+                                              SingleCondition(
+                                                SingleFact(
+                                                  CondFact(
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        FactorVar(
+                                                          DesignatorName(
+                                                           i
+                                                          ) [DesignatorName]
+                                                          NoFuncParens(
+                                                          ) [NoFuncParens]
+                                                        ) [FactorVar]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                    RelExpression(
+                                                      Equal(
+                                                      ) [Equal]
+                                                      TermExpr(
+                                                        TermFactor(
+                                                          ConstFactor(
+                                                            FactNumConst(
+                                                             5
+                                                            ) [FactNumConst]
+                                                          ) [ConstFactor]
+                                                        ) [TermFactor]
+                                                      ) [TermExpr]
+                                                    ) [RelExpression]
+                                                  ) [CondFact]
+                                                ) [SingleFact]
+                                              ) [SingleCondition]
+                                              PrintStmt(
+                                                TermExpr(
+                                                  TermFactor(
+                                                    ConstFactor(
+                                                      FactNumConst(
+                                                       1
+                                                      ) [FactNumConst]
+                                                    ) [ConstFactor]
+                                                  ) [TermFactor]
+                                                ) [TermExpr]
+                                                DontPrintNum(
+                                                ) [DontPrintNum]
+                                              ) [PrintStmt]
+                                              Else(
+                                              ) [Else]
+                                              PrintStmt(
+                                                MinusExpr(
+                                                  TermFactor(
+                                                    ConstFactor(
+                                                      FactNumConst(
+                                                       1
+                                                      ) [FactNumConst]
+                                                    ) [ConstFactor]
+                                                  ) [TermFactor]
+                                                ) [MinusExpr]
+                                                DontPrintNum(
+                                                ) [DontPrintNum]
+                                              ) [PrintStmt]
+                                            ) [IfStatementMatch]
+                                          ) [IfStatementNotMatch]
+                                        ) [Statements]
+                                        DesStatementClass(
+                                          DesignEqExpr(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                            AssEq(
+                                            ) [AssEq]
+                                            TermExpr(
+                                              TermFactor(
+                                                FactorNew(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  NewFactorExp(
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        ConstFactor(
+                                                          FactNumConst(
+                                                           3
+                                                          ) [FactNumConst]
+                                                        ) [ConstFactor]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                  ) [NewFactorExp]
+                                                ) [FactorNew]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                          ) [DesignEqExpr]
+                                        ) [DesStatementClass]
+                                      ) [Statements]
+                                      DesStatementClass(
+                                        DesignEqExpr(
+                                          DesignatorClass(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                            SQExp(
+                                              TermExpr(
+                                                TermFactor(
+                                                  ConstFactor(
+                                                    FactNumConst(
+                                                     0
+                                                    ) [FactNumConst]
+                                                  ) [ConstFactor]
+                                                ) [TermFactor]
+                                              ) [TermExpr]
+                                            ) [SQExp]
+                                          ) [DesignatorClass]
+                                          AssEq(
+                                          ) [AssEq]
+                                          TermExpr(
+                                            TermFactor(
+                                              ConstFactor(
+                                                FactNumConst(
+                                                 1
+                                                ) [FactNumConst]
+                                              ) [ConstFactor]
+                                            ) [TermFactor]
+                                          ) [TermExpr]
+                                        ) [DesignEqExpr]
+                                      ) [DesStatementClass]
+                                    ) [Statements]
+                                    DesStatementClass(
+                                      DesignEqExpr(
+                                        DesignatorClass(
+                                          DesignatorName(
+                                           niz
+                                          ) [DesignatorName]
+                                          SQExp(
+                                            TermExpr(
+                                              TermFactor(
+                                                ConstFactor(
+                                                  FactNumConst(
+                                                   1
+                                                  ) [FactNumConst]
+                                                ) [ConstFactor]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                          ) [SQExp]
+                                        ) [DesignatorClass]
+                                        AssEq(
+                                        ) [AssEq]
+                                        TermExpr(
+                                          TermFactor(
+                                            ConstFactor(
+                                              FactNumConst(
+                                               2
+                                              ) [FactNumConst]
+                                            ) [ConstFactor]
+                                          ) [TermFactor]
+                                        ) [TermExpr]
+                                      ) [DesignEqExpr]
+                                    ) [DesStatementClass]
+                                  ) [Statements]
+                                  DesStatementClass(
+                                    DesignEqExpr(
+                                      DesignatorClass(
+                                        DesignatorName(
+                                         niz
+                                        ) [DesignatorName]
+                                        SQExp(
+                                          TermExpr(
+                                            TermFactor(
+                                              ConstFactor(
+                                                FactNumConst(
+                                                 2
+                                                ) [FactNumConst]
+                                              ) [ConstFactor]
+                                            ) [TermFactor]
+                                          ) [TermExpr]
+                                        ) [SQExp]
+                                      ) [DesignatorClass]
+                                      AssEq(
+                                      ) [AssEq]
+                                      AddExpr(
+                                        TermExpr(
+                                          TermFactor(
+                                            FactorVar(
+                                              DesignatorName(
+                                               sum
+                                              ) [DesignatorName]
+                                              FactorFuncParen(
+                                                Actuals(
+                                                  ActualParams(
+                                                    ActualParam(
+                                                      TermExpr(
+                                                        TermFactor(
+                                                          FactorVar(
+                                                            DesignatorClass(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                              SQExp(
+                                                                TermExpr(
+                                                                  TermFactor(
+                                                                    ConstFactor(
+                                                                      FactNumConst(
+                                                                       1
+                                                                      ) [FactNumConst]
+                                                                    ) [ConstFactor]
+                                                                  ) [TermFactor]
+                                                                ) [TermExpr]
+                                                              ) [SQExp]
+                                                            ) [DesignatorClass]
+                                                            NoFuncParens(
+                                                            ) [NoFuncParens]
+                                                          ) [FactorVar]
+                                                        ) [TermFactor]
+                                                      ) [TermExpr]
+                                                    ) [ActualParam]
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        FactorVar(
+                                                          DesignatorClass(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            SQExp(
+                                                              TermExpr(
+                                                                TermFactor(
+                                                                  ConstFactor(
+                                                                    FactNumConst(
+                                                                     0
+                                                                    ) [FactNumConst]
+                                                                  ) [ConstFactor]
+                                                                ) [TermFactor]
+                                                              ) [TermExpr]
+                                                            ) [SQExp]
+                                                          ) [DesignatorClass]
+                                                          NoFuncParens(
+                                                          ) [NoFuncParens]
+                                                        ) [FactorVar]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                  ) [ActualParams]
+                                                ) [Actuals]
+                                              ) [FactorFuncParen]
+                                            ) [FactorVar]
+                                          ) [TermFactor]
+                                        ) [TermExpr]
+                                        AddLeft(
+                                          Add(
+                                          ) [Add]
+                                        ) [AddLeft]
+                                        TermFactor(
+                                          ConstFactor(
+                                            FactNumConst(
+                                             1
+                                            ) [FactNumConst]
+                                          ) [ConstFactor]
+                                        ) [TermFactor]
+                                      ) [AddExpr]
+                                    ) [DesignEqExpr]
+                                  ) [DesStatementClass]
+                                ) [Statements]
+                                IfStatementMatch(
+                                  Conditions(
+                                    SingleCondition(
+                                      SingleFact(
+                                        CondFact(
+                                          TermExpr(
+                                            TermFactor(
+                                              FactorVar(
+                                                DesignatorClass(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  SQExp(
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        ConstFactor(
+                                                          FactNumConst(
+                                                           2
+                                                          ) [FactNumConst]
+                                                        ) [ConstFactor]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                  ) [SQExp]
+                                                ) [DesignatorClass]
+                                                NoFuncParens(
+                                                ) [NoFuncParens]
+                                              ) [FactorVar]
+                                            ) [TermFactor]
+                                          ) [TermExpr]
+                                          RelExpression(
+                                            Equal(
+                                            ) [Equal]
+                                            TermExpr(
+                                              TermFactor(
+                                                ConstFactor(
+                                                  FactNumConst(
+                                                   4
+                                                  ) [FactNumConst]
+                                                ) [ConstFactor]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                          ) [RelExpression]
+                                        ) [CondFact]
+                                      ) [SingleFact]
+                                    ) [SingleCondition]
+                                    SingleFact(
+                                      CondFact(
+                                        TermExpr(
+                                          TermFactor(
+                                            FactorVar(
+                                              DesignatorName(
+                                               verify
+                                              ) [DesignatorName]
+                                              FactorFuncParen(
+                                                NoActuals(
+                                                ) [NoActuals]
+                                              ) [FactorFuncParen]
+                                            ) [FactorVar]
+                                          ) [TermFactor]
+                                        ) [TermExpr]
+                                        NoRelop(
+                                        ) [NoRelop]
+                                      ) [CondFact]
+                                    ) [SingleFact]
+                                  ) [Conditions]
+                                  PrintStmt(
+                                    TermExpr(
+                                      TermFactor(
+                                        FactorVar(
+                                          DesignatorName(
+                                           ord
+                                          ) [DesignatorName]
+                                          FactorFuncParen(
+                                            Actuals(
+                                              ActualParam(
+                                                TermExpr(
+                                                  TermFactor(
+                                                    ConstFactor(
+                                                      FactCharConst(
+                                                       A
+                                                      ) [FactCharConst]
+                                                    ) [ConstFactor]
+                                                  ) [TermFactor]
+                                                ) [TermExpr]
+                                              ) [ActualParam]
+                                            ) [Actuals]
+                                          ) [FactorFuncParen]
+                                        ) [FactorVar]
+                                      ) [TermFactor]
+                                    ) [TermExpr]
+                                    DontPrintNum(
+                                    ) [DontPrintNum]
+                                  ) [PrintStmt]
+                                  Else(
+                                  ) [Else]
+                                  PrintStmt(
+                                    TermExpr(
+                                      TermFactor(
+                                        FactorVar(
+                                          DesignatorName(
+                                           ord
+                                          ) [DesignatorName]
+                                          FactorFuncParen(
+                                            Actuals(
+                                              ActualParam(
+                                                TermExpr(
+                                                  TermFactor(
+                                                    ConstFactor(
+                                                      FactCharConst(
+                                                       a
+                                                      ) [FactCharConst]
+                                                    ) [ConstFactor]
+                                                  ) [TermFactor]
+                                                ) [TermExpr]
+                                              ) [ActualParam]
+                                            ) [Actuals]
+                                          ) [FactorFuncParen]
+                                        ) [FactorVar]
+                                      ) [TermFactor]
+                                    ) [TermExpr]
+                                    DontPrintNum(
+                                    ) [DontPrintNum]
+                                  ) [PrintStmt]
+                                ) [IfStatementMatch]
+                              ) [Statements]
+                              PrintStmt(
+                                TermExpr(
+                                  TermFactor(
+                                    FactorVar(
+                                      DesignatorName(
+                                       eol
+                                      ) [DesignatorName]
+                                      NoFuncParens(
+                                      ) [NoFuncParens]
+                                    ) [FactorVar]
+                                  ) [TermFactor]
+                                ) [TermExpr]
+                                DontPrintNum(
+                                ) [DontPrintNum]
+                              ) [PrintStmt]
+                            ) [Statements]
+                            DesStatementClass(
+                              DesignEqExpr(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                                AssEq(
+                                ) [AssEq]
+                                TermExpr(
+                                  TermFactor(
+                                    ConstFactor(
+                                      FactNumConst(
+                                       0
+                                      ) [FactNumConst]
+                                    ) [ConstFactor]
+                                  ) [TermFactor]
+                                ) [TermExpr]
+                              ) [DesignEqExpr]
+                            ) [DesStatementClass]
+                          ) [Statements]
+                          ForStm(
+                            NoForDesign(
+                            ) [NoForDesign]
+                            ForCond(
+                              SingleCondition(
+                                SingleFact(
+                                  CondFact(
+                                    TermExpr(
+                                      TermFactor(
+                                        FactorVar(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                          NoFuncParens(
+                                          ) [NoFuncParens]
+                                        ) [FactorVar]
+                                      ) [TermFactor]
+                                    ) [TermExpr]
+                                    RelExpression(
+                                      Less(
+                                      ) [Less]
+                                      TermExpr(
+                                        TermFactor(
+                                          ConstFactor(
+                                            FactNumConst(
+                                             10
+                                            ) [FactNumConst]
+                                          ) [ConstFactor]
+                                        ) [TermFactor]
+                                      ) [TermExpr]
+                                    ) [RelExpression]
+                                  ) [CondFact]
+                                ) [SingleFact]
+                              ) [SingleCondition]
+                            ) [ForCond]
+                            NoForDesign1(
+                            ) [NoForDesign1]
+                            StatementInside(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    NoStmt(
+                                    ) [NoStmt]
+                                    IfStatementNotMatch(
+                                      SingleCondition(
+                                        SingleFact(
+                                          CondFact(
+                                            TermExpr(
+                                              TermFactor(
+                                                FactorVar(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                  NoFuncParens(
+                                                  ) [NoFuncParens]
+                                                ) [FactorVar]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                            RelExpression(
+                                              Equal(
+                                              ) [Equal]
+                                              TermExpr(
+                                                TermFactor(
+                                                  ConstFactor(
+                                                    FactNumConst(
+                                                     3
+                                                    ) [FactNumConst]
+                                                  ) [ConstFactor]
+                                                ) [TermFactor]
+                                              ) [TermExpr]
+                                            ) [RelExpression]
+                                          ) [CondFact]
+                                        ) [SingleFact]
+                                      ) [SingleCondition]
+                                      StatementInside(
+                                        Statements(
+                                          Statements(
+                                            NoStmt(
+                                            ) [NoStmt]
+                                            DesStatementClass(
+                                              DesignInc(
+                                                DesignatorName(
+                                                 i
+                                                ) [DesignatorName]
+                                              ) [DesignInc]
+                                            ) [DesStatementClass]
+                                          ) [Statements]
+                                          ContinueSt(
+                                          ) [ContinueSt]
+                                        ) [Statements]
+                                      ) [StatementInside]
+                                    ) [IfStatementNotMatch]
+                                  ) [Statements]
+                                  IfStatementNotMatch(
+                                    SingleCondition(
+                                      SingleFact(
+                                        CondFact(
+                                          TermExpr(
+                                            TermFactor(
+                                              FactorVar(
+                                                DesignatorName(
+                                                 i
+                                                ) [DesignatorName]
+                                                NoFuncParens(
+                                                ) [NoFuncParens]
+                                              ) [FactorVar]
+                                            ) [TermFactor]
+                                          ) [TermExpr]
+                                          RelExpression(
+                                            Equal(
+                                            ) [Equal]
+                                            TermExpr(
+                                              TermFactor(
+                                                ConstFactor(
+                                                  FactNumConst(
+                                                   4
+                                                  ) [FactNumConst]
+                                                ) [ConstFactor]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                          ) [RelExpression]
+                                        ) [CondFact]
+                                      ) [SingleFact]
+                                    ) [SingleCondition]
+                                    BreakSt(
+                                    ) [BreakSt]
+                                  ) [IfStatementNotMatch]
+                                ) [Statements]
+                                DesStatementClass(
+                                  DesignEqExpr(
+                                    DesignatorName(
+                                     i
+                                    ) [DesignatorName]
+                                    AssEq(
+                                    ) [AssEq]
+                                    TermExpr(
+                                      TermFactor(
+                                        FactorVar(
+                                          DesignatorName(
+                                           inkrement
+                                          ) [DesignatorName]
+                                          FactorFuncParen(
+                                            Actuals(
+                                              ActualParams(
+                                                ActualParam(
+                                                  TermExpr(
+                                                    TermFactor(
+                                                      FactorVar(
+                                                        DesignatorName(
+                                                         i
+                                                        ) [DesignatorName]
+                                                        NoFuncParens(
+                                                        ) [NoFuncParens]
+                                                      ) [FactorVar]
+                                                    ) [TermFactor]
+                                                  ) [TermExpr]
+                                                ) [ActualParam]
+                                                TermExpr(
+                                                  TermFactor(
+                                                    ConstFactor(
+                                                      FactNumConst(
+                                                       1
+                                                      ) [FactNumConst]
+                                                    ) [ConstFactor]
+                                                  ) [TermFactor]
+                                                ) [TermExpr]
+                                              ) [ActualParams]
+                                            ) [Actuals]
+                                          ) [FactorFuncParen]
+                                        ) [FactorVar]
+                                      ) [TermFactor]
+                                    ) [TermExpr]
+                                  ) [DesignEqExpr]
+                                ) [DesStatementClass]
+                              ) [Statements]
+                            ) [StatementInside]
+                          ) [ForStm]
+                        ) [Statements]
+                        IfStatementMatch(
+                          SingleCondition(
+                            CondTerms(
+                              SingleFact(
+                                CondFact(
+                                  TermExpr(
+                                    TermFactor(
+                                      FactorVar(
+                                        DesignatorName(
+                                         i
+                                        ) [DesignatorName]
+                                        NoFuncParens(
+                                        ) [NoFuncParens]
+                                      ) [FactorVar]
+                                    ) [TermFactor]
+                                  ) [TermExpr]
+                                  RelExpression(
+                                    Equal(
+                                    ) [Equal]
+                                    TermExpr(
+                                      TermFactor(
+                                        ConstFactor(
+                                          FactNumConst(
+                                           3
+                                          ) [FactNumConst]
+                                        ) [ConstFactor]
+                                      ) [TermFactor]
+                                    ) [TermExpr]
+                                  ) [RelExpression]
+                                ) [CondFact]
+                              ) [SingleFact]
+                              CondFact(
+                                TermExpr(
+                                  TermFactor(
+                                    FactorVar(
+                                      DesignatorName(
+                                       verify
+                                      ) [DesignatorName]
+                                      FactorFuncParen(
+                                        NoActuals(
+                                        ) [NoActuals]
+                                      ) [FactorFuncParen]
+                                    ) [FactorVar]
+                                  ) [TermFactor]
+                                ) [TermExpr]
+                                NoRelop(
+                                ) [NoRelop]
+                              ) [CondFact]
+                            ) [CondTerms]
+                          ) [SingleCondition]
+                          PrintStmt(
+                            TermExpr(
+                              TermFactor(
+                                ConstFactor(
+                                  FactNumConst(
+                                   4
+                                  ) [FactNumConst]
+                                ) [ConstFactor]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                            DontPrintNum(
+                            ) [DontPrintNum]
+                          ) [PrintStmt]
+                          Else(
+                          ) [Else]
+                          PrintStmt(
+                            MinusExpr(
+                              TermFactor(
+                                ConstFactor(
+                                  FactNumConst(
+                                   4
+                                  ) [FactNumConst]
+                                ) [ConstFactor]
+                              ) [TermFactor]
+                            ) [MinusExpr]
+                            DontPrintNum(
+                            ) [DontPrintNum]
+                          ) [PrintStmt]
+                        ) [IfStatementMatch]
+                      ) [Statements]
+                      ReadDesign(
+                        DesignatorClass(
+                          DesignatorName(
+                           niz
+                          ) [DesignatorName]
+                          SQExp(
+                            TermExpr(
+                              TermFactor(
+                                ConstFactor(
+                                  FactNumConst(
+                                   0
+                                  ) [FactNumConst]
+                                ) [ConstFactor]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                          ) [SQExp]
+                        ) [DesignatorClass]
+                      ) [ReadDesign]
+                    ) [Statements]
+                    ReadDesign(
+                      DesignatorClass(
+                        DesignatorName(
+                         niz
+                        ) [DesignatorName]
+                        SQExp(
+                          TermExpr(
+                            TermFactor(
+                              ConstFactor(
+                                FactNumConst(
+                                 1
+                                ) [FactNumConst]
+                              ) [ConstFactor]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [SQExp]
+                      ) [DesignatorClass]
+                    ) [ReadDesign]
+                  ) [Statements]
+                  ReadDesign(
+                    DesignatorClass(
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                      SQExp(
+                        TermExpr(
+                          TermFactor(
+                            ConstFactor(
+                              FactNumConst(
+                               2
+                              ) [FactNumConst]
+                            ) [ConstFactor]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [SQExp]
+                    ) [DesignatorClass]
+                  ) [ReadDesign]
+                ) [Statements]
+                PrintStmt(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         eol
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                  DontPrintNum(
+                  ) [DontPrintNum]
+                ) [PrintStmt]
+              ) [Statements]
+              PrintStmt(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       sum
+                      ) [DesignatorName]
+                      FactorFuncParen(
+                        Actuals(
+                          ActualParams(
+                            ActualParam(
+                              TermExpr(
+                                TermFactor(
+                                  FactorVar(
+                                    DesignatorName(
+                                     sum
+                                    ) [DesignatorName]
+                                    FactorFuncParen(
+                                      Actuals(
+                                        ActualParams(
+                                          ActualParam(
+                                            TermExpr(
+                                              TermFactor(
+                                                FactorVar(
+                                                  DesignatorClass(
+                                                    DesignatorName(
+                                                     niz
+                                                    ) [DesignatorName]
+                                                    SQExp(
+                                                      TermExpr(
+                                                        TermFactor(
+                                                          ConstFactor(
+                                                            FactNumConst(
+                                                             0
+                                                            ) [FactNumConst]
+                                                          ) [ConstFactor]
+                                                        ) [TermFactor]
+                                                      ) [TermExpr]
+                                                    ) [SQExp]
+                                                  ) [DesignatorClass]
+                                                  NoFuncParens(
+                                                  ) [NoFuncParens]
+                                                ) [FactorVar]
+                                              ) [TermFactor]
+                                            ) [TermExpr]
+                                          ) [ActualParam]
+                                          TermExpr(
+                                            TermFactor(
+                                              FactorVar(
+                                                DesignatorClass(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  SQExp(
+                                                    TermExpr(
+                                                      TermFactor(
+                                                        ConstFactor(
+                                                          FactNumConst(
+                                                           1
+                                                          ) [FactNumConst]
+                                                        ) [ConstFactor]
+                                                      ) [TermFactor]
+                                                    ) [TermExpr]
+                                                  ) [SQExp]
+                                                ) [DesignatorClass]
+                                                NoFuncParens(
+                                                ) [NoFuncParens]
+                                              ) [FactorVar]
+                                            ) [TermFactor]
+                                          ) [TermExpr]
+                                        ) [ActualParams]
+                                      ) [Actuals]
+                                    ) [FactorFuncParen]
+                                  ) [FactorVar]
+                                ) [TermFactor]
+                              ) [TermExpr]
+                            ) [ActualParam]
+                            TermExpr(
+                              TermFactor(
+                                FactorVar(
+                                  DesignatorClass(
+                                    DesignatorName(
+                                     niz
+                                    ) [DesignatorName]
+                                    SQExp(
+                                      TermExpr(
+                                        TermFactor(
+                                          ConstFactor(
+                                            FactNumConst(
+                                             2
+                                            ) [FactNumConst]
+                                          ) [ConstFactor]
+                                        ) [TermFactor]
+                                      ) [TermExpr]
+                                    ) [SQExp]
+                                  ) [DesignatorClass]
+                                  NoFuncParens(
+                                  ) [NoFuncParens]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                          ) [ActualParams]
+                        ) [Actuals]
+                      ) [FactorFuncParen]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                DontPrintNum(
+                ) [DontPrintNum]
+              ) [PrintStmt]
+            ) [Statements]
+            ForEach(
+              Ident(
+               i
+              ) [Ident]
+              DesignatorName(
+               niz
+              ) [DesignatorName]
+              Rparen(
+              ) [Rparen]
+              StatementInside(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  PrintStmt(
+                    TermExpr(
+                      TermFactor(
+                        FactorVar(
+                          DesignatorName(
+                           i
+                          ) [DesignatorName]
+                          NoFuncParens(
+                          ) [NoFuncParens]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                    DontPrintNum(
+                    ) [DontPrintNum]
+                  ) [PrintStmt]
+                ) [Statements]
+              ) [StatementInside]
+            ) [ForEach]
+          ) [Statements]
+          PrintStmt(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   eol
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+            DontPrintNum(
+            ) [DontPrintNum]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 inkrement
+                ) [DesignatorName]
+                FactorFuncParen(
+                  Actuals(
+                    ActualParams(
+                      ActualParam(
+                        TermExpr(
+                          TermFactor(
+                            FactorVar(
+                              DesignatorClass(
+                                DesignatorName(
+                                 niz
+                                ) [DesignatorName]
+                                SQExp(
+                                  TermExpr(
+                                    TermFactor(
+                                      ConstFactor(
+                                        FactNumConst(
+                                         2
+                                        ) [FactNumConst]
+                                      ) [ConstFactor]
+                                    ) [TermFactor]
+                                  ) [TermExpr]
+                                ) [SQExp]
+                              ) [DesignatorClass]
+                              NoFuncParens(
+                              ) [NoFuncParens]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [ActualParam]
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             2
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [ActualParams]
+                  ) [Actuals]
+                ) [FactorFuncParen]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:37:56,517 - ===================================
+INFO  16:37:56,534 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  16:37:56,534 - Deklarisana promenljiva i na liniji 7
+INFO  16:37:56,534 - Deklarisana promenljiva ibool na liniji 8
+INFO  16:37:56,534 - Deklarisan niz niz na liniji 10
+INFO  16:37:56,535 - Obradjuje se funkcija sum na liniji 13
+INFO  16:37:56,535 - Deklarisan parametar z na liniji 13
+INFO  16:37:56,535 - Deklarisan parametar d na liniji 13
+INFO  16:37:56,535 - Koriscenje formalnog parametra  na liniji 15
+INFO  16:37:56,535 - DesignatorName(
+ z
+) [DesignatorName] na liniji 15
+INFO  16:37:56,535 - Koriscenje formalnog parametra  na liniji 15
+INFO  16:37:56,535 - DesignatorName(
+ d
+) [DesignatorName] na liniji 15
+INFO  16:37:56,535 - Funkcija sum uspesno definisana na liniji 15
+INFO  16:37:56,535 - Obradjuje se funkcija inkrement na liniji 18
+INFO  16:37:56,535 - Deklarisan parametar a na liniji 18
+INFO  16:37:56,536 - Deklarisan parametar inc na liniji 18
+INFO  16:37:56,536 - Deklarisana promenljiva pom na liniji 18
+INFO  16:37:56,536 - Koriscenje formalnog parametra  na liniji 20
+INFO  16:37:56,536 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 20
+INFO  16:37:56,536 - Koriscenje konstante  na liniji 20
+INFO  16:37:56,536 - DesignatorName(
+ jedan
+) [DesignatorName] na liniji 20
+INFO  16:37:56,536 - Koriscenje promenljive  na liniji 20
+INFO  16:37:56,536 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 20
+INFO  16:37:56,536 - Koriscenje formalnog parametra  na liniji 21
+INFO  16:37:56,536 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 21
+INFO  16:37:56,537 - Koriscenje promenljive  na liniji 21
+INFO  16:37:56,537 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 21
+INFO  16:37:56,537 - Koriscenje formalnog parametra  na liniji 21
+INFO  16:37:56,537 - DesignatorName(
+ a
+) [DesignatorName] na liniji 21
+INFO  16:37:56,537 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 23
+INFO  16:37:56,537 - Koriscenje formalnog parametra  na liniji 23
+INFO  16:37:56,537 - DesignatorName(
+ a
+) [DesignatorName] na liniji 23
+INFO  16:37:56,537 - Koriscenje promenljive  na liniji 23
+INFO  16:37:56,537 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 23
+INFO  16:37:56,538 - Postavljen formalni parametar z na liniji 23
+INFO  16:37:56,538 - Postavljen formalni parametar d na liniji 23
+INFO  16:37:56,538 - Poziv funkcije sum na liniji 23
+INFO  16:37:56,538 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            FactorVar(
+              DesignatorName(
+               pom
+              ) [DesignatorName]
+              NoFuncParens(
+              ) [NoFuncParens]
+            ) [FactorVar]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 23
+INFO  16:37:56,538 - Funkcija inkrement uspesno definisana na liniji 23
+INFO  16:37:56,538 - Obradjuje se funkcija verify na liniji 26
+INFO  16:37:56,538 - Funkcija verify uspesno definisana na liniji 28
+INFO  16:37:56,538 - Obradjuje se funkcija main na liniji 31
+INFO  16:37:56,538 - Koriscenje promenljive  na liniji 36
+INFO  16:37:56,538 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 36
+INFO  16:37:56,538 - Koriscenje promenljive  na liniji 37
+INFO  16:37:56,538 - DesignatorName(
+ i
+) [DesignatorName] na liniji 37
+INFO  16:37:56,539 - Koriscenje promenljive  na liniji 38
+INFO  16:37:56,539 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  16:37:56,539 - Koriscenje promenljive  na liniji 38
+INFO  16:37:56,539 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  16:37:56,539 - Koriscenje promenljive  na liniji 38
+INFO  16:37:56,539 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  16:37:56,539 - Koriscenje promenljive  na liniji 40
+INFO  16:37:56,591 - DesignatorName(
+ i
+) [DesignatorName] na liniji 40
+INFO  16:37:56,591 - Koriscenje promenljive  na liniji 40
+INFO  16:37:56,592 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 40
+INFO  16:37:56,592 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      AssEq(
+      ) [AssEq]
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             0
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          RelExpression(
+            Less(
+            ) [Less]
+            TermExpr(
+              TermFactor(
+                ConstFactor(
+                  FactNumConst(
+                   5
+                  ) [FactNumConst]
+                ) [ConstFactor]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign1(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign1]
+  StatementInside(
+    Statements(
+      NoStmt(
+      ) [NoStmt]
+      IfStatementNotMatch(
+        SingleCondition(
+          SingleFact(
+            CondFact(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     i
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+              RelExpression(
+                Equal(
+                ) [Equal]
+                TermExpr(
+                  TermFactor(
+                    ConstFactor(
+                      FactNumConst(
+                       2
+                      ) [FactNumConst]
+                    ) [ConstFactor]
+                  ) [TermFactor]
+                ) [TermExpr]
+              ) [RelExpression]
+            ) [CondFact]
+          ) [SingleFact]
+        ) [SingleCondition]
+        DesStatementClass(
+          DesignEqExpr(
+            DesignatorName(
+             ibool
+            ) [DesignatorName]
+            AssEq(
+            ) [AssEq]
+            TermExpr(
+              TermFactor(
+                ConstFactor(
+                  FactBoolConst(
+                   true
+                  ) [FactBoolConst]
+                ) [ConstFactor]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [DesignEqExpr]
+        ) [DesStatementClass]
+      ) [IfStatementNotMatch]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 38
+INFO  16:37:56,592 - Koriscenje promenljive  na liniji 43
+INFO  16:37:56,592 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 43
+INFO  16:37:56,592 - Koriscenje promenljive  na liniji 44
+INFO  16:37:56,592 - DesignatorName(
+ i
+) [DesignatorName] na liniji 44
+INFO  16:37:56,593 - Koriscenje promenljive  na liniji 47
+INFO  16:37:56,593 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 47
+INFO  16:37:56,593 - Koriscenje promenljive  na liniji 48
+INFO  16:37:56,593 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 48
+INFO  16:37:56,593 - Pristup nizu  na liniji 48
+INFO  16:37:56,593 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           0
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 48
+INFO  16:37:56,593 - Koriscenje promenljive  na liniji 49
+INFO  16:37:56,593 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 49
+INFO  16:37:56,593 - Pristup nizu  na liniji 49
+INFO  16:37:56,594 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           1
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 49
+INFO  16:37:56,594 - Koriscenje promenljive  na liniji 50
+INFO  16:37:56,594 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  16:37:56,594 - Pristup nizu  na liniji 50
+INFO  16:37:56,594 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           2
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  16:37:56,594 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 50
+INFO  16:37:56,594 - Koriscenje promenljive  na liniji 50
+INFO  16:37:56,594 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  16:37:56,594 - Pristup nizu  na liniji 50
+INFO  16:37:56,594 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           1
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  16:37:56,594 - Koriscenje promenljive  na liniji 50
+INFO  16:37:56,594 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  16:37:56,595 - Pristup nizu  na liniji 50
+INFO  16:37:56,595 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           0
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  16:37:56,595 - Postavljen formalni parametar z na liniji 50
+INFO  16:37:56,595 - Postavljen formalni parametar d na liniji 50
+INFO  16:37:56,595 - Poziv funkcije sum na liniji 50
+INFO  16:37:56,595 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           1
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            FactorVar(
+              DesignatorClass(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                SQExp(
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         0
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [SQExp]
+              ) [DesignatorClass]
+              NoFuncParens(
+              ) [NoFuncParens]
+            ) [FactorVar]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 50
+INFO  16:37:56,595 - Koriscenje promenljive  na liniji 51
+INFO  16:37:56,595 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 51
+INFO  16:37:56,595 - Pristup nizu  na liniji 51
+INFO  16:37:56,596 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           2
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 51
+INFO  16:37:56,596 - DesignatorName(
+ verify
+) [DesignatorName] na liniji 51
+INFO  16:37:56,597 - Poziv funkcije verify na liniji 51
+INFO  16:37:56,597 - DesignatorName(
+ ord
+) [DesignatorName] na liniji 51
+INFO  16:37:56,597 - Poziv funkcije ord na liniji 51
+INFO  16:37:56,597 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 51
+INFO  16:37:56,597 - DesignatorName(
+ ord
+) [DesignatorName] na liniji 52
+INFO  16:37:56,597 - Poziv funkcije ord na liniji 52
+INFO  16:37:56,597 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 52
+INFO  16:37:56,598 - Koriscenje konstante  na liniji 54
+INFO  16:37:56,600 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 54
+INFO  16:37:56,600 - Koriscenje promenljive  na liniji 55
+INFO  16:37:56,600 - DesignatorName(
+ i
+) [DesignatorName] na liniji 55
+INFO  16:37:56,600 - Koriscenje promenljive  na liniji 56
+INFO  16:37:56,600 - DesignatorName(
+ i
+) [DesignatorName] na liniji 56
+INFO  16:37:56,600 - Koriscenje promenljive  na liniji 58
+INFO  16:37:56,601 - DesignatorName(
+ i
+) [DesignatorName] na liniji 58
+INFO  16:37:56,601 - Koriscenje promenljive  na liniji 60
+INFO  16:37:56,602 - DesignatorName(
+ i
+) [DesignatorName] na liniji 60
+INFO  16:37:56,605 - Koriscenje promenljive  na liniji 63
+INFO  16:37:56,606 - DesignatorName(
+ i
+) [DesignatorName] na liniji 63
+INFO  16:37:56,606 - Koriscenje promenljive  na liniji 64
+INFO  16:37:56,606 - DesignatorName(
+ i
+) [DesignatorName] na liniji 64
+INFO  16:37:56,606 - DesignatorName(
+ inkrement
+) [DesignatorName] na liniji 64
+INFO  16:37:56,606 - Koriscenje promenljive  na liniji 64
+INFO  16:37:56,606 - DesignatorName(
+ i
+) [DesignatorName] na liniji 64
+INFO  16:37:56,606 - Postavljen formalni parametar a na liniji 64
+INFO  16:37:56,606 - Postavljen formalni parametar inc na liniji 64
+INFO  16:37:56,606 - Poziv funkcije inkrement na liniji 64
+INFO  16:37:56,607 - FactorVar(
+  DesignatorName(
+   inkrement
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               1
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 64
+INFO  16:37:56,609 - ForStm(
+  NoForDesign(
+  ) [NoForDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          RelExpression(
+            Less(
+            ) [Less]
+            TermExpr(
+              TermFactor(
+                ConstFactor(
+                  FactNumConst(
+                   10
+                  ) [FactNumConst]
+                ) [ConstFactor]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  NoForDesign1(
+  ) [NoForDesign1]
+  StatementInside(
+    Statements(
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          IfStatementNotMatch(
+            SingleCondition(
+              SingleFact(
+                CondFact(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                  RelExpression(
+                    Equal(
+                    ) [Equal]
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           3
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [RelExpression]
+                ) [CondFact]
+              ) [SingleFact]
+            ) [SingleCondition]
+            StatementInside(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  DesStatementClass(
+                    DesignInc(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                    ) [DesignInc]
+                  ) [DesStatementClass]
+                ) [Statements]
+                ContinueSt(
+                ) [ContinueSt]
+              ) [Statements]
+            ) [StatementInside]
+          ) [IfStatementNotMatch]
+        ) [Statements]
+        IfStatementNotMatch(
+          SingleCondition(
+            SingleFact(
+              CondFact(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                RelExpression(
+                  Equal(
+                  ) [Equal]
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         4
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [RelExpression]
+              ) [CondFact]
+            ) [SingleFact]
+          ) [SingleCondition]
+          BreakSt(
+          ) [BreakSt]
+        ) [IfStatementNotMatch]
+      ) [Statements]
+      DesStatementClass(
+        DesignEqExpr(
+          DesignatorName(
+           i
+          ) [DesignatorName]
+          AssEq(
+          ) [AssEq]
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 inkrement
+                ) [DesignatorName]
+                FactorFuncParen(
+                  Actuals(
+                    ActualParams(
+                      ActualParam(
+                        TermExpr(
+                          TermFactor(
+                            FactorVar(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              NoFuncParens(
+                              ) [NoFuncParens]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [ActualParam]
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             1
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [ActualParams]
+                  ) [Actuals]
+                ) [FactorFuncParen]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [DesignEqExpr]
+      ) [DesStatementClass]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 5
+INFO  16:37:56,610 - Koriscenje promenljive  na liniji 67
+INFO  16:37:56,610 - DesignatorName(
+ i
+) [DesignatorName] na liniji 67
+INFO  16:37:56,610 - DesignatorName(
+ verify
+) [DesignatorName] na liniji 67
+INFO  16:37:56,610 - Poziv funkcije verify na liniji 67
+INFO  16:37:56,611 - Koriscenje promenljive  na liniji 70
+INFO  16:37:56,611 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 70
+INFO  16:37:56,611 - Pristup nizu  na liniji 70
+INFO  16:37:56,611 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           0
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 70
+INFO  16:37:56,611 - Koriscenje promenljive  na liniji 71
+INFO  16:37:56,611 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 71
+INFO  16:37:56,611 - Pristup nizu  na liniji 71
+INFO  16:37:56,611 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           1
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 71
+INFO  16:37:56,611 - Koriscenje promenljive  na liniji 72
+INFO  16:37:56,611 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 72
+INFO  16:37:56,611 - Pristup nizu  na liniji 72
+INFO  16:37:56,611 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           2
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 72
+INFO  16:37:56,611 - Koriscenje konstante  na liniji 73
+INFO  16:37:56,611 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 73
+INFO  16:37:56,611 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 75
+INFO  16:37:56,611 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 75
+INFO  16:37:56,611 - Koriscenje promenljive  na liniji 75
+INFO  16:37:56,611 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  16:37:56,611 - Pristup nizu  na liniji 75
+INFO  16:37:56,612 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           0
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  16:37:56,612 - Koriscenje promenljive  na liniji 75
+INFO  16:37:56,612 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  16:37:56,612 - Pristup nizu  na liniji 75
+INFO  16:37:56,612 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           1
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  16:37:56,612 - Postavljen formalni parametar z na liniji 75
+INFO  16:37:56,624 - Postavljen formalni parametar d na liniji 75
+INFO  16:37:56,624 - Poziv funkcije sum na liniji 75
+INFO  16:37:56,624 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           0
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            FactorVar(
+              DesignatorClass(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                SQExp(
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         1
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [SQExp]
+              ) [DesignatorClass]
+              NoFuncParens(
+              ) [NoFuncParens]
+            ) [FactorVar]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 75
+INFO  16:37:56,624 - Koriscenje promenljive  na liniji 75
+INFO  16:37:56,624 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  16:37:56,624 - Pristup nizu  na liniji 75
+INFO  16:37:56,625 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           2
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  16:37:56,625 - Postavljen formalni parametar z na liniji 75
+INFO  16:37:56,625 - Postavljen formalni parametar d na liniji 75
+INFO  16:37:56,625 - Poziv funkcije sum na liniji 75
+INFO  16:37:56,625 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 sum
+                ) [DesignatorName]
+                FactorFuncParen(
+                  Actuals(
+                    ActualParams(
+                      ActualParam(
+                        TermExpr(
+                          TermFactor(
+                            FactorVar(
+                              DesignatorClass(
+                                DesignatorName(
+                                 niz
+                                ) [DesignatorName]
+                                SQExp(
+                                  TermExpr(
+                                    TermFactor(
+                                      ConstFactor(
+                                        FactNumConst(
+                                         0
+                                        ) [FactNumConst]
+                                      ) [ConstFactor]
+                                    ) [TermFactor]
+                                  ) [TermExpr]
+                                ) [SQExp]
+                              ) [DesignatorClass]
+                              NoFuncParens(
+                              ) [NoFuncParens]
+                            ) [FactorVar]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [ActualParam]
+                      TermExpr(
+                        TermFactor(
+                          FactorVar(
+                            DesignatorClass(
+                              DesignatorName(
+                               niz
+                              ) [DesignatorName]
+                              SQExp(
+                                TermExpr(
+                                  TermFactor(
+                                    ConstFactor(
+                                      FactNumConst(
+                                       1
+                                      ) [FactNumConst]
+                                    ) [ConstFactor]
+                                  ) [TermFactor]
+                                ) [TermExpr]
+                              ) [SQExp]
+                            ) [DesignatorClass]
+                            NoFuncParens(
+                            ) [NoFuncParens]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [ActualParams]
+                  ) [Actuals]
+                ) [FactorFuncParen]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            FactorVar(
+              DesignatorClass(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                SQExp(
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         2
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [SQExp]
+              ) [DesignatorClass]
+              NoFuncParens(
+              ) [NoFuncParens]
+            ) [FactorVar]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 75
+INFO  16:37:56,644 - Koriscenje promenljive  na liniji 77
+INFO  16:37:56,644 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 77
+INFO  16:37:56,644 - Koriscenje promenljive  na liniji 78
+INFO  16:37:56,644 - DesignatorName(
+ i
+) [DesignatorName] na liniji 78
+INFO  16:37:56,644 - Koriscenje konstante  na liniji 81
+INFO  16:37:56,644 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 81
+INFO  16:37:56,644 - DesignatorName(
+ inkrement
+) [DesignatorName] na liniji 82
+INFO  16:37:56,644 - Koriscenje promenljive  na liniji 82
+INFO  16:37:56,645 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 82
+INFO  16:37:56,645 - Pristup nizu  na liniji 82
+INFO  16:37:56,645 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    TermExpr(
+      TermFactor(
+        ConstFactor(
+          FactNumConst(
+           2
+          ) [FactNumConst]
+        ) [ConstFactor]
+      ) [TermFactor]
+    ) [TermExpr]
+  ) [SQExp]
+) [DesignatorClass] na liniji 82
+INFO  16:37:56,645 - Postavljen formalni parametar a na liniji 82
+INFO  16:37:56,645 - Postavljen formalni parametar inc na liniji 82
+INFO  16:37:56,645 - Poziv funkcije inkrement na liniji 82
+INFO  16:37:56,645 - FactorVar(
+  DesignatorName(
+   inkrement
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           2
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [ActualParam]
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               2
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 82
+INFO  16:37:56,645 - Print calls = 15
+INFO  16:37:56,645 - Read calls = 3
+INFO  16:37:56,645 - Broj promenljivih = 3
+INFO  16:37:56,646 - Broj nizova = 1
+INFO  16:37:56,646 - Broj konstanti = 0
+INFO  16:37:56,647 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  16:37:56,671 - Parsiranje uspesno zavrseno!

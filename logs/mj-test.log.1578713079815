@@ -1,0 +1,1641 @@
+INFO  04:21:30,940 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  04:21:31,026 - #2 program
+INFO  04:21:31,026 - #15 test302
+INFO  04:21:31,027 - #21 const
+INFO  04:21:31,029 - #15 int
+INFO  04:21:31,029 - #15 jedan
+INFO  04:21:31,030 - #12 =
+INFO  04:21:31,033 - #14 1
+INFO  04:21:31,033 - #5 ;
+INFO  04:21:31,035 - #15 int
+INFO  04:21:31,037 - #15 i
+INFO  04:21:31,037 - #5 ;
+INFO  04:21:31,040 - #15 bool
+INFO  04:21:31,045 - #15 ibool
+INFO  04:21:31,045 - #5 ;
+INFO  04:21:31,045 - #15 int
+INFO  04:21:31,047 - #15 niz
+INFO  04:21:31,047 - #22 [
+INFO  04:21:31,047 - #23 ]
+INFO  04:21:31,047 - #5 ;
+INFO  04:21:31,049 - #3 {
+INFO  04:21:31,049 - #15 int
+INFO  04:21:31,051 - #15 sum
+INFO  04:21:31,051 - #6 (
+INFO  04:21:31,053 - #15 int
+INFO  04:21:31,053 - #15 z
+INFO  04:21:31,053 - #8 ,
+INFO  04:21:31,057 - #15 int
+INFO  04:21:31,057 - #15 d
+INFO  04:21:31,057 - #7 )
+INFO  04:21:31,058 - #3 {
+INFO  04:21:31,059 - #10 return
+INFO  04:21:31,060 - #15 z
+INFO  04:21:31,060 - #11 +
+INFO  04:21:31,062 - #15 d
+INFO  04:21:31,064 - #5 ;
+INFO  04:21:31,065 - #4 }
+INFO  04:21:31,066 - #15 int
+INFO  04:21:31,068 - #15 inkrement
+INFO  04:21:31,068 - #6 (
+INFO  04:21:31,068 - #15 int
+INFO  04:21:31,068 - #15 a
+INFO  04:21:31,068 - #8 ,
+INFO  04:21:31,068 - #15 int
+INFO  04:21:31,069 - #15 inc
+INFO  04:21:31,069 - #7 )
+INFO  04:21:31,069 - #15 int
+INFO  04:21:31,069 - #15 pom
+INFO  04:21:31,069 - #5 ;
+INFO  04:21:31,069 - #3 {
+INFO  04:21:31,070 - #16 if
+INFO  04:21:31,070 - #6 (
+INFO  04:21:31,070 - #15 inc
+INFO  04:21:31,070 - #29 ==
+INFO  04:21:31,070 - #15 jedan
+INFO  04:21:31,072 - #7 )
+INFO  04:21:31,073 - #15 pom
+INFO  04:21:31,074 - #12 =
+INFO  04:21:31,074 - #14 1
+INFO  04:21:31,074 - #5 ;
+INFO  04:21:31,083 - #17 else
+INFO  04:21:31,084 - #16 if
+INFO  04:21:31,084 - #6 (
+INFO  04:21:31,085 - #15 inc
+INFO  04:21:31,086 - #29 ==
+INFO  04:21:31,086 - #14 2
+INFO  04:21:31,086 - #7 )
+INFO  04:21:31,086 - #15 pom
+INFO  04:21:31,087 - #12 =
+INFO  04:21:31,087 - #15 a
+INFO  04:21:31,087 - #5 ;
+INFO  04:21:31,087 - #10 return
+INFO  04:21:31,088 - #15 sum
+INFO  04:21:31,088 - #6 (
+INFO  04:21:31,088 - #15 a
+INFO  04:21:31,088 - #8 ,
+INFO  04:21:31,088 - #15 pom
+INFO  04:21:31,089 - #7 )
+INFO  04:21:31,089 - #5 ;
+INFO  04:21:31,089 - #4 }
+INFO  04:21:31,090 - #15 bool
+INFO  04:21:31,090 - #15 verify
+INFO  04:21:31,090 - #6 (
+INFO  04:21:31,090 - #7 )
+INFO  04:21:31,091 - #3 {
+INFO  04:21:31,092 - #9 print
+INFO  04:21:31,092 - #6 (
+INFO  04:21:31,092 - #19 v
+INFO  04:21:31,092 - #7 )
+INFO  04:21:31,093 - #5 ;
+INFO  04:21:31,093 - #10 return
+INFO  04:21:31,094 - #20 false
+INFO  04:21:31,094 - #5 ;
+INFO  04:21:31,094 - #4 }
+INFO  04:21:31,094 - #13 void
+INFO  04:21:31,095 - #15 main
+INFO  04:21:31,095 - #6 (
+INFO  04:21:31,095 - #7 )
+INFO  04:21:31,096 - #3 {
+INFO  04:21:31,096 - #16 if
+INFO  04:21:31,096 - #6 (
+INFO  04:21:31,096 - #14 1
+INFO  04:21:31,096 - #30 !=
+INFO  04:21:31,096 - #14 1
+INFO  04:21:31,097 - #7 )
+INFO  04:21:31,098 - #9 print
+INFO  04:21:31,098 - #6 (
+INFO  04:21:31,098 - #37 -
+INFO  04:21:31,098 - #14 6
+INFO  04:21:31,098 - #7 )
+INFO  04:21:31,099 - #5 ;
+INFO  04:21:31,099 - #17 else
+INFO  04:21:31,099 - #9 print
+INFO  04:21:31,099 - #6 (
+INFO  04:21:31,099 - #14 0
+INFO  04:21:31,100 - #7 )
+INFO  04:21:31,100 - #5 ;
+INFO  04:21:31,100 - #15 ibool
+INFO  04:21:31,100 - #12 =
+INFO  04:21:31,100 - #20 false
+INFO  04:21:31,100 - #5 ;
+INFO  04:21:31,100 - #15 i
+INFO  04:21:31,100 - #12 =
+INFO  04:21:31,100 - #14 0
+INFO  04:21:31,100 - #5 ;
+INFO  04:21:31,101 - #18 for
+INFO  04:21:31,101 - #6 (
+INFO  04:21:31,101 - #15 i
+INFO  04:21:31,101 - #12 =
+INFO  04:21:31,101 - #14 0
+INFO  04:21:31,101 - #5 ;
+INFO  04:21:31,101 - #15 i
+INFO  04:21:31,102 - #33 <
+INFO  04:21:31,102 - #14 5
+INFO  04:21:31,103 - #5 ;
+INFO  04:21:31,104 - #15 i
+INFO  04:21:31,104 - #27 ++
+INFO  04:21:31,104 - #7 )
+INFO  04:21:31,104 - #3 {
+INFO  04:21:31,104 - #16 if
+INFO  04:21:31,104 - #6 (
+INFO  04:21:31,104 - #15 i
+INFO  04:21:31,104 - #29 ==
+INFO  04:21:31,105 - #14 2
+INFO  04:21:31,105 - #7 )
+INFO  04:21:31,105 - #15 ibool
+INFO  04:21:31,105 - #12 =
+INFO  04:21:31,105 - #20 true
+INFO  04:21:31,105 - #5 ;
+INFO  04:21:31,105 - #4 }
+INFO  04:21:31,105 - #16 if
+INFO  04:21:31,106 - #6 (
+INFO  04:21:31,106 - #15 ibool
+INFO  04:21:31,106 - #7 )
+INFO  04:21:31,107 - #16 if
+INFO  04:21:31,107 - #6 (
+INFO  04:21:31,107 - #15 i
+INFO  04:21:31,108 - #29 ==
+INFO  04:21:31,108 - #14 5
+INFO  04:21:31,108 - #7 )
+INFO  04:21:31,108 - #9 print
+INFO  04:21:31,108 - #6 (
+INFO  04:21:31,108 - #14 1
+INFO  04:21:31,108 - #7 )
+INFO  04:21:31,109 - #5 ;
+INFO  04:21:31,109 - #17 else
+INFO  04:21:31,109 - #9 print
+INFO  04:21:31,109 - #6 (
+INFO  04:21:31,109 - #37 -
+INFO  04:21:31,109 - #14 1
+INFO  04:21:31,109 - #7 )
+INFO  04:21:31,109 - #5 ;
+INFO  04:21:31,110 - #15 niz
+INFO  04:21:31,110 - #12 =
+INFO  04:21:31,110 - #41 new
+INFO  04:21:31,110 - #15 int
+INFO  04:21:31,110 - #22 [
+INFO  04:21:31,110 - #14 3
+INFO  04:21:31,110 - #23 ]
+INFO  04:21:31,110 - #5 ;
+INFO  04:21:31,111 - #15 niz
+INFO  04:21:31,111 - #22 [
+INFO  04:21:31,111 - #14 0
+INFO  04:21:31,111 - #23 ]
+INFO  04:21:31,111 - #12 =
+INFO  04:21:31,112 - #14 1
+INFO  04:21:31,112 - #5 ;
+INFO  04:21:31,112 - #15 niz
+INFO  04:21:31,112 - #22 [
+INFO  04:21:31,112 - #14 1
+INFO  04:21:31,112 - #23 ]
+INFO  04:21:31,113 - #12 =
+INFO  04:21:31,113 - #14 2
+INFO  04:21:31,113 - #5 ;
+INFO  04:21:31,113 - #15 niz
+INFO  04:21:31,113 - #22 [
+INFO  04:21:31,113 - #14 2
+INFO  04:21:31,113 - #23 ]
+INFO  04:21:31,113 - #12 =
+INFO  04:21:31,113 - #15 sum
+INFO  04:21:31,114 - #6 (
+INFO  04:21:31,114 - #15 niz
+INFO  04:21:31,114 - #22 [
+INFO  04:21:31,114 - #14 1
+INFO  04:21:31,114 - #23 ]
+INFO  04:21:31,114 - #8 ,
+INFO  04:21:31,114 - #15 niz
+INFO  04:21:31,114 - #22 [
+INFO  04:21:31,115 - #14 0
+INFO  04:21:31,115 - #23 ]
+INFO  04:21:31,115 - #7 )
+INFO  04:21:31,115 - #11 +
+INFO  04:21:31,115 - #14 1
+INFO  04:21:31,115 - #5 ;
+INFO  04:21:31,116 - #16 if
+INFO  04:21:31,116 - #6 (
+INFO  04:21:31,116 - #15 niz
+INFO  04:21:31,116 - #22 [
+INFO  04:21:31,116 - #14 2
+INFO  04:21:31,116 - #23 ]
+INFO  04:21:31,116 - #29 ==
+INFO  04:21:31,117 - #14 4
+INFO  04:21:31,117 - #35 ||
+INFO  04:21:31,117 - #15 verify
+INFO  04:21:31,117 - #6 (
+INFO  04:21:31,117 - #7 )
+INFO  04:21:31,118 - #7 )
+INFO  04:21:31,118 - #9 print
+INFO  04:21:31,119 - #6 (
+INFO  04:21:31,119 - #15 ord
+INFO  04:21:31,119 - #6 (
+INFO  04:21:31,119 - #19 A
+INFO  04:21:31,119 - #7 )
+INFO  04:21:31,119 - #7 )
+INFO  04:21:31,119 - #5 ;
+INFO  04:21:31,119 - #17 else
+INFO  04:21:31,119 - #9 print
+INFO  04:21:31,119 - #6 (
+INFO  04:21:31,120 - #15 ord
+INFO  04:21:31,120 - #6 (
+INFO  04:21:31,120 - #19 a
+INFO  04:21:31,120 - #7 )
+INFO  04:21:31,120 - #7 )
+INFO  04:21:31,120 - #5 ;
+INFO  04:21:31,120 - #9 print
+INFO  04:21:31,120 - #6 (
+INFO  04:21:31,120 - #15 eol
+INFO  04:21:31,120 - #7 )
+INFO  04:21:31,120 - #5 ;
+INFO  04:21:31,120 - #15 i
+INFO  04:21:31,121 - #12 =
+INFO  04:21:31,121 - #14 0
+INFO  04:21:31,121 - #5 ;
+INFO  04:21:31,121 - #18 for
+INFO  04:21:31,121 - #6 (
+INFO  04:21:31,121 - #5 ;
+INFO  04:21:31,123 - #15 i
+INFO  04:21:31,123 - #33 <
+INFO  04:21:31,123 - #14 10
+INFO  04:21:31,123 - #5 ;
+INFO  04:21:31,123 - #7 )
+INFO  04:21:31,123 - #3 {
+INFO  04:21:31,123 - #16 if
+INFO  04:21:31,124 - #6 (
+INFO  04:21:31,124 - #15 i
+INFO  04:21:31,124 - #29 ==
+INFO  04:21:31,124 - #14 3
+INFO  04:21:31,124 - #7 )
+INFO  04:21:31,124 - #3 {
+INFO  04:21:31,124 - #15 i
+INFO  04:21:31,124 - #27 ++
+INFO  04:21:31,124 - #5 ;
+INFO  04:21:31,124 - #26 continue
+INFO  04:21:31,124 - #5 ;
+INFO  04:21:31,124 - #4 }
+INFO  04:21:31,125 - #16 if
+INFO  04:21:31,125 - #6 (
+INFO  04:21:31,126 - #15 i
+INFO  04:21:31,126 - #29 ==
+INFO  04:21:31,126 - #14 4
+INFO  04:21:31,126 - #7 )
+INFO  04:21:31,126 - #25 break
+INFO  04:21:31,126 - #5 ;
+INFO  04:21:31,126 - #15 i
+INFO  04:21:31,127 - #12 =
+INFO  04:21:31,127 - #15 inkrement
+INFO  04:21:31,127 - #6 (
+INFO  04:21:31,127 - #15 i
+INFO  04:21:31,128 - #8 ,
+INFO  04:21:31,128 - #14 1
+INFO  04:21:31,128 - #7 )
+INFO  04:21:31,128 - #5 ;
+INFO  04:21:31,128 - #4 }
+INFO  04:21:31,128 - #16 if
+INFO  04:21:31,128 - #6 (
+INFO  04:21:31,128 - #15 i
+INFO  04:21:31,128 - #29 ==
+INFO  04:21:31,128 - #14 3
+INFO  04:21:31,128 - #36 &&
+INFO  04:21:31,128 - #15 verify
+INFO  04:21:31,128 - #6 (
+INFO  04:21:31,129 - #7 )
+INFO  04:21:31,129 - #7 )
+INFO  04:21:31,129 - #9 print
+INFO  04:21:31,129 - #6 (
+INFO  04:21:31,129 - #14 4
+INFO  04:21:31,129 - #7 )
+INFO  04:21:31,129 - #5 ;
+INFO  04:21:31,129 - #17 else
+INFO  04:21:31,129 - #9 print
+INFO  04:21:31,129 - #6 (
+INFO  04:21:31,129 - #37 -
+INFO  04:21:31,129 - #14 4
+INFO  04:21:31,130 - #7 )
+INFO  04:21:31,130 - #5 ;
+INFO  04:21:31,130 - #24 read
+INFO  04:21:31,130 - #6 (
+INFO  04:21:31,130 - #15 niz
+INFO  04:21:31,130 - #22 [
+INFO  04:21:31,130 - #14 0
+INFO  04:21:31,130 - #23 ]
+INFO  04:21:31,130 - #7 )
+INFO  04:21:31,130 - #5 ;
+INFO  04:21:31,130 - #24 read
+INFO  04:21:31,130 - #6 (
+INFO  04:21:31,131 - #15 niz
+INFO  04:21:31,131 - #22 [
+INFO  04:21:31,131 - #14 1
+INFO  04:21:31,131 - #23 ]
+INFO  04:21:31,131 - #7 )
+INFO  04:21:31,131 - #5 ;
+INFO  04:21:31,131 - #24 read
+INFO  04:21:31,131 - #6 (
+INFO  04:21:31,131 - #15 niz
+INFO  04:21:31,131 - #22 [
+INFO  04:21:31,131 - #14 2
+INFO  04:21:31,132 - #23 ]
+INFO  04:21:31,132 - #7 )
+INFO  04:21:31,132 - #5 ;
+INFO  04:21:31,132 - #9 print
+INFO  04:21:31,132 - #6 (
+INFO  04:21:31,132 - #15 eol
+INFO  04:21:31,132 - #7 )
+INFO  04:21:31,132 - #5 ;
+INFO  04:21:31,132 - #9 print
+INFO  04:21:31,132 - #6 (
+INFO  04:21:31,132 - #15 sum
+INFO  04:21:31,132 - #6 (
+INFO  04:21:31,132 - #15 sum
+INFO  04:21:31,133 - #6 (
+INFO  04:21:31,133 - #15 niz
+INFO  04:21:31,133 - #22 [
+INFO  04:21:31,133 - #14 0
+INFO  04:21:31,133 - #23 ]
+INFO  04:21:31,133 - #8 ,
+INFO  04:21:31,133 - #15 niz
+INFO  04:21:31,133 - #22 [
+INFO  04:21:31,133 - #14 1
+INFO  04:21:31,133 - #23 ]
+INFO  04:21:31,133 - #7 )
+INFO  04:21:31,133 - #8 ,
+INFO  04:21:31,133 - #15 niz
+INFO  04:21:31,134 - #22 [
+INFO  04:21:31,134 - #14 2
+INFO  04:21:31,134 - #23 ]
+INFO  04:21:31,134 - #7 )
+INFO  04:21:31,134 - #7 )
+INFO  04:21:31,134 - #5 ;
+INFO  04:21:31,134 - #9 print
+INFO  04:21:31,134 - #6 (
+INFO  04:21:31,134 - #15 eol
+INFO  04:21:31,134 - #7 )
+INFO  04:21:31,134 - #5 ;
+INFO  04:21:31,134 - #9 print
+INFO  04:21:31,135 - #6 (
+INFO  04:21:31,135 - #15 inkrement
+INFO  04:21:31,135 - #6 (
+INFO  04:21:31,135 - #15 niz
+INFO  04:21:31,135 - #22 [
+INFO  04:21:31,135 - #14 2
+INFO  04:21:31,135 - #23 ]
+INFO  04:21:31,135 - #8 ,
+INFO  04:21:31,135 - #14 2
+INFO  04:21:31,135 - #7 )
+INFO  04:21:31,136 - #7 )
+INFO  04:21:31,136 - #5 ;
+INFO  04:21:31,136 - #4 }
+INFO  04:21:31,136 - #4 }
+INFO  04:21:31,144 - ===================================
+INFO  04:21:31,151 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  04:21:31,151 - Deklarisana promenljiva i na liniji 7
+INFO  04:21:31,151 - Deklarisana promenljiva ibool na liniji 8
+INFO  04:21:31,151 - Deklarisan niz niz na liniji 10
+INFO  04:21:31,152 - Obradjuje se funkcija sum na liniji 13
+INFO  04:21:31,152 - Deklarisan parametar z na liniji 13
+INFO  04:21:31,152 - Deklarisan parametar d na liniji 13
+INFO  04:21:31,152 - Koriscenje formalnog parametra  na liniji 15
+INFO  04:21:31,152 - DesignatorName(
+ z
+) [DesignatorName] na liniji 15
+INFO  04:21:31,152 - Koriscenje formalnog parametra  na liniji 15
+INFO  04:21:31,152 - DesignatorName(
+ d
+) [DesignatorName] na liniji 15
+INFO  04:21:31,153 - Funkcija sum uspesno definisana na liniji 15
+INFO  04:21:31,153 - Obradjuje se funkcija inkrement na liniji 18
+INFO  04:21:31,153 - Deklarisan parametar a na liniji 18
+INFO  04:21:31,153 - Deklarisan parametar inc na liniji 18
+INFO  04:21:31,153 - Deklarisana promenljiva pom na liniji 18
+INFO  04:21:31,153 - Koriscenje formalnog parametra  na liniji 20
+INFO  04:21:31,153 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 20
+INFO  04:21:31,153 - Koriscenje konstante  na liniji 20
+INFO  04:21:31,153 - DesignatorName(
+ jedan
+) [DesignatorName] na liniji 20
+INFO  04:21:31,153 - Koriscenje promenljive  na liniji 20
+INFO  04:21:31,153 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 20
+INFO  04:21:31,154 - Koriscenje formalnog parametra  na liniji 21
+INFO  04:21:31,154 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 21
+INFO  04:21:31,154 - Koriscenje promenljive  na liniji 21
+INFO  04:21:31,154 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 21
+INFO  04:21:31,154 - Koriscenje formalnog parametra  na liniji 21
+INFO  04:21:31,154 - DesignatorName(
+ a
+) [DesignatorName] na liniji 21
+INFO  04:21:31,154 - Koriscenje promenljive  na liniji 23
+INFO  04:21:31,154 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 23
+INFO  04:21:31,155 - Koriscenje formalnog parametra  na liniji 23
+INFO  04:21:31,155 - DesignatorName(
+ a
+) [DesignatorName] na liniji 23
+INFO  04:21:31,155 - Koriscenje promenljive  na liniji 23
+INFO  04:21:31,155 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 23
+INFO  04:21:31,156 - Postavljen formalni parametar z na liniji 23
+INFO  04:21:31,156 - Postavljen formalni parametar d na liniji 23
+INFO  04:21:31,156 - Poziv funkcije sum na liniji 23
+INFO  04:21:31,157 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 pom
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 23
+INFO  04:21:31,157 - Funkcija inkrement uspesno definisana na liniji 23
+INFO  04:21:31,157 - Obradjuje se funkcija verify na liniji 26
+INFO  04:21:31,157 - Funkcija verify uspesno definisana na liniji 28
+INFO  04:21:31,157 - Obradjuje se funkcija main na liniji 31
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 36
+INFO  04:21:31,158 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 36
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 37
+INFO  04:21:31,158 - DesignatorName(
+ i
+) [DesignatorName] na liniji 37
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 38
+INFO  04:21:31,158 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 38
+INFO  04:21:31,158 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 38
+INFO  04:21:31,158 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 40
+INFO  04:21:31,158 - DesignatorName(
+ i
+) [DesignatorName] na liniji 40
+INFO  04:21:31,158 - Koriscenje promenljive  na liniji 40
+INFO  04:21:31,159 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 40
+INFO  04:21:31,160 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      NoMinus(
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               0
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [NoMinus]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactNumConst(
+                     5
+                    ) [FactNumConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign]
+  StatementInside(
+    Statements(
+      NoStmt(
+      ) [NoStmt]
+      IfStatementNotMatch(
+        SingleCondition(
+          SingleFact(
+            CondFact(
+              NoMinus(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+              ) [NoMinus]
+              RelExpression(
+                Equal(
+                ) [Equal]
+                NoMinus(
+                  TermExpr(
+                    TermFactor(
+                      ConstFactor(
+                        FactNumConst(
+                         2
+                        ) [FactNumConst]
+                      ) [ConstFactor]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [NoMinus]
+              ) [RelExpression]
+            ) [CondFact]
+          ) [SingleFact]
+        ) [SingleCondition]
+        Assignment(
+          DesignEqExpr(
+            DesignatorName(
+             ibool
+            ) [DesignatorName]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactBoolConst(
+                     true
+                    ) [FactBoolConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [DesignEqExpr]
+        ) [Assignment]
+      ) [IfStatementNotMatch]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 38
+INFO  04:21:31,161 - Koriscenje promenljive  na liniji 43
+INFO  04:21:31,161 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 43
+INFO  04:21:31,161 - Koriscenje promenljive  na liniji 44
+INFO  04:21:31,161 - DesignatorName(
+ i
+) [DesignatorName] na liniji 44
+INFO  04:21:31,161 - Koriscenje promenljive  na liniji 47
+INFO  04:21:31,162 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 47
+INFO  04:21:31,162 - Koriscenje promenljive  na liniji 48
+INFO  04:21:31,162 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 48
+INFO  04:21:31,162 - Pristup nizu  na liniji 48
+INFO  04:21:31,162 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             0
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 48
+INFO  04:21:31,162 - Koriscenje promenljive  na liniji 49
+INFO  04:21:31,162 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 49
+INFO  04:21:31,163 - Pristup nizu  na liniji 49
+INFO  04:21:31,163 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 49
+INFO  04:21:31,163 - Koriscenje promenljive  na liniji 50
+INFO  04:21:31,163 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  04:21:31,163 - Pristup nizu  na liniji 50
+INFO  04:21:31,163 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             2
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  04:21:31,163 - Koriscenje promenljive  na liniji 50
+INFO  04:21:31,163 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 50
+INFO  04:21:31,163 - Koriscenje promenljive  na liniji 50
+INFO  04:21:31,163 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  04:21:31,164 - Pristup nizu  na liniji 50
+INFO  04:21:31,164 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  04:21:31,164 - Koriscenje promenljive  na liniji 50
+INFO  04:21:31,164 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 50
+INFO  04:21:31,164 - Pristup nizu  na liniji 50
+INFO  04:21:31,164 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             0
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 50
+INFO  04:21:31,164 - Postavljen formalni parametar z na liniji 50
+INFO  04:21:31,165 - Postavljen formalni parametar d na liniji 50
+INFO  04:21:31,165 - Poziv funkcije sum na liniji 50
+INFO  04:21:31,165 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorClass(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    SQExp(
+                      NoMinus(
+                        TermExpr(
+                          TermFactor(
+                            ConstFactor(
+                              FactNumConst(
+                               1
+                              ) [FactNumConst]
+                            ) [ConstFactor]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [NoMinus]
+                    ) [SQExp]
+                  ) [DesignatorClass]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    NoMinus(
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             0
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [NoMinus]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 50
+INFO  04:21:31,166 - Koriscenje promenljive  na liniji 51
+INFO  04:21:31,166 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 51
+INFO  04:21:31,166 - Pristup nizu  na liniji 51
+INFO  04:21:31,166 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             2
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 51
+INFO  04:21:31,166 - Koriscenje promenljive  na liniji 51
+INFO  04:21:31,166 - DesignatorName(
+ verify
+) [DesignatorName] na liniji 51
+INFO  04:21:31,166 - Poziv funkcije verify na liniji 51
+INFO  04:21:31,166 - Koriscenje promenljive  na liniji 51
+INFO  04:21:31,167 - DesignatorName(
+ ord
+) [DesignatorName] na liniji 51
+INFO  04:21:31,167 - Postavljen formalni parametar character na liniji 51
+INFO  04:21:31,167 - Poziv funkcije ord na liniji 51
+INFO  04:21:31,167 - FactorVar(
+  DesignatorName(
+   ord
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParam(
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              ConstFactor(
+                FactCharConst(
+                 A
+                ) [FactCharConst]
+              ) [ConstFactor]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParam]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 51
+INFO  04:21:31,167 - Koriscenje promenljive  na liniji 52
+INFO  04:21:31,167 - DesignatorName(
+ ord
+) [DesignatorName] na liniji 52
+INFO  04:21:31,167 - Postavljen formalni parametar character na liniji 52
+INFO  04:21:31,167 - Poziv funkcije ord na liniji 52
+INFO  04:21:31,167 - FactorVar(
+  DesignatorName(
+   ord
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParam(
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              ConstFactor(
+                FactCharConst(
+                 a
+                ) [FactCharConst]
+              ) [ConstFactor]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParam]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 52
+INFO  04:21:31,167 - Koriscenje konstante  na liniji 54
+INFO  04:21:31,167 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 54
+INFO  04:21:31,167 - Koriscenje promenljive  na liniji 55
+INFO  04:21:31,167 - DesignatorName(
+ i
+) [DesignatorName] na liniji 55
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 56
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 56
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 58
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 58
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 60
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 60
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 63
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 63
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 64
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 64
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 64
+INFO  04:21:31,168 - DesignatorName(
+ inkrement
+) [DesignatorName] na liniji 64
+INFO  04:21:31,168 - Koriscenje promenljive  na liniji 64
+INFO  04:21:31,168 - DesignatorName(
+ i
+) [DesignatorName] na liniji 64
+INFO  04:21:31,168 - Postavljen formalni parametar a na liniji 64
+INFO  04:21:31,168 - Postavljen formalni parametar inc na liniji 64
+INFO  04:21:31,169 - Poziv funkcije inkrement na liniji 64
+INFO  04:21:31,169 - FactorVar(
+  DesignatorName(
+   inkrement
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              ConstFactor(
+                FactNumConst(
+                 1
+                ) [FactNumConst]
+              ) [ConstFactor]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 64
+INFO  04:21:31,170 - ForStm(
+  NoForDesign(
+  ) [NoForDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactNumConst(
+                     10
+                    ) [FactNumConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  NoForDesign(
+  ) [NoForDesign]
+  StatementInside(
+    Statements(
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          IfStatementNotMatch(
+            SingleCondition(
+              SingleFact(
+                CondFact(
+                  NoMinus(
+                    TermExpr(
+                      TermFactor(
+                        FactorVar(
+                          DesignatorName(
+                           i
+                          ) [DesignatorName]
+                          NoFuncParens(
+                          ) [NoFuncParens]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [NoMinus]
+                  RelExpression(
+                    Equal(
+                    ) [Equal]
+                    NoMinus(
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             3
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [NoMinus]
+                  ) [RelExpression]
+                ) [CondFact]
+              ) [SingleFact]
+            ) [SingleCondition]
+            StatementInside(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Assignment(
+                    DesignInc(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                    ) [DesignInc]
+                  ) [Assignment]
+                ) [Statements]
+                ContinueSt(
+                ) [ContinueSt]
+              ) [Statements]
+            ) [StatementInside]
+          ) [IfStatementNotMatch]
+        ) [Statements]
+        IfStatementNotMatch(
+          SingleCondition(
+            SingleFact(
+              CondFact(
+                NoMinus(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [NoMinus]
+                RelExpression(
+                  Equal(
+                  ) [Equal]
+                  NoMinus(
+                    TermExpr(
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           4
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                  ) [NoMinus]
+                ) [RelExpression]
+              ) [CondFact]
+            ) [SingleFact]
+          ) [SingleCondition]
+          BreakSt(
+          ) [BreakSt]
+        ) [IfStatementNotMatch]
+      ) [Statements]
+      Assignment(
+        DesignEqExpr(
+          DesignatorName(
+           i
+          ) [DesignatorName]
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   inkrement
+                  ) [DesignatorName]
+                  FactorFuncParen(
+                    Actuals(
+                      ActualParams(
+                        ActualParam(
+                          NoMinus(
+                            TermExpr(
+                              TermFactor(
+                                FactorVar(
+                                  DesignatorName(
+                                   i
+                                  ) [DesignatorName]
+                                  NoFuncParens(
+                                  ) [NoFuncParens]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                          ) [NoMinus]
+                        ) [ActualParam]
+                        NoMinus(
+                          TermExpr(
+                            TermFactor(
+                              ConstFactor(
+                                FactNumConst(
+                                 1
+                                ) [FactNumConst]
+                              ) [ConstFactor]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [NoMinus]
+                      ) [ActualParams]
+                    ) [Actuals]
+                  ) [FactorFuncParen]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [DesignEqExpr]
+      ) [Assignment]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 5
+INFO  04:21:31,171 - Koriscenje promenljive  na liniji 67
+INFO  04:21:31,171 - DesignatorName(
+ i
+) [DesignatorName] na liniji 67
+INFO  04:21:31,171 - Koriscenje promenljive  na liniji 67
+INFO  04:21:31,171 - DesignatorName(
+ verify
+) [DesignatorName] na liniji 67
+INFO  04:21:31,171 - Poziv funkcije verify na liniji 67
+INFO  04:21:31,171 - Koriscenje promenljive  na liniji 70
+INFO  04:21:31,171 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 70
+INFO  04:21:31,171 - Pristup nizu  na liniji 70
+INFO  04:21:31,171 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             0
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 70
+INFO  04:21:31,171 - Koriscenje promenljive  na liniji 71
+INFO  04:21:31,171 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 71
+INFO  04:21:31,172 - Pristup nizu  na liniji 71
+INFO  04:21:31,172 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 71
+INFO  04:21:31,172 - Koriscenje promenljive  na liniji 72
+INFO  04:21:31,172 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 72
+INFO  04:21:31,172 - Pristup nizu  na liniji 72
+INFO  04:21:31,172 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             2
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 72
+INFO  04:21:31,172 - Koriscenje konstante  na liniji 73
+INFO  04:21:31,172 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 73
+INFO  04:21:31,172 - Koriscenje promenljive  na liniji 75
+INFO  04:21:31,172 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 75
+INFO  04:21:31,172 - Koriscenje promenljive  na liniji 75
+INFO  04:21:31,172 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 75
+INFO  04:21:31,172 - Koriscenje promenljive  na liniji 75
+INFO  04:21:31,172 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  04:21:31,172 - Pristup nizu  na liniji 75
+INFO  04:21:31,173 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             0
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  04:21:31,173 - Koriscenje promenljive  na liniji 75
+INFO  04:21:31,173 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  04:21:31,173 - Pristup nizu  na liniji 75
+INFO  04:21:31,173 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  04:21:31,173 - Postavljen formalni parametar z na liniji 75
+INFO  04:21:31,173 - Postavljen formalni parametar d na liniji 75
+INFO  04:21:31,173 - Poziv funkcije sum na liniji 75
+INFO  04:21:31,173 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorClass(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    SQExp(
+                      NoMinus(
+                        TermExpr(
+                          TermFactor(
+                            ConstFactor(
+                              FactNumConst(
+                               0
+                              ) [FactNumConst]
+                            ) [ConstFactor]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [NoMinus]
+                    ) [SQExp]
+                  ) [DesignatorClass]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    NoMinus(
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             1
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [NoMinus]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 75
+INFO  04:21:31,174 - Koriscenje promenljive  na liniji 75
+INFO  04:21:31,174 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 75
+INFO  04:21:31,174 - Pristup nizu  na liniji 75
+INFO  04:21:31,174 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             2
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 75
+INFO  04:21:31,174 - Postavljen formalni parametar z na liniji 75
+INFO  04:21:31,174 - Postavljen formalni parametar d na liniji 75
+INFO  04:21:31,174 - Poziv funkcije sum na liniji 75
+INFO  04:21:31,175 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   sum
+                  ) [DesignatorName]
+                  FactorFuncParen(
+                    Actuals(
+                      ActualParams(
+                        ActualParam(
+                          NoMinus(
+                            TermExpr(
+                              TermFactor(
+                                FactorVar(
+                                  DesignatorClass(
+                                    DesignatorName(
+                                     niz
+                                    ) [DesignatorName]
+                                    SQExp(
+                                      NoMinus(
+                                        TermExpr(
+                                          TermFactor(
+                                            ConstFactor(
+                                              FactNumConst(
+                                               0
+                                              ) [FactNumConst]
+                                            ) [ConstFactor]
+                                          ) [TermFactor]
+                                        ) [TermExpr]
+                                      ) [NoMinus]
+                                    ) [SQExp]
+                                  ) [DesignatorClass]
+                                  NoFuncParens(
+                                  ) [NoFuncParens]
+                                ) [FactorVar]
+                              ) [TermFactor]
+                            ) [TermExpr]
+                          ) [NoMinus]
+                        ) [ActualParam]
+                        NoMinus(
+                          TermExpr(
+                            TermFactor(
+                              FactorVar(
+                                DesignatorClass(
+                                  DesignatorName(
+                                   niz
+                                  ) [DesignatorName]
+                                  SQExp(
+                                    NoMinus(
+                                      TermExpr(
+                                        TermFactor(
+                                          ConstFactor(
+                                            FactNumConst(
+                                             1
+                                            ) [FactNumConst]
+                                          ) [ConstFactor]
+                                        ) [TermFactor]
+                                      ) [TermExpr]
+                                    ) [NoMinus]
+                                  ) [SQExp]
+                                ) [DesignatorClass]
+                                NoFuncParens(
+                                ) [NoFuncParens]
+                              ) [FactorVar]
+                            ) [TermFactor]
+                          ) [TermExpr]
+                        ) [NoMinus]
+                      ) [ActualParams]
+                    ) [Actuals]
+                  ) [FactorFuncParen]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorClass(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  SQExp(
+                    NoMinus(
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             2
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [NoMinus]
+                  ) [SQExp]
+                ) [DesignatorClass]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 75
+INFO  04:21:31,176 - Koriscenje konstante  na liniji 77
+INFO  04:21:31,176 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 77
+INFO  04:21:31,176 - Koriscenje promenljive  na liniji 78
+INFO  04:21:31,176 - DesignatorName(
+ inkrement
+) [DesignatorName] na liniji 78
+INFO  04:21:31,176 - Koriscenje promenljive  na liniji 78
+INFO  04:21:31,176 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 78
+INFO  04:21:31,176 - Pristup nizu  na liniji 78
+INFO  04:21:31,176 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             2
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 78
+INFO  04:21:31,176 - Postavljen formalni parametar a na liniji 78
+INFO  04:21:31,176 - Postavljen formalni parametar inc na liniji 78
+INFO  04:21:31,176 - Poziv funkcije inkrement na liniji 78
+INFO  04:21:31,177 - FactorVar(
+  DesignatorName(
+   inkrement
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorClass(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    SQExp(
+                      NoMinus(
+                        TermExpr(
+                          TermFactor(
+                            ConstFactor(
+                              FactNumConst(
+                               2
+                              ) [FactNumConst]
+                            ) [ConstFactor]
+                          ) [TermFactor]
+                        ) [TermExpr]
+                      ) [NoMinus]
+                    ) [SQExp]
+                  ) [DesignatorClass]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              ConstFactor(
+                FactNumConst(
+                 2
+                ) [FactNumConst]
+              ) [ConstFactor]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 78
+INFO  04:21:31,177 - Print calls = 14
+INFO  04:21:31,177 - Read calls = 3
+INFO  04:21:31,177 - Broj promenljivih = 3
+INFO  04:21:31,177 - Broj nizova = 1
+INFO  04:21:31,177 - Broj konstanti = 1
+INFO  04:21:31,178 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  04:21:31,247 - Parsiranje uspesno zavrseno!

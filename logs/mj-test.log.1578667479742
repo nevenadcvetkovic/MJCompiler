@@ -1,0 +1,99 @@
+INFO  15:43:46,150 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:43:46,237 - #2 program
+INFO  15:43:46,237 - #15 test301
+INFO  15:43:46,238 - #15 int
+INFO  15:43:46,241 - #15 x
+INFO  15:43:46,242 - #5 ;
+INFO  15:43:46,245 - #15 int
+INFO  15:43:46,247 - #15 y
+INFO  15:43:46,247 - #5 ;
+INFO  15:43:46,247 - #15 int
+INFO  15:43:46,247 - #15 niz
+INFO  15:43:46,247 - #22 [
+INFO  15:43:46,248 - #23 ]
+INFO  15:43:46,248 - #5 ;
+INFO  15:43:46,251 - #3 {
+INFO  15:43:46,251 - #15 int
+INFO  15:43:46,252 - #15 k
+INFO  15:43:46,253 - #6 (
+INFO  15:43:46,254 - #7 )
+INFO  15:43:46,256 - #15 int
+INFO  15:43:46,257 - #15 c
+INFO  15:43:46,257 - #5 ;
+INFO  15:43:46,258 - #3 {
+INFO  15:43:46,258 - #15 niz
+INFO  15:43:46,259 - #12 =
+INFO  15:43:46,262 - #41 new
+INFO  15:43:46,262 - #15 int
+INFO  15:43:46,262 - #22 [
+INFO  15:43:46,262 - #14 3
+INFO  15:43:46,263 - #23 ]
+INFO  15:43:46,264 - #5 ;
+INFO  15:43:46,264 - #15 c
+INFO  15:43:46,265 - #12 =
+INFO  15:43:46,265 - #14 2
+INFO  15:43:46,265 - #5 ;
+INFO  15:43:46,266 - #15 niz
+INFO  15:43:46,266 - #22 [
+INFO  15:43:46,266 - #14 0
+INFO  15:43:46,266 - #23 ]
+INFO  15:43:46,266 - #12 =
+INFO  15:43:46,267 - #14 15
+INFO  15:43:46,267 - #5 ;
+INFO  15:43:46,267 - #9 print
+INFO  15:43:46,267 - #6 (
+INFO  15:43:46,268 - #14 0
+INFO  15:43:46,268 - #7 )
+INFO  15:43:46,269 - #5 ;
+INFO  15:43:46,269 - #10 return
+INFO  15:43:46,270 - #15 c
+INFO  15:43:46,270 - #11 +
+INFO  15:43:46,271 - #14 2
+INFO  15:43:46,274 - #5 ;
+INFO  15:43:46,275 - #4 }
+INFO  15:43:46,275 - #15 int
+INFO  15:43:46,277 - #15 main
+INFO  15:43:46,277 - #6 (
+INFO  15:43:46,277 - #7 )
+INFO  15:43:46,278 - #3 {
+INFO  15:43:46,278 - #15 x
+INFO  15:43:46,278 - #12 =
+INFO  15:43:46,286 - #14 3
+INFO  15:43:46,286 - #5 ;
+INFO  15:43:46,286 - #15 k
+INFO  15:43:46,286 - #6 (
+INFO  15:43:46,286 - #7 )
+INFO  15:43:46,288 - #5 ;
+INFO  15:43:46,288 - #9 print
+INFO  15:43:46,288 - #6 (
+INFO  15:43:46,288 - #14 1
+INFO  15:43:46,290 - #7 )
+INFO  15:43:46,290 - #5 ;
+INFO  15:43:46,290 - #15 x
+INFO  15:43:46,291 - #12 =
+INFO  15:43:46,291 - #15 niz
+INFO  15:43:46,291 - #22 [
+INFO  15:43:46,291 - #14 0
+INFO  15:43:46,291 - #23 ]
+INFO  15:43:46,291 - #5 ;
+INFO  15:43:46,291 - #9 print
+INFO  15:43:46,291 - #6 (
+INFO  15:43:46,292 - #15 x
+INFO  15:43:46,292 - #7 )
+INFO  15:43:46,294 - #5 ;
+INFO  15:43:46,294 - #10 return
+INFO  15:43:46,294 - #14 5
+INFO  15:43:46,296 - #5 ;
+INFO  15:43:46,297 - #4 }
+INFO  15:43:46,297 - #4 }
+INFO  15:43:46,340 - Deklarisana promenljiva x na liniji 5
+INFO  15:43:46,340 - Deklarisana promenljiva y na liniji 5
+INFO  15:43:46,341 - Deklarisan niz niz na liniji 7
+INFO  15:43:46,341 - Obradjuje se funkcija k na liniji 10
+INFO  15:43:46,341 - Deklarisana promenljiva c na liniji 10
+INFO  15:43:46,342 - Funkcija k uspesno definisana na liniji 18
+INFO  15:43:46,342 - Obradjuje se funkcija main na liniji 20
+ERROR 15:43:46,342 - Greska na liniji 23 : Identifikator k nije funkcija!
+INFO  15:43:46,343 - Funkcija main uspesno definisana na liniji 28
+INFO  15:43:46,343 - Print calls = 3
+ERROR 15:43:46,344 - Parsiranje NIJE uspesno zavrseno!

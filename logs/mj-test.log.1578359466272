@@ -1,0 +1,34 @@
+INFO  02:10:31,137 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  02:10:31,208 - #2 program
+INFO  02:10:31,208 - #15 MJProgram
+INFO  02:10:31,208 - #15 int
+INFO  02:10:31,213 - #15 x
+INFO  02:10:31,214 - #5 ;
+INFO  02:10:31,217 - #15 int
+INFO  02:10:31,218 - #15 y
+INFO  02:10:31,219 - #5 ;
+INFO  02:10:31,219 - #3 {
+INFO  02:10:31,219 - #15 int
+INFO  02:10:31,220 - #15 k
+INFO  02:10:31,221 - #6 (
+INFO  02:10:31,223 - #15 int
+INFO  02:10:31,223 - #15 p
+INFO  02:10:31,223 - #8 ,
+INFO  02:10:31,226 - #15 int
+INFO  02:10:31,226 - #15 zzz
+INFO  02:10:31,226 - #7 )
+INFO  02:10:31,228 - #3 {
+INFO  02:10:31,230 - #10 return
+INFO  02:10:31,231 - #15 x
+ERROR 02:10:31,231 - 
+Sintaksna greska na liniji 8
+INFO  02:10:31,232 - #5 ;
+INFO  02:10:31,232 - #4 }
+INFO  02:10:31,232 - #4 }
+ERROR 02:10:31,233 - Izvrsen oporavak do ; u liniji 8
+INFO  02:10:31,269 - Deklarisana promenljiva x na liniji 2
+INFO  02:10:31,270 - Deklarisana promenljiva y na liniji 2
+INFO  02:10:31,270 - Obradjuje se funkcija k na liniji 6
+ERROR 02:10:31,271 - Semanticka greska na liniji 6: funcija k nema return iskaz!
+INFO  02:10:31,271 - Print calls = 0
+ERROR 02:10:31,273 - Parsiranje NIJE uspesno zavrseno!

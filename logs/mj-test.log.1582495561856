@@ -1,0 +1,213 @@
+INFO  23:02:32,152 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:02:32,347 - #2 program
+INFO  23:02:32,347 - #16 test302
+INFO  23:02:32,347 - #22 const
+INFO  23:02:32,349 - #16 int
+INFO  23:02:32,350 - #16 jedan
+INFO  23:02:32,351 - #13 =
+INFO  23:02:32,351 - #15 1
+INFO  23:02:32,351 - #8 ,
+INFO  23:02:32,353 - #16 dva
+INFO  23:02:32,353 - #13 =
+INFO  23:02:32,353 - #15 2
+INFO  23:02:32,354 - #5 ;
+INFO  23:02:32,354 - #16 int
+INFO  23:02:32,356 - #16 i
+INFO  23:02:32,356 - #5 ;
+INFO  23:02:32,359 - #16 bool
+INFO  23:02:32,360 - #16 ibool
+INFO  23:02:32,360 - #5 ;
+INFO  23:02:32,360 - #16 int
+INFO  23:02:32,360 - #16 niz
+INFO  23:02:32,361 - #23 [
+INFO  23:02:32,361 - #24 ]
+INFO  23:02:32,361 - #5 ;
+INFO  23:02:32,362 - #3 {
+INFO  23:02:32,362 - #14 void
+INFO  23:02:32,363 - #16 main
+INFO  23:02:32,364 - #6 (
+INFO  23:02:32,366 - #7 )
+INFO  23:02:32,367 - #3 {
+INFO  23:02:32,368 - #16 i
+INFO  23:02:32,369 - #13 =
+INFO  23:02:32,369 - #15 5
+INFO  23:02:32,370 - #5 ;
+INFO  23:02:32,371 - #16 i
+INFO  23:02:32,372 - #28 ++
+INFO  23:02:32,372 - #5 ;
+INFO  23:02:32,372 - #9 print
+INFO  23:02:32,372 - #6 (
+INFO  23:02:32,373 - #16 i
+INFO  23:02:32,373 - #7 )
+INFO  23:02:32,375 - #5 ;
+INFO  23:02:32,375 - #4 }
+INFO  23:02:32,375 - #4 }
+INFO  23:02:32,398 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              ConstIdents(
+                SingleConst(
+                  ConstIdent(
+                   jedan
+                    NumConst(
+                     1
+                    ) [NumConst]
+                  ) [ConstIdent]
+                ) [SingleConst]
+                ConstIdent(
+                 dva
+                  NumConst(
+                   2
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [ConstIdents]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            DesStatementClass(
+              DesignEqExpr(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                AssEq(
+                ) [AssEq]
+                TermExpr(
+                  TermFactor(
+                    ConstFactor(
+                      FactNumConst(
+                       5
+                      ) [FactNumConst]
+                    ) [ConstFactor]
+                  ) [TermFactor]
+                ) [TermExpr]
+              ) [DesignEqExpr]
+            ) [DesStatementClass]
+          ) [Statements]
+          DesStatementClass(
+            DesignInc(
+              DesignatorName(
+               i
+              ) [DesignatorName]
+            ) [DesignInc]
+          ) [DesStatementClass]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:02:32,399 - ===================================
+INFO  23:02:32,437 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  23:02:32,437 - Deklarisana konstanta dva i ima vrednost 2 na liniji 5
+INFO  23:02:32,437 - Deklarisana promenljiva i na liniji 7
+INFO  23:02:32,437 - Deklarisana promenljiva ibool na liniji 8
+INFO  23:02:32,438 - Deklarisan niz niz na liniji 10
+INFO  23:02:32,438 - Obradjuje se funkcija main na liniji 15
+INFO  23:02:32,438 - Koriscenje promenljive  na liniji 17
+INFO  23:02:32,438 - DesignatorName(
+ i
+) [DesignatorName] na liniji 17
+INFO  23:02:32,439 - Koriscenje promenljive  na liniji 18
+INFO  23:02:32,439 - DesignatorName(
+ i
+) [DesignatorName] na liniji 18
+INFO  23:02:32,439 - Koriscenje promenljive  na liniji 19
+INFO  23:02:32,439 - DesignatorName(
+ i
+) [DesignatorName] na liniji 19
+INFO  23:02:32,439 - Print calls = 1
+INFO  23:02:32,439 - Read calls = 0
+INFO  23:02:32,439 - Broj promenljivih = 2
+INFO  23:02:32,440 - Broj nizova = 1
+INFO  23:02:32,440 - Broj konstanti = 0
+INFO  23:02:32,441 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  23:02:32,690 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,34 @@
+//Test 302
+
+program vars
+
+int a, niz[], b;
+char ca, cniz[];
+bool bb, bniz[];
+
+
+
+{
+	
+	
+	
+	void main()
+	{
+		a=5;
+		niz=new int[4];
+		niz[2]=5;
+		
+		cniz=new char[4];
+		print(cniz[1]);
+		cniz[2]='b';
+		ca=cniz[2];
+		print(ca);
+		
+		bniz=new bool[4];
+		print(bniz[2]);
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,203 @@
+INFO  00:47:03,997 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:47:04,096 - #2 program
+INFO  00:47:04,096 - #15 test302
+INFO  00:47:04,097 - #21 const
+INFO  00:47:04,099 - #15 int
+INFO  00:47:04,099 - #15 jedan
+INFO  00:47:04,100 - #12 =
+INFO  00:47:04,100 - #14 1
+INFO  00:47:04,100 - #5 ;
+INFO  00:47:04,102 - #15 int
+INFO  00:47:04,104 - #15 i
+INFO  00:47:04,105 - #8 ,
+INFO  00:47:04,108 - #15 n
+INFO  00:47:04,109 - #5 ;
+INFO  00:47:04,109 - #15 int
+INFO  00:47:04,110 - #15 blaba
+INFO  00:47:04,110 - #8 ,
+INFO  00:47:04,110 - #15 edcsa
+INFO  00:47:04,111 - #5 ;
+INFO  00:47:04,111 - #15 bool
+INFO  00:47:04,111 - #15 ibool
+INFO  00:47:05,121 - #5 ;
+INFO  00:47:05,625 - #15 char
+INFO  00:47:06,429 - #15 nizc
+INFO  00:47:06,430 - #22 [
+INFO  00:47:06,430 - #23 ]
+INFO  00:47:06,431 - #5 ;
+INFO  00:47:06,434 - #15 int
+INFO  00:47:06,554 - #15 niz
+INFO  00:47:06,556 - #22 [
+INFO  00:47:06,557 - #23 ]
+INFO  00:47:06,558 - #5 ;
+INFO  00:47:07,086 - #3 {
+INFO  00:47:07,590 - #13 void
+INFO  00:47:08,157 - #15 main
+INFO  00:47:08,592 - #6 (
+INFO  00:47:08,594 - #7 )
+INFO  00:47:09,054 - #3 {
+INFO  00:47:09,056 - #15 i
+INFO  00:47:09,058 - #12 =
+INFO  00:47:09,309 - #11 +
+ERROR 00:47:09,310 - 
+Sintaksna greska na liniji 20
+INFO  00:47:09,311 - #14 17
+INFO  00:47:09,312 - #5 ;
+INFO  00:47:09,313 - #4 }
+INFO  00:47:09,316 - #4 }
+ERROR 00:47:09,317 - Izvrsen oporavak do ; u liniji 20
+INFO  00:47:09,347 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          DeclarationsVarsConsts(
+            DeclarationsVarsConsts(
+              NoDecl(
+              ) [NoDecl]
+              DeclConsts(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  SingleConst(
+                    ConstIdent(
+                     jedan
+                      NumConst(
+                       1
+                      ) [NumConst]
+                    ) [ConstIdent]
+                  ) [SingleConst]
+                ) [ConstDecl]
+              ) [DeclConsts]
+            ) [DeclarationsVarsConsts]
+            DeclVars(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VarIdents(
+                  SingleIdent(
+                    VarIdent(
+                     i
+                      NoVarSquares(
+                      ) [NoVarSquares]
+                    ) [VarIdent]
+                  ) [SingleIdent]
+                  VarIdent(
+                   n
+                    NoVarSquares(
+                    ) [NoVarSquares]
+                  ) [VarIdent]
+                ) [VarIdents]
+              ) [VarDecl]
+            ) [DeclVars]
+          ) [DeclarationsVarsConsts]
+          DeclVars(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VarIdents(
+                SingleIdent(
+                  VarIdent(
+                   blaba
+                    NoVarSquares(
+                    ) [NoVarSquares]
+                  ) [VarIdent]
+                ) [SingleIdent]
+                VarIdent(
+                 edcsa
+                  NoVarSquares(
+                  ) [NoVarSquares]
+                ) [VarIdent]
+              ) [VarIdents]
+            ) [VarDecl]
+          ) [DeclVars]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             bool
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               ibool
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             nizc
+              VarSquare(
+              ) [VarSquare]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:47:09,578 - ===================================
+INFO  00:47:09,594 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  00:47:09,740 - Deklarisana promenljiva i na liniji 7
+INFO  00:47:09,740 - Deklarisana promenljiva n na liniji 7
+INFO  00:47:09,741 - Deklarisana promenljiva blaba na liniji 8
+INFO  00:47:09,743 - Deklarisana promenljiva edcsa na liniji 8
+INFO  00:47:09,743 - Deklarisana promenljiva ibool na liniji 9
+INFO  00:47:09,744 - Deklarisan niz nizc na liniji 11
+INFO  00:47:09,997 - Deklarisan niz niz na liniji 13
+INFO  00:47:09,999 - Obradjuje se funkcija main na liniji 17
+INFO  00:47:10,000 - Print calls = 0
+INFO  00:47:10,014 - Read calls = 0
+INFO  00:47:10,014 - Broj promenljivih = 5
+INFO  00:47:10,015 - Broj nizova = 2
+INFO  00:47:10,015 - Broj konstanti = 1
+ERROR 00:47:10,017 - Parsiranje NIJE uspesno zavrseno!

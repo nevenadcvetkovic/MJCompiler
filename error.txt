@@ -1,0 +1,71 @@
+INFO  01:07:49,054 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:07:49,140 - #2 program
+INFO  01:07:49,141 - #15 test302
+INFO  01:07:49,141 - #21 const
+INFO  01:07:49,144 - #15 int
+INFO  01:07:49,144 - #15 jedan
+INFO  01:07:49,145 - #12 =
+INFO  01:07:49,146 - #14 1
+INFO  01:07:49,146 - #5 ;
+INFO  01:07:49,151 - #15 int
+INFO  01:07:49,154 - #15 i
+INFO  01:07:49,154 - #8 ,
+INFO  01:07:49,169 - #15 n
+INFO  01:07:49,169 - #5 ;
+INFO  01:07:49,170 - #15 bool
+INFO  01:07:49,173 - #15 ibool
+INFO  01:07:49,173 - #5 ;
+INFO  01:07:49,174 - #15 char
+INFO  01:07:49,174 - #15 nizc
+INFO  01:07:49,174 - #22 [
+INFO  01:07:49,174 - #23 ]
+INFO  01:07:49,188 - #5 ;
+INFO  01:07:49,190 - #15 int
+INFO  01:07:49,191 - #15 niz
+INFO  01:07:49,191 - #22 [
+INFO  01:07:49,191 - #23 ]
+INFO  01:07:49,192 - #5 ;
+INFO  01:07:49,192 - #3 {
+INFO  01:07:49,193 - #13 void
+INFO  01:07:49,194 - #15 main
+INFO  01:07:49,195 - #6 (
+INFO  01:07:49,197 - #7 )
+INFO  01:07:49,199 - #3 {
+INFO  01:07:49,200 - #15 i
+INFO  01:07:49,201 - #12 =
+INFO  01:07:49,202 - #11 +
+ERROR 01:07:49,202 - 
+Sintaksna greska na liniji 19
+INFO  01:07:49,203 - #14 17
+INFO  01:07:49,203 - #5 ;
+INFO  01:07:49,203 - #15 i
+INFO  01:07:49,205 - #12 =
+INFO  01:07:49,205 - #14 5
+ERROR 01:07:49,206 - Izvrsen oporavak do ; u liniji 19
+INFO  01:07:49,207 - #5 ;
+INFO  01:07:49,209 - #9 print
+INFO  01:07:49,209 - #6 (
+INFO  01:07:49,210 - #14 7
+INFO  01:07:49,210 - #7 )
+INFO  01:07:49,211 - #5 ;
+INFO  01:07:49,212 - #18 for
+INFO  01:07:49,212 - #6 (
+INFO  01:07:49,212 - #5 ;
+INFO  01:07:49,215 - #15 i
+INFO  01:07:49,215 - #11 +
+INFO  01:07:49,216 - #5 ;
+ERROR 01:07:49,217 - 
+Sintaksna greska na liniji 22
+INFO  01:07:49,217 - #7 )
+INFO  01:07:49,218 - #3 {
+INFO  01:07:49,218 - #25 break
+INFO  01:07:49,219 - #5 ;
+INFO  01:07:49,226 - #4 }
+INFO  01:07:49,226 - #15 i
+INFO  01:07:49,227 - #12 =
+ERROR 01:07:49,227 - Izvrsen oporavak do ; u liniji 22
+ERROR 01:07:49,230 - 
+Sintaksna greska na liniji 26
+ERROR 01:07:49,230 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 26
+Exception in thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to rs.ac.bg.etf.pp1.ast.SyntaxNode
+	at rs.ac.bg.etf.pp1.MJParserTest.main(MJParserTest.java:44)

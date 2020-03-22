@@ -1,0 +1,40 @@
+//Test 302
+
+program test302
+
+const int jedan = 1;
+
+int i,n;
+bool ibool;
+
+char nizc[];
+
+int niz[];
+{
+	
+	
+	void main()
+	{
+		
+		niz=new int[3];
+		niz[1]=0;
+		niz[1]=niz[1]+1;
+		niz[1]++;	
+		print(niz[1]);
+		
+		read(n);
+		nizc=new char[n];
+		for(i=0;i<n;i++){
+			read(nizc[i]);
+		}
+		print(eol);
+		for(i=0;i<n;i++){
+			print(nizc[i]);
+		}
+		
+		
+			
+		
+	}
+}
+

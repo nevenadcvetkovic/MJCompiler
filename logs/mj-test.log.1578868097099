@@ -1,0 +1,141 @@
+INFO  23:18:51,841 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:18:52,048 - #2 program
+INFO  23:18:52,048 - #15 test302
+INFO  23:18:52,048 - #21 const
+INFO  23:18:52,050 - #15 int
+INFO  23:18:52,051 - #15 jedan
+INFO  23:18:52,052 - #12 =
+INFO  23:18:52,053 - #14 1
+INFO  23:18:52,054 - #5 ;
+INFO  23:18:52,056 - #15 int
+INFO  23:18:52,058 - #15 i
+INFO  23:18:52,058 - #5 ;
+INFO  23:18:52,061 - #15 bool
+INFO  23:18:52,063 - #15 ibool
+INFO  23:18:52,065 - #5 ;
+INFO  23:18:52,065 - #15 int
+INFO  23:18:52,065 - #15 niz
+INFO  23:18:52,065 - #22 [
+INFO  23:18:52,066 - #23 ]
+INFO  23:18:52,066 - #5 ;
+INFO  23:18:52,067 - #3 {
+INFO  23:18:52,081 - #13 void
+INFO  23:18:52,083 - #15 main
+INFO  23:18:52,084 - #6 (
+INFO  23:18:52,087 - #7 )
+INFO  23:18:52,089 - #3 {
+INFO  23:18:52,090 - #15 i
+INFO  23:18:52,092 - #12 =
+INFO  23:18:52,093 - #14 17
+INFO  23:18:52,094 - #11 +
+INFO  23:18:52,096 - #5 ;
+ERROR 23:18:52,096 - 
+Sintaksna greska na liniji 15
+INFO  23:18:52,097 - #4 }
+INFO  23:18:52,097 - #4 }
+ERROR 23:18:52,099 - Izvrsen oporavak do ; u liniji 15
+INFO  23:18:52,174 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:18:52,175 - ===================================
+INFO  23:18:52,250 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  23:18:52,264 - Deklarisana promenljiva i na liniji 7
+INFO  23:18:52,265 - Deklarisana promenljiva ibool na liniji 8
+INFO  23:18:52,265 - Deklarisan niz niz na liniji 10
+INFO  23:18:52,266 - Obradjuje se funkcija main na liniji 13
+INFO  23:18:52,266 - Print calls = 0
+INFO  23:18:52,267 - Read calls = 0
+INFO  23:18:52,267 - Broj promenljivih = 2
+INFO  23:18:52,267 - Broj nizova = 1
+INFO  23:18:52,268 - Broj konstanti = 1
+ERROR 23:18:52,269 - Parsiranje NIJE uspesno zavrseno!

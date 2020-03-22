@@ -1,0 +1,75 @@
+INFO  17:12:55,766 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:12:55,879 - #2 program
+INFO  17:12:55,880 - #15 MJProgram
+INFO  17:12:55,880 - #15 int
+INFO  17:12:55,888 - #15 x
+INFO  17:12:55,889 - #5 ;
+INFO  17:12:55,893 - #15 int
+INFO  17:12:55,895 - #15 y
+INFO  17:12:55,895 - #22 [
+INFO  17:12:55,895 - #23 ]
+INFO  17:12:55,896 - #5 ;
+INFO  17:12:55,897 - #3 {
+INFO  17:12:55,897 - #15 int
+INFO  17:12:55,899 - #15 k
+INFO  17:12:55,899 - #6 (
+INFO  17:12:55,901 - #15 int
+INFO  17:12:55,901 - #15 p
+INFO  17:12:55,901 - #8 ,
+INFO  17:12:55,904 - #15 int
+INFO  17:12:55,905 - #15 zzz
+INFO  17:12:55,905 - #7 )
+INFO  17:12:55,905 - #15 int
+INFO  17:12:55,907 - #15 ggg
+INFO  17:12:55,907 - #5 ;
+INFO  17:12:55,907 - #3 {
+INFO  17:12:55,908 - #9 print
+INFO  17:12:55,909 - #6 (
+INFO  17:12:55,909 - #15 p
+ERROR 17:12:55,909 - 
+Sintaksna greska na liniji 7
+INFO  17:12:55,910 - #8 ,
+INFO  17:12:55,910 - #14 5
+INFO  17:12:55,910 - #7 )
+INFO  17:12:55,911 - #5 ;
+INFO  17:12:55,911 - #15 x
+INFO  17:12:55,912 - #12 =
+INFO  17:12:55,912 - #15 y
+INFO  17:12:55,912 - #22 [
+INFO  17:12:55,912 - #14 2
+INFO  17:12:55,912 - #23 ]
+INFO  17:12:55,912 - #5 ;
+INFO  17:12:55,912 - #16 if
+INFO  17:12:55,912 - #6 (
+INFO  17:12:55,913 - #15 x
+ERROR 17:12:55,913 - Izvrsen oporavak do ; u liniji 7
+ERROR 17:12:55,914 - 
+Sintaksna greska na liniji 9
+INFO  17:12:55,915 - #29 ==
+INFO  17:12:55,915 - #15 p
+INFO  17:12:55,915 - #7 )
+INFO  17:12:55,915 - #3 {
+INFO  17:12:55,916 - #15 x
+INFO  17:12:55,916 - #27 ++
+INFO  17:12:55,916 - #5 ;
+INFO  17:12:55,916 - #15 p
+INFO  17:12:55,916 - #28 --
+INFO  17:12:55,916 - #5 ;
+INFO  17:12:55,916 - #4 }
+INFO  17:12:55,916 - #10 return
+INFO  17:12:55,917 - #14 5
+INFO  17:12:55,917 - #38 *
+INFO  17:12:55,917 - #14 6
+INFO  17:12:55,924 - #11 +
+INFO  17:12:55,925 - #14 7
+INFO  17:12:55,925 - #5 ;
+INFO  17:12:55,925 - #4 }
+INFO  17:12:55,931 - #4 }
+ERROR 17:12:55,932 - Izvrsen oporavak do ; u liniji 9
+INFO  17:12:55,972 - Deklarisana promenljiva x na liniji 2
+INFO  17:12:55,972 - Deklarisan niz y na liniji 2
+INFO  17:12:55,973 - Obradjuje se funkcija k na liniji 6
+INFO  17:12:55,973 - Deklarisana promenljiva ggg na liniji 6
+ERROR 17:12:55,974 - Semanticka greska na liniji 6: funcija k nema return iskaz!
+INFO  17:12:55,974 - Print calls = 0
+ERROR 17:12:55,975 - Parsiranje NIJE uspesno zavrseno!

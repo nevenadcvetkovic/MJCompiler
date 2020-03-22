@@ -1,0 +1,131 @@
+INFO  22:49:53,111 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:49:53,252 - #2 program
+INFO  22:49:53,252 - #15 test302
+INFO  22:49:53,253 - #21 const
+INFO  22:49:53,255 - #15 int
+INFO  22:49:53,256 - #15 jedan
+INFO  22:49:53,257 - #12 =
+INFO  22:49:53,257 - #14 1
+INFO  22:49:53,258 - #5 ;
+INFO  22:49:53,260 - #15 int
+INFO  22:49:53,262 - #15 i
+INFO  22:49:53,262 - #5 ;
+INFO  22:49:53,269 - #15 bool
+INFO  22:49:53,271 - #15 ibool
+INFO  22:49:53,272 - #5 ;
+INFO  22:49:53,272 - #15 int
+INFO  22:49:53,272 - #15 niz
+INFO  22:49:53,273 - #22 [
+INFO  22:49:53,273 - #23 ]
+INFO  22:49:53,273 - #5 ;
+INFO  22:49:53,274 - #3 {
+INFO  22:49:53,288 - #15 int
+INFO  22:49:53,289 - #15 sum
+INFO  22:49:53,290 - #6 (
+INFO  22:49:53,291 - #15 int
+INFO  22:49:53,291 - #15 z
+INFO  22:49:53,292 - #8 ,
+INFO  22:49:53,295 - #15 int
+INFO  22:49:53,295 - #15 d
+INFO  22:49:53,295 - #7 )
+INFO  22:49:53,297 - #3 {
+INFO  22:49:53,298 - #10 return
+INFO  22:49:53,300 - #15 z
+INFO  22:49:53,301 - #11 +
+INFO  22:49:53,303 - #15 d
+INFO  22:49:53,305 - #5 ;
+INFO  22:49:53,306 - #4 }
+INFO  22:49:53,307 - #15 bool
+INFO  22:49:53,308 - #15 verify
+INFO  22:49:53,309 - #6 (
+INFO  22:49:53,309 - #7 )
+INFO  22:49:53,311 - #3 {
+INFO  22:49:53,312 - #9 print
+INFO  22:49:53,314 - #6 (
+INFO  22:49:53,315 - #19 v
+INFO  22:49:53,316 - #7 )
+INFO  22:49:53,318 - #5 ;
+INFO  22:49:53,319 - #10 return
+INFO  22:49:53,320 - #20 false
+INFO  22:49:53,322 - #5 ;
+INFO  22:49:53,323 - #4 }
+INFO  22:49:53,324 - #13 void
+INFO  22:49:53,324 - #15 main
+INFO  22:49:53,326 - #6 (
+INFO  22:49:53,326 - #7 )
+INFO  22:49:53,326 - #3 {
+INFO  22:49:53,327 - #16 if
+INFO  22:49:53,327 - #6 (
+INFO  22:49:53,327 - #14 1
+INFO  22:49:53,328 - #35 ||
+INFO  22:49:53,339 - #14 5
+INFO  22:49:53,340 - #33 <
+INFO  22:49:53,340 - #14 6
+INFO  22:49:53,342 - #36 &&
+INFO  22:49:53,343 - #14 7
+INFO  22:49:53,343 - #33 <
+INFO  22:49:53,344 - #14 8
+INFO  22:49:53,344 - #7 )
+INFO  22:49:53,345 - #9 print
+INFO  22:49:53,345 - #6 (
+INFO  22:49:53,345 - #37 -
+INFO  22:49:53,346 - #14 6
+INFO  22:49:53,347 - #7 )
+INFO  22:49:53,348 - #5 ;
+INFO  22:49:53,348 - #16 if
+INFO  22:49:53,349 - #6 (
+INFO  22:49:53,349 - #14 1
+INFO  22:49:53,350 - #29 ==
+INFO  22:49:53,350 - #14 1
+INFO  22:49:53,352 - #7 )
+INFO  22:49:53,352 - #9 print
+INFO  22:49:53,353 - #6 (
+INFO  22:49:53,353 - #14 2
+INFO  22:49:53,353 - #7 )
+INFO  22:49:53,354 - #5 ;
+INFO  22:49:53,355 - #15 ibool
+INFO  22:49:53,356 - #12 =
+INFO  22:49:53,356 - #20 false
+INFO  22:49:53,356 - #5 ;
+INFO  22:49:53,357 - #9 print
+INFO  22:49:53,358 - #6 (
+INFO  22:49:53,358 - #15 eol
+INFO  22:49:53,359 - #7 )
+INFO  22:49:53,359 - #5 ;
+INFO  22:49:53,360 - #4 }
+INFO  22:49:53,360 - #4 }
+INFO  22:49:53,409 - ===================================
+INFO  22:49:53,416 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  22:49:53,416 - Deklarisana promenljiva i na liniji 7
+INFO  22:49:53,417 - Deklarisana promenljiva ibool na liniji 8
+INFO  22:49:53,417 - Deklarisan niz niz na liniji 10
+INFO  22:49:53,418 - Obradjuje se funkcija sum na liniji 13
+INFO  22:49:53,418 - Deklarisan parametar z na liniji 13
+INFO  22:49:53,419 - Deklarisan parametar d na liniji 13
+INFO  22:49:53,419 - Koriscenje formalnog parametra  na liniji 15
+INFO  22:49:53,420 - DesignatorName(
+ z
+) [DesignatorName] na liniji 15
+INFO  22:49:53,420 - Koriscenje formalnog parametra  na liniji 15
+INFO  22:49:53,421 - DesignatorName(
+ d
+) [DesignatorName] na liniji 15
+INFO  22:49:53,422 - Funkcija sum uspesno definisana na liniji 15
+INFO  22:49:53,422 - Obradjuje se funkcija verify na liniji 20
+INFO  22:49:53,423 - Funkcija verify uspesno definisana na liniji 22
+INFO  22:49:53,423 - Obradjuje se funkcija main na liniji 25
+INFO  22:49:53,424 - Koriscenje promenljive  na liniji 32
+INFO  22:49:53,424 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 32
+INFO  22:49:53,425 - Koriscenje konstante  na liniji 36
+INFO  22:49:53,425 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 36
+INFO  22:49:53,425 - Print calls = 4
+INFO  22:49:53,426 - Read calls = 0
+INFO  22:49:53,426 - Broj promenljivih = 2
+INFO  22:49:53,426 - Broj nizova = 1
+INFO  22:49:53,427 - Broj konstanti = 1
+INFO  22:49:53,452 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  22:49:53,464 - Parsiranje uspesno zavrseno!

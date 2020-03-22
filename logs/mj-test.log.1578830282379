@@ -1,0 +1,367 @@
+INFO  12:56:28,734 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:56:28,849 - #2 program
+INFO  12:56:28,850 - #15 test302
+INFO  12:56:28,851 - #21 const
+INFO  12:56:28,857 - #15 int
+INFO  12:56:28,857 - #15 jedan
+INFO  12:56:28,859 - #12 =
+INFO  12:56:28,860 - #14 1
+INFO  12:56:28,861 - #5 ;
+INFO  12:56:28,872 - #15 int
+INFO  12:56:28,875 - #15 i
+INFO  12:56:28,875 - #5 ;
+INFO  12:56:28,879 - #15 bool
+INFO  12:56:28,888 - #15 ibool
+INFO  12:56:28,889 - #5 ;
+INFO  12:56:28,890 - #15 int
+INFO  12:56:28,891 - #15 niz
+INFO  12:56:28,892 - #22 [
+INFO  12:56:28,892 - #23 ]
+INFO  12:56:28,893 - #5 ;
+INFO  12:56:28,896 - #3 {
+INFO  12:56:28,920 - #15 int
+INFO  12:56:28,921 - #15 sum
+INFO  12:56:28,922 - #6 (
+INFO  12:56:28,924 - #15 int
+INFO  12:56:28,925 - #15 z
+INFO  12:56:28,926 - #8 ,
+INFO  12:56:28,933 - #15 int
+INFO  12:56:28,934 - #15 d
+INFO  12:56:28,935 - #7 )
+INFO  12:56:28,936 - #3 {
+INFO  12:56:28,937 - #10 return
+INFO  12:56:28,939 - #15 z
+INFO  12:56:28,939 - #11 +
+INFO  12:56:28,942 - #15 d
+INFO  12:56:28,947 - #5 ;
+INFO  12:56:28,951 - #4 }
+INFO  12:56:28,952 - #15 int
+INFO  12:56:28,956 - #15 inkrement
+INFO  12:56:28,956 - #6 (
+INFO  12:56:28,957 - #15 int
+INFO  12:56:28,957 - #15 a
+INFO  12:56:28,958 - #8 ,
+INFO  12:56:28,958 - #15 int
+INFO  12:56:28,959 - #15 inc
+INFO  12:56:28,959 - #7 )
+INFO  12:56:28,960 - #15 int
+INFO  12:56:28,961 - #15 pom
+INFO  12:56:28,961 - #5 ;
+INFO  12:56:28,961 - #3 {
+INFO  12:56:28,962 - #16 if
+INFO  12:56:28,962 - #6 (
+INFO  12:56:28,963 - #15 inc
+INFO  12:56:28,966 - #29 ==
+INFO  12:56:28,967 - #15 jedan
+INFO  12:56:28,971 - #7 )
+INFO  12:56:28,974 - #15 pom
+INFO  12:56:28,975 - #12 =
+INFO  12:56:28,975 - #14 1
+INFO  12:56:28,976 - #5 ;
+INFO  12:56:28,988 - #17 else
+INFO  12:56:28,989 - #16 if
+INFO  12:56:28,990 - #6 (
+INFO  12:56:28,990 - #15 inc
+INFO  12:56:28,991 - #29 ==
+INFO  12:56:28,991 - #14 2
+INFO  12:56:28,991 - #7 )
+INFO  12:56:28,992 - #15 pom
+INFO  12:56:28,992 - #12 =
+INFO  12:56:28,993 - #15 a
+INFO  12:56:28,993 - #5 ;
+INFO  12:56:28,994 - #10 return
+INFO  12:56:28,994 - #15 sum
+INFO  12:56:28,995 - #6 (
+INFO  12:56:28,995 - #15 a
+INFO  12:56:28,995 - #8 ,
+INFO  12:56:28,996 - #15 pom
+INFO  12:56:28,997 - #7 )
+INFO  12:56:28,998 - #5 ;
+INFO  12:56:29,000 - #4 }
+INFO  12:56:29,001 - #15 bool
+INFO  12:56:29,001 - #15 verify
+INFO  12:56:29,002 - #6 (
+INFO  12:56:29,002 - #7 )
+INFO  12:56:29,004 - #3 {
+INFO  12:56:29,004 - #9 print
+INFO  12:56:29,004 - #6 (
+INFO  12:56:29,005 - #19 v
+INFO  12:56:29,005 - #7 )
+INFO  12:56:29,007 - #5 ;
+INFO  12:56:29,008 - #10 return
+INFO  12:56:29,008 - #20 false
+INFO  12:56:29,008 - #5 ;
+INFO  12:56:29,009 - #4 }
+INFO  12:56:29,009 - #13 void
+INFO  12:56:29,009 - #15 main
+INFO  12:56:29,011 - #6 (
+INFO  12:56:29,011 - #7 )
+INFO  12:56:29,011 - #3 {
+INFO  12:56:29,011 - #16 if
+INFO  12:56:29,012 - #6 (
+INFO  12:56:29,012 - #14 1
+INFO  12:56:29,013 - #30 !=
+INFO  12:56:29,015 - #14 1
+INFO  12:56:29,016 - #7 )
+INFO  12:56:29,016 - #9 print
+INFO  12:56:29,017 - #6 (
+INFO  12:56:29,017 - #37 -
+INFO  12:56:29,017 - #14 6
+INFO  12:56:29,018 - #7 )
+INFO  12:56:29,018 - #5 ;
+INFO  12:56:29,019 - #17 else
+INFO  12:56:29,019 - #9 print
+INFO  12:56:29,019 - #6 (
+INFO  12:56:29,019 - #14 0
+INFO  12:56:29,020 - #7 )
+INFO  12:56:29,020 - #5 ;
+INFO  12:56:29,021 - #15 ibool
+INFO  12:56:29,021 - #12 =
+INFO  12:56:29,021 - #20 false
+INFO  12:56:29,022 - #5 ;
+INFO  12:56:29,022 - #15 i
+INFO  12:56:29,023 - #12 =
+INFO  12:56:29,023 - #14 0
+INFO  12:56:29,023 - #5 ;
+INFO  12:56:29,024 - #18 for
+INFO  12:56:29,025 - #6 (
+INFO  12:56:29,025 - #15 i
+INFO  12:56:29,026 - #12 =
+INFO  12:56:29,026 - #14 0
+INFO  12:56:29,027 - #5 ;
+INFO  12:56:29,027 - #15 i
+INFO  12:56:29,028 - #33 <
+INFO  12:56:29,028 - #14 5
+INFO  12:56:29,029 - #5 ;
+INFO  12:56:29,029 - #15 i
+INFO  12:56:29,030 - #27 ++
+INFO  12:56:29,032 - #7 )
+INFO  12:56:29,033 - #3 {
+INFO  12:56:29,034 - #9 print
+INFO  12:56:29,035 - #6 (
+INFO  12:56:29,035 - #15 i
+INFO  12:56:29,036 - #7 )
+INFO  12:56:29,036 - #5 ;
+INFO  12:56:29,036 - #4 }
+INFO  12:56:29,037 - #4 }
+INFO  12:56:29,037 - #4 }
+INFO  12:56:29,062 - ===================================
+INFO  12:56:29,069 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  12:56:29,070 - Deklarisana promenljiva i na liniji 7
+INFO  12:56:29,070 - Deklarisana promenljiva ibool na liniji 8
+INFO  12:56:29,071 - Deklarisan niz niz na liniji 10
+INFO  12:56:29,071 - Obradjuje se funkcija sum na liniji 13
+INFO  12:56:29,071 - Deklarisan parametar z na liniji 13
+INFO  12:56:29,072 - Deklarisan parametar d na liniji 13
+INFO  12:56:29,072 - Koriscenje formalnog parametra  na liniji 15
+INFO  12:56:29,073 - DesignatorName(
+ z
+) [DesignatorName] na liniji 15
+INFO  12:56:29,074 - Koriscenje formalnog parametra  na liniji 15
+INFO  12:56:29,074 - DesignatorName(
+ d
+) [DesignatorName] na liniji 15
+INFO  12:56:29,075 - Funkcija sum uspesno definisana na liniji 15
+INFO  12:56:29,076 - Obradjuje se funkcija inkrement na liniji 18
+INFO  12:56:29,076 - Deklarisan parametar a na liniji 18
+INFO  12:56:29,076 - Deklarisan parametar inc na liniji 18
+INFO  12:56:29,077 - Deklarisana promenljiva pom na liniji 18
+INFO  12:56:29,077 - Koriscenje formalnog parametra  na liniji 20
+INFO  12:56:29,077 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 20
+INFO  12:56:29,078 - Koriscenje konstante  na liniji 20
+INFO  12:56:29,078 - DesignatorName(
+ jedan
+) [DesignatorName] na liniji 20
+INFO  12:56:29,078 - Koriscenje promenljive  na liniji 20
+INFO  12:56:29,079 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 20
+INFO  12:56:29,079 - Koriscenje formalnog parametra  na liniji 21
+INFO  12:56:29,079 - DesignatorName(
+ inc
+) [DesignatorName] na liniji 21
+INFO  12:56:29,080 - Koriscenje promenljive  na liniji 21
+INFO  12:56:29,081 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 21
+INFO  12:56:29,082 - Koriscenje formalnog parametra  na liniji 21
+INFO  12:56:29,082 - DesignatorName(
+ a
+) [DesignatorName] na liniji 21
+INFO  12:56:29,084 - Koriscenje promenljive  na liniji 23
+INFO  12:56:29,084 - DesignatorName(
+ sum
+) [DesignatorName] na liniji 23
+INFO  12:56:29,084 - Koriscenje formalnog parametra  na liniji 23
+INFO  12:56:29,084 - DesignatorName(
+ a
+) [DesignatorName] na liniji 23
+INFO  12:56:29,084 - Koriscenje promenljive  na liniji 23
+INFO  12:56:29,084 - DesignatorName(
+ pom
+) [DesignatorName] na liniji 23
+INFO  12:56:29,085 - Postavljen formalni parametar z na liniji 23
+INFO  12:56:29,086 - Postavljen formalni parametar d na liniji 23
+INFO  12:56:29,086 - Poziv funkcije sum na liniji 23
+INFO  12:56:29,086 - FactorVar(
+  DesignatorName(
+   sum
+  ) [DesignatorName]
+  FactorFuncParen(
+    Actuals(
+      ActualParams(
+        ActualParam(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+        ) [ActualParam]
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 pom
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [ActualParams]
+    ) [Actuals]
+  ) [FactorFuncParen]
+) [FactorVar] na liniji 23
+INFO  12:56:29,087 - Funkcija inkrement uspesno definisana na liniji 23
+INFO  12:56:29,087 - Obradjuje se funkcija verify na liniji 26
+INFO  12:56:29,088 - Funkcija verify uspesno definisana na liniji 28
+INFO  12:56:29,088 - Obradjuje se funkcija main na liniji 31
+INFO  12:56:29,088 - Koriscenje promenljive  na liniji 36
+INFO  12:56:29,089 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 36
+INFO  12:56:29,089 - Koriscenje promenljive  na liniji 37
+INFO  12:56:29,090 - DesignatorName(
+ i
+) [DesignatorName] na liniji 37
+INFO  12:56:29,090 - Koriscenje promenljive  na liniji 38
+INFO  12:56:29,091 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  12:56:29,091 - Koriscenje promenljive  na liniji 38
+INFO  12:56:29,091 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  12:56:29,092 - Koriscenje promenljive  na liniji 38
+INFO  12:56:29,092 - DesignatorName(
+ i
+) [DesignatorName] na liniji 38
+INFO  12:56:29,092 - Koriscenje promenljive  na liniji 40
+INFO  12:56:29,093 - DesignatorName(
+ i
+) [DesignatorName] na liniji 40
+INFO  12:56:29,095 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      NoMinus(
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               0
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [NoMinus]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  ConstFactor(
+                    FactNumConst(
+                     5
+                    ) [FactNumConst]
+                  ) [ConstFactor]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign1(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign1]
+  StatementInside(
+    Statements(
+      NoStmt(
+      ) [NoStmt]
+      PrintStmt(
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+        DontPrintNum(
+        ) [DontPrintNum]
+      ) [PrintStmt]
+    ) [Statements]
+  ) [StatementInside]
+) [ForStm] na liniji 38
+INFO  12:56:29,095 - Print calls = 4
+INFO  12:56:29,095 - Read calls = 0
+INFO  12:56:29,096 - Broj promenljivih = 3
+INFO  12:56:29,097 - Broj nizova = 1
+INFO  12:56:29,097 - Broj konstanti = 1
+INFO  12:56:29,099 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  12:56:29,108 - Parsiranje uspesno zavrseno!

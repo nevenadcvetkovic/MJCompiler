@@ -1,0 +1,113 @@
+INFO  12:58:12,536 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:58:12,615 - #2 program
+INFO  12:58:12,615 - #15 test301
+INFO  12:58:12,615 - #15 int
+INFO  12:58:12,618 - #15 x
+INFO  12:58:12,619 - #5 ;
+INFO  12:58:12,622 - #15 int
+INFO  12:58:12,624 - #15 y
+INFO  12:58:12,624 - #5 ;
+INFO  12:58:12,624 - #15 int
+INFO  12:58:12,625 - #15 niz
+INFO  12:58:12,625 - #22 [
+INFO  12:58:12,625 - #23 ]
+INFO  12:58:12,625 - #5 ;
+INFO  12:58:12,627 - #3 {
+INFO  12:58:12,627 - #15 int
+INFO  12:58:12,628 - #15 k
+INFO  12:58:12,629 - #6 (
+INFO  12:58:12,630 - #7 )
+INFO  12:58:12,632 - #15 int
+INFO  12:58:12,633 - #15 c
+INFO  12:58:12,634 - #5 ;
+INFO  12:58:12,634 - #3 {
+INFO  12:58:12,635 - #15 c
+INFO  12:58:12,636 - #12 =
+INFO  12:58:12,638 - #14 2
+INFO  12:58:12,638 - #5 ;
+INFO  12:58:12,640 - #9 print
+INFO  12:58:12,640 - #6 (
+INFO  12:58:12,640 - #14 0
+INFO  12:58:12,640 - #7 )
+INFO  12:58:12,641 - #5 ;
+INFO  12:58:12,642 - #10 return
+INFO  12:58:12,642 - #15 c
+INFO  12:58:12,642 - #11 +
+INFO  12:58:12,643 - #14 2
+INFO  12:58:12,646 - #5 ;
+INFO  12:58:12,646 - #4 }
+INFO  12:58:12,646 - #15 int
+INFO  12:58:12,648 - #15 main
+INFO  12:58:12,648 - #6 (
+INFO  12:58:12,649 - #7 )
+INFO  12:58:12,649 - #3 {
+INFO  12:58:12,649 - #15 x
+INFO  12:58:12,649 - #12 =
+INFO  12:58:12,649 - #14 3
+INFO  12:58:12,649 - #5 ;
+INFO  12:58:12,649 - #15 niz
+INFO  12:58:12,650 - #12 =
+INFO  12:58:12,650 - #41 new
+INFO  12:58:12,650 - #15 int
+INFO  12:58:12,650 - #22 [
+INFO  12:58:12,650 - #14 3
+INFO  12:58:12,650 - #23 ]
+INFO  12:58:12,650 - #5 ;
+INFO  12:58:12,651 - #9 print
+INFO  12:58:12,652 - #6 (
+INFO  12:58:12,652 - #14 1
+INFO  12:58:12,652 - #7 )
+INFO  12:58:12,653 - #5 ;
+INFO  12:58:12,662 - #15 y
+INFO  12:58:12,663 - #12 =
+INFO  12:58:12,663 - #14 4
+INFO  12:58:12,663 - #11 +
+INFO  12:58:12,663 - #14 9
+INFO  12:58:12,664 - #11 +
+INFO  12:58:12,664 - #15 k
+INFO  12:58:12,664 - #6 (
+INFO  12:58:12,664 - #7 )
+INFO  12:58:12,670 - #5 ;
+INFO  12:58:12,671 - #9 print
+INFO  12:58:12,671 - #6 (
+INFO  12:58:12,672 - #14 2
+INFO  12:58:12,672 - #7 )
+INFO  12:58:12,672 - #5 ;
+INFO  12:58:12,672 - #15 x
+INFO  12:58:12,672 - #27 ++
+INFO  12:58:12,672 - #5 ;
+INFO  12:58:12,673 - #9 print
+INFO  12:58:12,673 - #6 (
+INFO  12:58:12,673 - #15 x
+INFO  12:58:12,673 - #7 )
+INFO  12:58:12,675 - #5 ;
+INFO  12:58:12,675 - #15 k
+INFO  12:58:12,675 - #6 (
+INFO  12:58:12,677 - #7 )
+INFO  12:58:12,677 - #5 ;
+INFO  12:58:12,678 - #15 y
+INFO  12:58:12,678 - #28 --
+INFO  12:58:12,678 - #5 ;
+INFO  12:58:12,679 - #9 print
+INFO  12:58:12,679 - #6 (
+INFO  12:58:12,680 - #15 y
+INFO  12:58:12,680 - #7 )
+INFO  12:58:12,680 - #5 ;
+INFO  12:58:12,680 - #10 return
+INFO  12:58:12,680 - #14 5
+INFO  12:58:12,681 - #5 ;
+INFO  12:58:12,681 - #4 }
+INFO  12:58:12,681 - #4 }
+INFO  12:58:12,733 - Deklarisana promenljiva x na liniji 5
+INFO  12:58:12,734 - Deklarisana promenljiva y na liniji 5
+INFO  12:58:12,734 - Deklarisan niz niz na liniji 7
+INFO  12:58:12,734 - Obradjuje se funkcija k na liniji 10
+INFO  12:58:12,735 - Deklarisana promenljiva c na liniji 10
+INFO  12:58:12,735 - Funkcija k uspesno definisana na liniji 15
+INFO  12:58:12,735 - Obradjuje se funkcija main na liniji 17
+INFO  12:58:12,736 - Poziv funkcije k na liniji 24
+INFO  12:58:12,737 - Poziv funkcije k na liniji 30
+INFO  12:58:12,737 - Funkcija main uspesno definisana na liniji 34
+INFO  12:58:12,737 - Print calls = 5
+INFO  12:58:12,738 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  12:58:12,753 - Parsiranje uspesno zavrseno!

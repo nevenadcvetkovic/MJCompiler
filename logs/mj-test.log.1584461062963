@@ -1,0 +1,233 @@
+INFO  17:02:47,252 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:02:48,159 - #2 program
+INFO  17:02:48,160 - #17 test302
+INFO  17:02:48,160 - #24 const
+INFO  17:02:48,184 - #17 int
+INFO  17:02:48,185 - #17 jedan
+INFO  17:02:48,193 - #13 =
+INFO  17:02:48,194 - #16 1
+INFO  17:02:48,194 - #8 ,
+INFO  17:02:48,212 - #17 dva
+INFO  17:02:48,212 - #13 =
+INFO  17:02:48,212 - #16 2
+INFO  17:02:48,213 - #8 ,
+INFO  17:02:48,213 - #17 pet
+INFO  17:02:48,214 - #5 ;
+ERROR 17:02:48,214 - 
+Sintaksna greska na liniji 5
+INFO  17:02:48,215 - #24 const
+INFO  17:02:48,215 - #17 int
+INFO  17:02:48,215 - #17 sedam
+ERROR 17:02:48,217 - Izvrsen oporavak do ; u liniji 5
+INFO  17:02:48,235 - #13 =
+INFO  17:02:48,235 - #22 7
+INFO  17:02:48,236 - #5 ;
+INFO  17:02:48,236 - #17 int
+INFO  17:02:48,243 - #17 i
+INFO  17:02:48,243 - #5 ;
+INFO  17:02:48,285 - #17 bool
+INFO  17:02:48,286 - #17 ibool
+INFO  17:02:48,286 - #5 ;
+INFO  17:02:48,286 - #17 int
+INFO  17:02:48,287 - #17 niz
+INFO  17:02:48,287 - #25 [
+INFO  17:02:48,287 - #26 ]
+INFO  17:02:48,287 - #5 ;
+INFO  17:02:48,297 - #3 {
+INFO  17:02:48,297 - #14 void
+INFO  17:02:48,304 - #17 main
+INFO  17:02:48,311 - #6 (
+INFO  17:02:48,321 - #7 )
+INFO  17:02:48,336 - #3 {
+INFO  17:02:48,337 - #9 print
+INFO  17:02:48,341 - #6 (
+INFO  17:02:48,341 - #17 jedan
+INFO  17:02:48,341 - #7 )
+INFO  17:02:48,353 - #5 ;
+INFO  17:02:48,353 - #9 print
+INFO  17:02:48,354 - #6 (
+INFO  17:02:48,354 - #17 dva
+INFO  17:02:48,354 - #7 )
+INFO  17:02:48,354 - #5 ;
+INFO  17:02:48,354 - #9 print
+INFO  17:02:48,354 - #6 (
+INFO  17:02:48,354 - #17 pet
+INFO  17:02:48,354 - #7 )
+INFO  17:02:48,354 - #5 ;
+INFO  17:02:48,355 - #9 print
+INFO  17:02:48,355 - #6 (
+INFO  17:02:48,355 - #17 sedam
+INFO  17:02:48,355 - #7 )
+INFO  17:02:48,355 - #5 ;
+INFO  17:02:48,362 - #4 }
+INFO  17:02:48,362 - #4 }
+INFO  17:02:48,414 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          DeclarationsVarsConsts(
+            NoDecl(
+            ) [NoDecl]
+            DeclVars(
+              ErrorVarDecl(
+              ) [ErrorVarDecl]
+            ) [DeclVars]
+          ) [DeclarationsVarsConsts]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 sedam
+                  CharConst(
+                   7
+                  ) [CharConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              PrintStmt(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       jedan
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                DontPrintNum(
+                ) [DontPrintNum]
+              ) [PrintStmt]
+            ) [Statements]
+            PrintStmt(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     dva
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+              DontPrintNum(
+              ) [DontPrintNum]
+            ) [PrintStmt]
+          ) [Statements]
+          PrintStmt(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   pet
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+            DontPrintNum(
+            ) [DontPrintNum]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 sedam
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:02:48,416 - ===================================
+ERROR 17:02:48,503 - Greska na liniji 6: Greska u definiciji konstante  sedam! Tipovi nisu kompatibilni!
+INFO  17:02:48,503 - Deklarisana promenljiva i na liniji 8
+INFO  17:02:48,503 - Deklarisana promenljiva ibool na liniji 9
+INFO  17:02:48,504 - Deklarisan niz niz na liniji 11
+INFO  17:02:48,504 - Obradjuje se funkcija main na liniji 16
+ERROR 17:02:48,505 - Greska na liniji 18 : Ime jedan nije deklarisano! 

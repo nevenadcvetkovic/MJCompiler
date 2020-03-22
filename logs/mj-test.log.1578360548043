@@ -1,0 +1,38 @@
+INFO  02:24:49,938 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  02:24:50,022 - #2 program
+INFO  02:24:50,024 - #15 MJProgram
+INFO  02:24:50,024 - #15 int
+INFO  02:24:50,026 - #15 x
+INFO  02:24:50,027 - #5 ;
+INFO  02:24:50,030 - #15 int
+INFO  02:24:50,032 - #15 y
+INFO  02:24:50,032 - #5 ;
+INFO  02:24:50,032 - #3 {
+INFO  02:24:50,032 - #15 int
+INFO  02:24:50,033 - #15 k
+INFO  02:24:50,034 - #6 (
+INFO  02:24:50,035 - #15 int
+INFO  02:24:50,035 - #15 p
+INFO  02:24:50,036 - #8 ,
+INFO  02:24:50,038 - #15 int
+INFO  02:24:50,038 - #15 zzz
+INFO  02:24:50,038 - #7 )
+INFO  02:24:50,039 - #15 int
+INFO  02:24:50,042 - #15 ggg
+INFO  02:24:50,042 - #5 ;
+INFO  02:24:50,043 - #3 {
+INFO  02:24:50,043 - #10 return
+INFO  02:24:50,044 - #15 ggg
+ERROR 02:24:50,045 - 
+Sintaksna greska na liniji 8
+INFO  02:24:50,045 - #5 ;
+INFO  02:24:50,045 - #4 }
+INFO  02:24:50,045 - #4 }
+ERROR 02:24:50,047 - Izvrsen oporavak do ; u liniji 8
+INFO  02:24:50,083 - Deklarisana promenljiva x na liniji 2
+INFO  02:24:50,083 - Deklarisana promenljiva y na liniji 2
+INFO  02:24:50,083 - Obradjuje se funkcija k na liniji 6
+INFO  02:24:50,084 - Deklarisana promenljiva ggg na liniji 6
+ERROR 02:24:50,084 - Semanticka greska na liniji 6: funcija k nema return iskaz!
+INFO  02:24:50,085 - Print calls = 0
+ERROR 02:24:50,086 - Parsiranje NIJE uspesno zavrseno!

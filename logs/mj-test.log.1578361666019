@@ -1,0 +1,44 @@
+INFO  02:46:58,585 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  02:46:58,657 - #2 program
+INFO  02:46:58,658 - #15 MJProgram
+INFO  02:46:58,658 - #15 int
+INFO  02:46:58,660 - #15 x
+INFO  02:46:58,661 - #5 ;
+INFO  02:46:58,664 - #15 int
+INFO  02:46:58,666 - #15 y
+INFO  02:46:58,666 - #5 ;
+INFO  02:46:58,666 - #3 {
+INFO  02:46:58,666 - #15 int
+INFO  02:46:58,668 - #15 k
+INFO  02:46:58,668 - #6 (
+INFO  02:46:58,670 - #15 int
+INFO  02:46:58,670 - #15 p
+INFO  02:46:58,670 - #8 ,
+INFO  02:46:58,674 - #15 int
+INFO  02:46:58,674 - #15 zzz
+INFO  02:46:58,675 - #7 )
+INFO  02:46:58,675 - #15 int
+INFO  02:46:58,676 - #15 ggg
+INFO  02:46:58,677 - #5 ;
+INFO  02:46:58,677 - #3 {
+INFO  02:46:58,678 - #9 print
+INFO  02:46:58,679 - #6 (
+INFO  02:46:58,679 - #14 5
+INFO  02:46:58,679 - #7 )
+INFO  02:46:58,681 - #5 ;
+INFO  02:46:58,681 - #10 return
+INFO  02:46:58,682 - #14 5
+INFO  02:46:58,682 - #38 *
+INFO  02:46:58,682 - #14 6
+INFO  02:46:58,683 - #11 +
+INFO  02:46:58,684 - #14 7
+INFO  02:46:58,685 - #5 ;
+INFO  02:46:58,685 - #4 }
+INFO  02:46:58,685 - #4 }
+INFO  02:46:58,726 - Deklarisana promenljiva x na liniji 2
+INFO  02:46:58,726 - Deklarisana promenljiva y na liniji 2
+INFO  02:46:58,727 - Obradjuje se funkcija k na liniji 6
+INFO  02:46:58,727 - Deklarisana promenljiva ggg na liniji 6
+ERROR 02:46:58,728 - Greska na liniji 8 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije k
+INFO  02:46:58,728 - Print calls = 1
+ERROR 02:46:58,730 - Parsiranje NIJE uspesno zavrseno!

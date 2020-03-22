@@ -1,0 +1,393 @@
+INFO  20:04:18,122 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  20:04:20,266 - #2 program
+INFO  20:04:20,266 - #15 test302
+INFO  20:04:20,267 - #21 const
+INFO  20:04:20,296 - #15 int
+INFO  20:04:20,297 - #15 jedan
+INFO  20:04:20,316 - #12 =
+INFO  20:04:20,317 - #14 1
+INFO  20:04:20,317 - #5 ;
+INFO  20:04:20,331 - #15 int
+INFO  20:04:20,353 - #15 i
+INFO  20:04:20,354 - #8 ,
+INFO  20:04:20,438 - #15 n
+INFO  20:04:20,438 - #5 ;
+INFO  20:04:20,441 - #15 bool
+INFO  20:04:20,473 - #15 ibool
+INFO  20:04:20,473 - #5 ;
+INFO  20:04:20,474 - #15 char
+INFO  20:04:20,474 - #15 nizc
+INFO  20:04:20,474 - #22 [
+INFO  20:04:20,475 - #23 ]
+INFO  20:04:20,486 - #5 ;
+INFO  20:04:20,532 - #15 int
+INFO  20:04:20,550 - #15 niz
+INFO  20:04:20,564 - #22 [
+INFO  20:04:20,581 - #23 ]
+INFO  20:04:20,581 - #5 ;
+INFO  20:04:20,582 - #3 {
+INFO  20:04:20,582 - #13 void
+INFO  20:04:20,595 - #15 main
+INFO  20:04:20,632 - #6 (
+INFO  20:04:20,665 - #7 )
+INFO  20:04:20,684 - #3 {
+INFO  20:04:20,728 - #24 read
+INFO  20:04:20,742 - #6 (
+INFO  20:04:20,763 - #15 n
+INFO  20:04:20,773 - #7 )
+INFO  20:04:20,783 - #5 ;
+INFO  20:04:20,801 - #15 nizc
+INFO  20:04:20,811 - #12 =
+INFO  20:04:20,824 - #41 new
+INFO  20:04:20,845 - #15 char
+INFO  20:04:20,848 - #22 [
+INFO  20:04:20,849 - #15 n
+INFO  20:04:20,851 - #23 ]
+INFO  20:04:20,885 - #5 ;
+INFO  20:04:20,901 - #18 for
+INFO  20:04:20,903 - #6 (
+INFO  20:04:20,906 - #15 i
+INFO  20:04:20,906 - #12 =
+INFO  20:04:20,907 - #14 0
+INFO  20:04:20,907 - #5 ;
+INFO  20:04:20,924 - #15 i
+INFO  20:04:20,938 - #33 <
+INFO  20:04:20,953 - #15 n
+INFO  20:04:21,028 - #5 ;
+INFO  20:04:21,074 - #15 i
+INFO  20:04:21,098 - #27 ++
+INFO  20:04:21,104 - #7 )
+INFO  20:04:21,115 - #24 read
+INFO  20:04:21,135 - #6 (
+INFO  20:04:21,139 - #15 nizc
+INFO  20:04:21,140 - #22 [
+INFO  20:04:21,154 - #15 i
+INFO  20:04:21,202 - #23 ]
+INFO  20:04:21,399 - #7 )
+INFO  20:04:21,420 - #5 ;
+INFO  20:04:21,442 - #18 for
+INFO  20:04:21,462 - #6 (
+INFO  20:04:21,473 - #15 i
+INFO  20:04:21,474 - #12 =
+INFO  20:04:21,490 - #14 0
+INFO  20:04:21,491 - #5 ;
+INFO  20:04:21,493 - #15 i
+INFO  20:04:21,494 - #33 <
+INFO  20:04:21,522 - #15 n
+INFO  20:04:21,531 - #5 ;
+INFO  20:04:21,543 - #15 i
+INFO  20:04:21,553 - #27 ++
+INFO  20:04:21,575 - #7 )
+INFO  20:04:21,582 - #9 print
+INFO  20:04:21,583 - #6 (
+INFO  20:04:21,597 - #15 nizc
+INFO  20:04:21,610 - #22 [
+INFO  20:04:21,615 - #15 i
+INFO  20:04:21,628 - #23 ]
+INFO  20:04:21,640 - #7 )
+INFO  20:04:21,683 - #5 ;
+INFO  20:04:21,697 - #4 }
+INFO  20:04:21,702 - #4 }
+INFO  20:04:21,846 - ===================================
+INFO  20:04:22,024 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  20:04:22,026 - Deklarisana promenljiva i na liniji 7
+INFO  20:04:22,031 - Deklarisana promenljiva n na liniji 7
+INFO  20:04:22,043 - Deklarisana promenljiva ibool na liniji 8
+INFO  20:04:22,045 - Deklarisan niz nizc na liniji 10
+INFO  20:04:22,055 - Deklarisan niz niz na liniji 12
+INFO  20:04:22,067 - Obradjuje se funkcija main na liniji 16
+INFO  20:04:22,071 - Koriscenje promenljive  na liniji 18
+INFO  20:04:22,088 - DesignatorName(
+ n
+) [DesignatorName] na liniji 18
+INFO  20:04:22,089 - Koriscenje promenljive  na liniji 19
+INFO  20:04:22,108 - DesignatorName(
+ nizc
+) [DesignatorName] na liniji 19
+INFO  20:04:22,118 - Koriscenje promenljive  na liniji 19
+INFO  20:04:22,131 - DesignatorName(
+ n
+) [DesignatorName] na liniji 19
+INFO  20:04:22,142 - Koriscenje promenljive  na liniji 21
+INFO  20:04:22,147 - DesignatorName(
+ i
+) [DesignatorName] na liniji 21
+INFO  20:04:22,148 - Koriscenje promenljive  na liniji 21
+INFO  20:04:22,157 - DesignatorName(
+ i
+) [DesignatorName] na liniji 21
+INFO  20:04:22,173 - Koriscenje promenljive  na liniji 21
+INFO  20:04:22,175 - DesignatorName(
+ n
+) [DesignatorName] na liniji 21
+INFO  20:04:22,176 - Koriscenje promenljive  na liniji 21
+INFO  20:04:22,176 - DesignatorName(
+ i
+) [DesignatorName] na liniji 21
+INFO  20:04:22,177 - Koriscenje promenljive  na liniji 22
+INFO  20:04:22,178 - DesignatorName(
+ nizc
+) [DesignatorName] na liniji 22
+INFO  20:04:22,178 - Koriscenje promenljive  na liniji 22
+INFO  20:04:22,217 - DesignatorName(
+ i
+) [DesignatorName] na liniji 22
+INFO  20:04:22,227 - Pristup nizu  na liniji 22
+INFO  20:04:22,247 - DesignatorClass(
+  DesignatorName(
+   nizc
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          FactorVar(
+            DesignatorName(
+             i
+            ) [DesignatorName]
+            NoFuncParens(
+            ) [NoFuncParens]
+          ) [FactorVar]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 22
+INFO  20:04:22,267 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      NoMinus(
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               0
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [NoMinus]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     n
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign1(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign1]
+  ReadDesign(
+    DesignatorClass(
+      DesignatorName(
+       nizc
+      ) [DesignatorName]
+      SQExp(
+        NoMinus(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+        ) [NoMinus]
+      ) [SQExp]
+    ) [DesignatorClass]
+  ) [ReadDesign]
+) [ForStm] na liniji 21
+INFO  20:04:22,277 - Koriscenje promenljive  na liniji 24
+INFO  20:04:22,281 - DesignatorName(
+ i
+) [DesignatorName] na liniji 24
+INFO  20:04:22,286 - Koriscenje promenljive  na liniji 24
+INFO  20:04:22,292 - DesignatorName(
+ i
+) [DesignatorName] na liniji 24
+INFO  20:04:22,292 - Koriscenje promenljive  na liniji 24
+INFO  20:04:22,293 - DesignatorName(
+ n
+) [DesignatorName] na liniji 24
+INFO  20:04:22,304 - Koriscenje promenljive  na liniji 24
+INFO  20:04:22,317 - DesignatorName(
+ i
+) [DesignatorName] na liniji 24
+INFO  20:04:22,329 - Koriscenje promenljive  na liniji 25
+INFO  20:04:22,331 - DesignatorName(
+ nizc
+) [DesignatorName] na liniji 25
+INFO  20:04:22,344 - Koriscenje promenljive  na liniji 25
+INFO  20:04:22,344 - DesignatorName(
+ i
+) [DesignatorName] na liniji 25
+INFO  20:04:22,355 - Pristup nizu  na liniji 25
+INFO  20:04:22,355 - DesignatorClass(
+  DesignatorName(
+   nizc
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          FactorVar(
+            DesignatorName(
+             i
+            ) [DesignatorName]
+            NoFuncParens(
+            ) [NoFuncParens]
+          ) [FactorVar]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 25
+INFO  20:04:22,360 - ForStm(
+  ForStmtDesign(
+    DesignEqExpr(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+      NoMinus(
+        TermExpr(
+          TermFactor(
+            ConstFactor(
+              FactNumConst(
+               0
+              ) [FactNumConst]
+            ) [ConstFactor]
+          ) [TermFactor]
+        ) [TermExpr]
+      ) [NoMinus]
+    ) [DesignEqExpr]
+  ) [ForStmtDesign]
+  ForCond(
+    SingleCondition(
+      SingleFact(
+        CondFact(
+          NoMinus(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [NoMinus]
+          RelExpression(
+            Less(
+            ) [Less]
+            NoMinus(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     n
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [NoMinus]
+          ) [RelExpression]
+        ) [CondFact]
+      ) [SingleFact]
+    ) [SingleCondition]
+  ) [ForCond]
+  ForStmtDesign1(
+    DesignInc(
+      DesignatorName(
+       i
+      ) [DesignatorName]
+    ) [DesignInc]
+  ) [ForStmtDesign1]
+  PrintStmt(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          FactorVar(
+            DesignatorClass(
+              DesignatorName(
+               nizc
+              ) [DesignatorName]
+              SQExp(
+                NoMinus(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                ) [NoMinus]
+              ) [SQExp]
+            ) [DesignatorClass]
+            NoFuncParens(
+            ) [NoFuncParens]
+          ) [FactorVar]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+    DontPrintNum(
+    ) [DontPrintNum]
+  ) [PrintStmt]
+) [ForStm] na liniji 24
+INFO  20:04:22,364 - Print calls = 1
+INFO  20:04:22,379 - Read calls = 2
+INFO  20:04:22,380 - Broj promenljivih = 3
+INFO  20:04:22,381 - Broj nizova = 2
+INFO  20:04:22,381 - Broj konstanti = 1
+INFO  20:04:22,428 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  20:04:22,658 - Parsiranje uspesno zavrseno!

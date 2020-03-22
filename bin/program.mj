@@ -1,0 +1,70 @@
+//Test 302
+
+program vars
+
+
+char cniz[];
+
+
+{
+	void meth(){
+		print('m');
+		print(eol);
+	}
+	
+	void meth2(char c, bool p){
+		print(p);
+		print(c, 5);
+	}
+	
+	int meth3(int s, char niz1[]){
+		foreach(n: niz1){
+			print(n);
+			print(eol);
+			foreach(n:niz1){
+				print(n);
+			}
+			print(eol);
+		}
+		print(' ');
+		print(s);
+		print(eol);
+		return s;
+	}
+	
+	char meth4(bool b, char c, int i, char niz[]){
+		if(b){
+			print(b);
+		}else{
+			foreach(n: niz){
+				print(n);	
+			}
+			print(eol);
+			print(i);
+			print(c,3);
+		}
+		
+		return 'p';
+		
+	}
+	
+	
+	void main()
+	{
+		meth();
+		meth2('g', false);
+		print(eol);
+		cniz=new char[4];
+		cniz[0]='c';
+		cniz[1]='a';
+		cniz[2]='o';
+		cniz[3]=' ';
+		meth3(5, cniz);
+		//print(meth3(meth3(5, cniz),cniz));
+		
+		print(eol);
+		print(meth4(false, 'c', 7, cniz));
+		
+		
+	}
+}

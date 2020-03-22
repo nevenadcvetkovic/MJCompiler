@@ -1,0 +1,366 @@
+INFO  19:42:56,703 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:42:56,792 - #2 program
+INFO  19:42:56,793 - #17 test302
+INFO  19:42:56,793 - #24 const
+INFO  19:42:56,795 - #17 int
+INFO  19:42:56,795 - #17 jedan
+INFO  19:42:56,797 - #13 =
+INFO  19:42:56,797 - #16 1
+INFO  19:42:56,797 - #8 ,
+INFO  19:42:56,799 - #17 dva
+INFO  19:42:56,800 - #13 =
+INFO  19:42:56,800 - #16 2
+INFO  19:42:56,800 - #8 ,
+INFO  19:42:56,801 - #17 pet
+INFO  19:42:56,801 - #13 =
+INFO  19:42:56,801 - #16 5
+INFO  19:42:56,801 - #5 ;
+INFO  19:42:56,801 - #24 const
+INFO  19:42:56,803 - #17 char
+INFO  19:42:56,803 - #17 sedam
+INFO  19:42:56,804 - #13 =
+INFO  19:42:56,804 - #22 7
+INFO  19:42:56,805 - #5 ;
+INFO  19:42:56,805 - #17 int
+INFO  19:42:56,806 - #17 i
+INFO  19:42:56,806 - #5 ;
+INFO  19:42:56,811 - #24 const
+INFO  19:42:56,811 - #17 bool
+INFO  19:42:56,811 - #17 ibool
+INFO  19:42:56,812 - #13 =
+INFO  19:42:56,812 - #23 true
+INFO  19:42:56,812 - #5 ;
+INFO  19:42:56,812 - #17 int
+INFO  19:42:56,813 - #17 niz
+INFO  19:42:56,813 - #25 [
+INFO  19:42:56,813 - #26 ]
+INFO  19:42:56,813 - #5 ;
+INFO  19:42:56,814 - #3 {
+INFO  19:42:56,814 - #14 void
+INFO  19:42:56,815 - #17 main
+INFO  19:42:56,816 - #6 (
+INFO  19:42:56,817 - #7 )
+INFO  19:42:56,818 - #3 {
+INFO  19:42:56,819 - #9 print
+INFO  19:42:56,820 - #6 (
+INFO  19:42:56,820 - #17 jedan
+INFO  19:42:56,820 - #7 )
+INFO  19:42:56,822 - #5 ;
+INFO  19:42:56,823 - #9 print
+INFO  19:42:56,823 - #6 (
+INFO  19:42:56,823 - #17 dva
+INFO  19:42:56,823 - #7 )
+INFO  19:42:56,823 - #5 ;
+INFO  19:42:56,824 - #9 print
+INFO  19:42:56,824 - #6 (
+INFO  19:42:56,824 - #17 pet
+INFO  19:42:56,824 - #7 )
+INFO  19:42:56,824 - #5 ;
+INFO  19:42:56,825 - #9 print
+INFO  19:42:56,825 - #6 (
+INFO  19:42:56,831 - #17 eol
+INFO  19:42:56,831 - #7 )
+INFO  19:42:56,831 - #5 ;
+INFO  19:42:56,832 - #9 print
+INFO  19:42:56,832 - #6 (
+INFO  19:42:56,832 - #17 ibool
+INFO  19:42:56,832 - #7 )
+INFO  19:42:56,832 - #5 ;
+INFO  19:42:56,833 - #9 print
+INFO  19:42:56,833 - #6 (
+INFO  19:42:56,833 - #17 eol
+INFO  19:42:56,833 - #7 )
+INFO  19:42:56,833 - #5 ;
+INFO  19:42:56,833 - #9 print
+INFO  19:42:56,834 - #6 (
+INFO  19:42:56,834 - #17 sedam
+INFO  19:42:56,834 - #7 )
+INFO  19:42:56,834 - #5 ;
+INFO  19:42:56,834 - #4 }
+INFO  19:42:56,834 - #4 }
+INFO  19:42:56,862 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          DeclarationsVarsConsts(
+            NoDecl(
+            ) [NoDecl]
+            DeclConsts(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstIdents(
+                  ConstIdents(
+                    SingleConst(
+                      ConstIdent(
+                       jedan
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [ConstIdent]
+                    ) [SingleConst]
+                    ConstIdent(
+                     dva
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [ConstIdent]
+                  ) [ConstIdents]
+                  ConstIdent(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [ConstIdent]
+                ) [ConstIdents]
+              ) [ConstDecl]
+            ) [DeclConsts]
+          ) [DeclarationsVarsConsts]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               char
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 sedam
+                  CharConst(
+                   7
+                  ) [CharConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclConsts(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleConst(
+            ConstIdent(
+             ibool
+              BoolConst(
+               true
+              ) [BoolConst]
+            ) [ConstIdent]
+          ) [SingleConst]
+        ) [ConstDecl]
+      ) [DeclConsts]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    PrintStmt(
+                      TermExpr(
+                        TermFactor(
+                          FactorVar(
+                            DesignatorName(
+                             jedan
+                            ) [DesignatorName]
+                            NoFuncParens(
+                            ) [NoFuncParens]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                      DontPrintNum(
+                      ) [DontPrintNum]
+                    ) [PrintStmt]
+                  ) [Statements]
+                  PrintStmt(
+                    TermExpr(
+                      TermFactor(
+                        FactorVar(
+                          DesignatorName(
+                           dva
+                          ) [DesignatorName]
+                          NoFuncParens(
+                          ) [NoFuncParens]
+                        ) [FactorVar]
+                      ) [TermFactor]
+                    ) [TermExpr]
+                    DontPrintNum(
+                    ) [DontPrintNum]
+                  ) [PrintStmt]
+                ) [Statements]
+                PrintStmt(
+                  TermExpr(
+                    TermFactor(
+                      FactorVar(
+                        DesignatorName(
+                         pet
+                        ) [DesignatorName]
+                        NoFuncParens(
+                        ) [NoFuncParens]
+                      ) [FactorVar]
+                    ) [TermFactor]
+                  ) [TermExpr]
+                  DontPrintNum(
+                  ) [DontPrintNum]
+                ) [PrintStmt]
+              ) [Statements]
+              PrintStmt(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       eol
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                DontPrintNum(
+                ) [DontPrintNum]
+              ) [PrintStmt]
+            ) [Statements]
+            PrintStmt(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     ibool
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+              DontPrintNum(
+              ) [DontPrintNum]
+            ) [PrintStmt]
+          ) [Statements]
+          PrintStmt(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   eol
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+            DontPrintNum(
+            ) [DontPrintNum]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 sedam
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:42:56,863 - ===================================
+INFO  19:42:56,873 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  19:42:56,874 - Deklarisana konstanta dva i ima vrednost 2 na liniji 5
+INFO  19:42:56,874 - Deklarisana konstanta pet i ima vrednost 5 na liniji 5
+INFO  19:42:56,874 - Deklarisana konstanta sedam i ima vrednost 55 na liniji 6
+INFO  19:42:56,874 - Deklarisana promenljiva i na liniji 8
+INFO  19:42:56,875 - Deklarisana konstanta ibool i ima vrednost 1 na liniji 9
+INFO  19:42:56,875 - Deklarisan niz niz na liniji 11
+INFO  19:42:56,875 - Obradjuje se funkcija main na liniji 16
+INFO  19:42:56,875 - Koriscenje konstante  na liniji 18
+INFO  19:42:56,875 - DesignatorName(
+ jedan
+) [DesignatorName] na liniji 18
+INFO  19:42:56,875 - Koriscenje konstante  na liniji 19
+INFO  19:42:56,876 - DesignatorName(
+ dva
+) [DesignatorName] na liniji 19
+INFO  19:42:56,876 - Koriscenje konstante  na liniji 20
+INFO  19:42:56,876 - DesignatorName(
+ pet
+) [DesignatorName] na liniji 20
+INFO  19:42:56,876 - Koriscenje konstante  na liniji 21
+INFO  19:42:56,876 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 21
+INFO  19:42:56,876 - Koriscenje konstante  na liniji 22
+INFO  19:42:56,876 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 22
+INFO  19:42:56,876 - Koriscenje konstante  na liniji 23
+INFO  19:42:56,877 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 23
+INFO  19:42:56,877 - Koriscenje konstante  na liniji 24
+INFO  19:42:56,877 - DesignatorName(
+ sedam
+) [DesignatorName] na liniji 24
+INFO  19:42:56,877 - Print calls = 7
+INFO  19:42:56,877 - Read calls = 0
+INFO  19:42:56,877 - Broj promenljivih = 1
+INFO  19:42:56,877 - Broj nizova = 1
+INFO  19:42:56,877 - Broj konstanti = 0
+INFO  19:42:56,879 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  19:42:56,890 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,178 @@
+INFO  22:20:22,117 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:20:22,306 - #2 program
+INFO  22:20:22,308 - #15 test302
+INFO  22:20:22,309 - #21 const
+INFO  22:20:22,334 - #15 int
+INFO  22:20:22,335 - #15 jedan
+INFO  22:20:22,337 - #12 =
+INFO  22:20:22,342 - #14 1
+INFO  22:20:22,344 - #5 ;
+INFO  22:20:22,353 - #15 int
+INFO  22:20:22,365 - #15 i
+INFO  22:20:22,365 - #8 ,
+INFO  22:20:22,421 - #15 n
+INFO  22:20:22,421 - #5 ;
+INFO  22:20:22,422 - #15 bool
+INFO  22:20:22,429 - #15 ibool
+INFO  22:20:22,429 - #5 ;
+INFO  22:20:22,429 - #15 char
+INFO  22:20:22,430 - #15 nizc
+INFO  22:20:22,430 - #22 [
+INFO  22:20:22,431 - #23 ]
+INFO  22:20:22,581 - #5 ;
+INFO  22:20:22,730 - #15 int
+INFO  22:20:22,730 - #15 niz
+INFO  22:20:22,731 - #22 [
+INFO  22:20:22,731 - #23 ]
+INFO  22:20:22,756 - #5 ;
+INFO  22:20:22,760 - #3 {
+INFO  22:20:22,761 - #13 void
+INFO  22:20:22,847 - #15 main
+INFO  22:20:22,920 - #6 (
+INFO  22:20:22,922 - #7 )
+INFO  22:20:22,925 - #3 {
+INFO  22:20:22,927 - #15 niz
+INFO  22:20:22,928 - #22 [
+INFO  22:20:22,929 - #14 1
+INFO  22:20:22,930 - #23 ]
+INFO  22:20:22,932 - #27 ++
+INFO  22:20:22,934 - #5 ;
+INFO  22:20:22,935 - #15 niz
+INFO  22:20:22,936 - #12 =
+INFO  22:20:22,937 - #41 new
+INFO  22:20:22,938 - #15 int
+INFO  22:20:22,938 - #22 [
+INFO  22:20:22,941 - #14 3
+INFO  22:20:22,942 - #23 ]
+INFO  22:20:22,943 - #5 ;
+INFO  22:20:22,945 - #15 niz
+INFO  22:20:22,945 - #22 [
+INFO  22:20:22,945 - #14 1
+INFO  22:20:22,947 - #23 ]
+INFO  22:20:22,948 - #12 =
+INFO  22:20:22,948 - #14 0
+INFO  22:20:22,948 - #5 ;
+INFO  22:20:22,949 - #15 niz
+INFO  22:20:22,951 - #22 [
+INFO  22:20:22,952 - #14 1
+INFO  22:20:22,953 - #23 ]
+INFO  22:20:22,953 - #12 =
+INFO  22:20:22,954 - #15 niz
+INFO  22:20:22,964 - #22 [
+INFO  22:20:23,010 - #14 1
+INFO  22:20:23,011 - #23 ]
+INFO  22:20:23,017 - #11 +
+INFO  22:20:23,022 - #14 1
+INFO  22:20:23,028 - #5 ;
+INFO  22:20:23,030 - #4 }
+INFO  22:20:23,093 - #4 }
+INFO  22:20:23,147 - ===================================
+INFO  22:20:23,165 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  22:20:23,166 - Deklarisana promenljiva i na liniji 7
+INFO  22:20:23,168 - Deklarisana promenljiva n na liniji 7
+INFO  22:20:23,169 - Deklarisana promenljiva ibool na liniji 8
+INFO  22:20:23,170 - Deklarisan niz nizc na liniji 10
+INFO  22:20:23,170 - Deklarisan niz niz na liniji 12
+INFO  22:20:23,171 - Obradjuje se funkcija main na liniji 16
+INFO  22:20:23,171 - Koriscenje promenljive  na liniji 18
+INFO  22:20:23,172 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 18
+INFO  22:20:23,173 - Pristup nizu  na liniji 18
+INFO  22:20:23,174 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 18
+INFO  22:20:23,175 - Koriscenje promenljive  na liniji 19
+INFO  22:20:23,175 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 19
+INFO  22:20:23,176 - Koriscenje promenljive  na liniji 20
+INFO  22:20:23,176 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 20
+INFO  22:20:23,177 - Pristup nizu  na liniji 20
+INFO  22:20:23,177 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 20
+INFO  22:20:23,178 - Koriscenje promenljive  na liniji 21
+INFO  22:20:23,178 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 21
+INFO  22:20:23,179 - Pristup nizu  na liniji 21
+INFO  22:20:23,179 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 21
+INFO  22:20:23,180 - Koriscenje promenljive  na liniji 21
+INFO  22:20:23,180 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 21
+INFO  22:20:23,180 - Pristup nizu  na liniji 21
+INFO  22:20:23,181 - DesignatorClass(
+  DesignatorName(
+   niz
+  ) [DesignatorName]
+  SQExp(
+    NoMinus(
+      TermExpr(
+        TermFactor(
+          ConstFactor(
+            FactNumConst(
+             1
+            ) [FactNumConst]
+          ) [ConstFactor]
+        ) [TermFactor]
+      ) [TermExpr]
+    ) [NoMinus]
+  ) [SQExp]
+) [DesignatorClass] na liniji 21
+INFO  22:20:23,182 - Print calls = 0
+INFO  22:20:23,182 - Read calls = 0
+INFO  22:20:23,183 - Broj promenljivih = 3
+INFO  22:20:23,183 - Broj nizova = 2
+INFO  22:20:23,184 - Broj konstanti = 1
+INFO  22:20:23,186 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

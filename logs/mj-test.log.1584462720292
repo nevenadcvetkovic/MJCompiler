@@ -1,0 +1,281 @@
+INFO  17:31:19,121 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:31:19,209 - #2 program
+INFO  17:31:19,209 - #17 test302
+INFO  17:31:19,209 - #24 const
+INFO  17:31:19,212 - #17 int
+INFO  17:31:19,212 - #17 jedan
+INFO  17:31:19,213 - #13 =
+INFO  17:31:19,214 - #16 1
+INFO  17:31:19,214 - #8 ,
+INFO  17:31:19,216 - #17 dva
+INFO  17:31:19,216 - #13 =
+INFO  17:31:19,217 - #16 2
+INFO  17:31:19,217 - #8 ,
+INFO  17:31:19,218 - #17 pet
+INFO  17:31:19,218 - #13 =
+INFO  17:31:19,218 - #16 5
+INFO  17:31:19,218 - #5 ;
+INFO  17:31:19,219 - #24 const
+INFO  17:31:19,221 - #17 int
+INFO  17:31:19,224 - #17 sedam
+INFO  17:31:19,225 - #13 =
+INFO  17:31:19,226 - #22 7
+INFO  17:31:19,226 - #5 ;
+INFO  17:31:19,227 - #17 int
+INFO  17:31:19,228 - #17 i
+INFO  17:31:19,228 - #5 ;
+INFO  17:31:19,232 - #17 bool
+INFO  17:31:19,233 - #17 ibool
+INFO  17:31:19,233 - #5 ;
+INFO  17:31:19,234 - #17 int
+INFO  17:31:19,234 - #17 niz
+INFO  17:31:19,234 - #25 [
+INFO  17:31:19,234 - #26 ]
+INFO  17:31:19,234 - #5 ;
+INFO  17:31:19,236 - #3 {
+INFO  17:31:19,236 - #14 void
+INFO  17:31:19,237 - #17 main
+INFO  17:31:19,238 - #6 (
+INFO  17:31:19,239 - #7 )
+INFO  17:31:19,241 - #3 {
+INFO  17:31:19,242 - #9 print
+INFO  17:31:19,243 - #6 (
+INFO  17:31:19,243 - #17 jedan
+INFO  17:31:19,243 - #7 )
+INFO  17:31:19,246 - #5 ;
+INFO  17:31:19,246 - #9 print
+INFO  17:31:19,247 - #6 (
+INFO  17:31:19,247 - #17 dva
+INFO  17:31:19,247 - #7 )
+INFO  17:31:19,247 - #5 ;
+INFO  17:31:19,247 - #9 print
+INFO  17:31:19,248 - #6 (
+INFO  17:31:19,248 - #17 pet
+INFO  17:31:19,248 - #7 )
+INFO  17:31:19,248 - #5 ;
+INFO  17:31:19,248 - #9 print
+INFO  17:31:19,249 - #6 (
+INFO  17:31:19,249 - #17 sedam
+INFO  17:31:19,249 - #7 )
+INFO  17:31:19,249 - #5 ;
+INFO  17:31:19,250 - #4 }
+INFO  17:31:19,250 - #4 }
+INFO  17:31:19,312 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          DeclarationsVarsConsts(
+            NoDecl(
+            ) [NoDecl]
+            DeclConsts(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                ConstIdents(
+                  ConstIdents(
+                    SingleConst(
+                      ConstIdent(
+                       jedan
+                        NumConst(
+                         1
+                        ) [NumConst]
+                      ) [ConstIdent]
+                    ) [SingleConst]
+                    ConstIdent(
+                     dva
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [ConstIdent]
+                  ) [ConstIdents]
+                  ConstIdent(
+                   pet
+                    NumConst(
+                     5
+                    ) [NumConst]
+                  ) [ConstIdent]
+                ) [ConstIdents]
+              ) [ConstDecl]
+            ) [DeclConsts]
+          ) [DeclarationsVarsConsts]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 sedam
+                  CharConst(
+                   7
+                  ) [CharConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleIdent(
+              VarIdent(
+               i
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [SingleIdent]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              PrintStmt(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       jedan
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                DontPrintNum(
+                ) [DontPrintNum]
+              ) [PrintStmt]
+            ) [Statements]
+            PrintStmt(
+              TermExpr(
+                TermFactor(
+                  FactorVar(
+                    DesignatorName(
+                     dva
+                    ) [DesignatorName]
+                    NoFuncParens(
+                    ) [NoFuncParens]
+                  ) [FactorVar]
+                ) [TermFactor]
+              ) [TermExpr]
+              DontPrintNum(
+              ) [DontPrintNum]
+            ) [PrintStmt]
+          ) [Statements]
+          PrintStmt(
+            TermExpr(
+              TermFactor(
+                FactorVar(
+                  DesignatorName(
+                   pet
+                  ) [DesignatorName]
+                  NoFuncParens(
+                  ) [NoFuncParens]
+                ) [FactorVar]
+              ) [TermFactor]
+            ) [TermExpr]
+            DontPrintNum(
+            ) [DontPrintNum]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          TermExpr(
+            TermFactor(
+              FactorVar(
+                DesignatorName(
+                 sedam
+                ) [DesignatorName]
+                NoFuncParens(
+                ) [NoFuncParens]
+              ) [FactorVar]
+            ) [TermFactor]
+          ) [TermExpr]
+          DontPrintNum(
+          ) [DontPrintNum]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:31:19,313 - ===================================
+INFO  17:31:19,332 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  17:31:19,332 - Deklarisana konstanta dva i ima vrednost 2 na liniji 5
+INFO  17:31:19,332 - Deklarisana konstanta pet i ima vrednost 5 na liniji 5
+ERROR 17:31:19,333 - Greska na liniji 6: Greska u definiciji konstante  sedam! Tipovi nisu kompatibilni!
+INFO  17:31:19,333 - Deklarisana promenljiva i na liniji 8
+INFO  17:31:19,333 - Deklarisana promenljiva ibool na liniji 9
+INFO  17:31:19,333 - Deklarisan niz niz na liniji 11
+INFO  17:31:19,333 - Obradjuje se funkcija main na liniji 16
+INFO  17:31:19,334 - Koriscenje konstante  na liniji 18
+INFO  17:31:19,334 - DesignatorName(
+ jedan
+) [DesignatorName] na liniji 18
+INFO  17:31:19,334 - Koriscenje konstante  na liniji 19
+INFO  17:31:19,335 - DesignatorName(
+ dva
+) [DesignatorName] na liniji 19
+INFO  17:31:19,335 - Koriscenje konstante  na liniji 20
+INFO  17:31:19,335 - DesignatorName(
+ pet
+) [DesignatorName] na liniji 20
+ERROR 17:31:19,335 - Greska na liniji 21 : Ime sedam nije deklarisano! 
+ERROR 17:31:19,335 - Greska na liniji 21: Argument funkcije print nije int, char, bool!
+INFO  17:31:19,335 - Print calls = 3
+INFO  17:31:19,335 - Read calls = 0
+INFO  17:31:19,336 - Broj promenljivih = 2
+INFO  17:31:19,336 - Broj nizova = 1
+INFO  17:31:19,336 - Broj konstanti = 0
+ERROR 17:31:19,338 - Parsiranje NIJE uspesno zavrseno!

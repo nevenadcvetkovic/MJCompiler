@@ -1,0 +1,109 @@
+INFO  03:11:23,983 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  03:11:24,081 - #2 program
+INFO  03:11:24,082 - #15 test301
+INFO  03:11:24,082 - #15 int
+INFO  03:11:24,085 - #15 x
+INFO  03:11:24,087 - #5 ;
+INFO  03:11:24,093 - #15 int
+INFO  03:11:24,095 - #15 y
+INFO  03:11:24,096 - #5 ;
+INFO  03:11:24,096 - #3 {
+INFO  03:11:24,096 - #15 int
+INFO  03:11:24,099 - #15 k
+INFO  03:11:24,100 - #6 (
+INFO  03:11:24,101 - #7 )
+INFO  03:11:24,103 - #15 int
+INFO  03:11:24,105 - #15 c
+INFO  03:11:24,107 - #5 ;
+INFO  03:11:24,107 - #3 {
+INFO  03:11:24,107 - #15 c
+INFO  03:11:24,109 - #12 =
+INFO  03:11:24,112 - #14 2
+INFO  03:11:24,113 - #5 ;
+INFO  03:11:24,114 - #9 print
+INFO  03:11:24,115 - #6 (
+INFO  03:11:24,115 - #14 0
+INFO  03:11:24,116 - #7 )
+INFO  03:11:24,117 - #5 ;
+INFO  03:11:24,117 - #10 return
+INFO  03:11:24,118 - #15 c
+INFO  03:11:24,118 - #11 +
+INFO  03:11:24,120 - #14 2
+INFO  03:11:24,122 - #5 ;
+INFO  03:11:24,123 - #4 }
+INFO  03:11:24,123 - #15 int
+INFO  03:11:24,126 - #15 main
+INFO  03:11:24,127 - #6 (
+INFO  03:11:24,127 - #7 )
+INFO  03:11:24,127 - #3 {
+INFO  03:11:24,127 - #15 x
+INFO  03:11:24,127 - #12 =
+INFO  03:11:24,127 - #14 3
+INFO  03:11:24,128 - #5 ;
+INFO  03:11:24,128 - #9 print
+INFO  03:11:24,130 - #6 (
+INFO  03:11:24,130 - #14 1
+INFO  03:11:24,130 - #7 )
+INFO  03:11:24,131 - #5 ;
+INFO  03:11:24,132 - #15 y
+INFO  03:11:24,132 - #12 =
+INFO  03:11:24,132 - #15 x
+INFO  03:11:24,132 - #27 ++
+ERROR 03:11:24,136 - 
+Sintaksna greska na liniji 20
+INFO  03:11:24,137 - #5 ;
+INFO  03:11:24,137 - #9 print
+INFO  03:11:24,137 - #6 (
+INFO  03:11:24,139 - #14 2
+ERROR 03:11:24,141 - Izvrsen oporavak do ; u liniji 20
+INFO  03:11:24,142 - #7 )
+INFO  03:11:24,143 - #5 ;
+INFO  03:11:24,143 - #9 print
+INFO  03:11:24,155 - #6 (
+INFO  03:11:24,164 - #15 x
+INFO  03:11:24,164 - #7 )
+INFO  03:11:24,165 - #5 ;
+INFO  03:11:24,168 - #15 k
+INFO  03:11:24,169 - #6 (
+INFO  03:11:24,169 - #7 )
+INFO  03:11:24,171 - #5 ;
+INFO  03:11:24,171 - #9 print
+INFO  03:11:24,171 - #6 (
+INFO  03:11:24,171 - #15 y
+INFO  03:11:24,171 - #7 )
+INFO  03:11:24,172 - #5 ;
+INFO  03:11:24,173 - #15 y
+INFO  03:11:24,173 - #12 =
+INFO  03:11:24,173 - #6 (
+INFO  03:11:24,173 - #14 4
+INFO  03:11:24,173 - #11 +
+INFO  03:11:24,173 - #14 9
+INFO  03:11:24,174 - #11 +
+INFO  03:11:24,174 - #15 k
+INFO  03:11:24,174 - #6 (
+INFO  03:11:24,174 - #7 )
+INFO  03:11:24,175 - #7 )
+INFO  03:11:24,175 - #38 *
+INFO  03:11:24,175 - #14 2
+INFO  03:11:24,178 - #5 ;
+INFO  03:11:24,178 - #9 print
+INFO  03:11:24,179 - #6 (
+INFO  03:11:24,179 - #15 y
+INFO  03:11:24,179 - #7 )
+INFO  03:11:24,179 - #5 ;
+INFO  03:11:24,179 - #10 return
+INFO  03:11:24,180 - #14 5
+INFO  03:11:24,180 - #5 ;
+INFO  03:11:24,180 - #4 }
+INFO  03:11:24,180 - #4 }
+INFO  03:11:24,357 - Deklarisana promenljiva x na liniji 5
+INFO  03:11:24,358 - Deklarisana promenljiva y na liniji 5
+INFO  03:11:24,358 - Obradjuje se funkcija k na liniji 8
+INFO  03:11:24,358 - Deklarisana promenljiva c na liniji 8
+INFO  03:11:24,361 - Funkcija k uspesno definisana na liniji 13
+INFO  03:11:24,361 - Obradjuje se funkcija main na liniji 15
+INFO  03:11:24,362 - Poziv funkcije k na liniji 26
+INFO  03:11:24,362 - Poziv funkcije k na liniji 29
+INFO  03:11:24,363 - Funkcija main uspesno definisana na liniji 31
+INFO  03:11:24,363 - Print calls = 6
+ERROR 03:11:24,364 - Parsiranje NIJE uspesno zavrseno!

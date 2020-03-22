@@ -1,0 +1,168 @@
+INFO  17:32:24,072 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:32:24,232 - #2 program
+INFO  17:32:24,232 - #17 test302
+INFO  17:32:24,232 - #24 const
+INFO  17:32:24,236 - #17 int
+INFO  17:32:24,236 - #17 jedan
+INFO  17:32:24,237 - #13 =
+INFO  17:32:24,238 - #16 1
+INFO  17:32:24,238 - #5 ;
+INFO  17:32:24,240 - #17 int
+INFO  17:32:24,241 - #17 i
+INFO  17:32:24,242 - #8 ,
+INFO  17:32:24,245 - #17 t
+INFO  17:32:24,245 - #5 ;
+INFO  17:32:24,247 - #17 bool
+INFO  17:32:24,248 - #17 ibool
+INFO  17:32:24,248 - #5 ;
+INFO  17:32:24,249 - #17 int
+INFO  17:32:24,249 - #17 niz
+INFO  17:32:24,249 - #25 [
+INFO  17:32:24,249 - #26 ]
+INFO  17:32:24,250 - #5 ;
+INFO  17:32:24,251 - #3 {
+INFO  17:32:24,251 - #14 void
+INFO  17:32:24,253 - #17 main
+INFO  17:32:24,254 - #6 (
+INFO  17:32:24,256 - #7 )
+INFO  17:32:24,257 - #3 {
+INFO  17:32:24,259 - #17 ibool
+INFO  17:32:24,260 - #13 =
+INFO  17:32:24,260 - #23 false
+INFO  17:32:24,261 - #5 ;
+INFO  17:32:24,262 - #4 }
+INFO  17:32:24,263 - #4 }
+INFO  17:32:24,305 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdents(
+              SingleIdent(
+                VarIdent(
+                 i
+                  NoVarSquares(
+                  ) [NoVarSquares]
+                ) [VarIdent]
+              ) [SingleIdent]
+              VarIdent(
+               t
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [VarIdents]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        DesStatementClass(
+          DesignEqExpr(
+            DesignatorName(
+             ibool
+            ) [DesignatorName]
+            AssEq(
+            ) [AssEq]
+            TermExpr(
+              TermFactor(
+                ConstFactor(
+                  FactBoolConst(
+                   false
+                  ) [FactBoolConst]
+                ) [ConstFactor]
+              ) [TermFactor]
+            ) [TermExpr]
+          ) [DesignEqExpr]
+        ) [DesStatementClass]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:32:24,306 - ===================================
+INFO  17:32:24,318 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  17:32:24,318 - Deklarisana promenljiva i na liniji 7
+INFO  17:32:24,318 - Deklarisana promenljiva t na liniji 7
+INFO  17:32:24,318 - Deklarisana promenljiva ibool na liniji 8
+INFO  17:32:24,318 - Deklarisan niz niz na liniji 10
+INFO  17:32:24,319 - Obradjuje se funkcija main na liniji 14
+INFO  17:32:24,319 - Koriscenje promenljive  na liniji 18
+INFO  17:32:24,319 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 18
+INFO  17:32:24,319 - Print calls = 0
+INFO  17:32:24,319 - Read calls = 0
+INFO  17:32:24,319 - Broj promenljivih = 3
+INFO  17:32:24,320 - Broj nizova = 1
+INFO  17:32:24,320 - Broj konstanti = 0
+INFO  17:32:24,321 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  17:33:00,763 - Parsiranje uspesno zavrseno!

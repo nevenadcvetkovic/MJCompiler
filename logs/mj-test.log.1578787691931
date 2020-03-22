@@ -1,0 +1,124 @@
+INFO  01:00:34,092 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  01:00:34,196 - #2 program
+INFO  01:00:34,197 - #15 test302
+INFO  01:00:34,197 - #21 const
+INFO  01:00:34,219 - #15 int
+INFO  01:00:34,219 - #15 jedan
+INFO  01:00:34,224 - #12 =
+INFO  01:00:34,225 - #14 1
+INFO  01:00:34,225 - #5 ;
+INFO  01:00:34,230 - #15 int
+INFO  01:00:34,237 - #15 i
+INFO  01:00:34,239 - #5 ;
+INFO  01:00:34,247 - #15 bool
+INFO  01:00:34,254 - #15 ibool
+INFO  01:00:34,255 - #5 ;
+INFO  01:00:34,256 - #15 int
+INFO  01:00:34,258 - #15 niz
+INFO  01:00:34,258 - #22 [
+INFO  01:00:34,259 - #23 ]
+INFO  01:00:34,260 - #5 ;
+INFO  01:00:34,264 - #3 {
+INFO  01:00:34,278 - #15 int
+INFO  01:00:34,280 - #15 sum
+INFO  01:00:34,281 - #6 (
+INFO  01:00:34,283 - #15 int
+INFO  01:00:34,284 - #15 z
+INFO  01:00:34,287 - #8 ,
+INFO  01:00:34,291 - #15 int
+INFO  01:00:34,292 - #15 d
+INFO  01:00:34,293 - #7 )
+INFO  01:00:34,294 - #3 {
+INFO  01:00:34,297 - #10 return
+INFO  01:00:34,299 - #15 z
+INFO  01:00:34,300 - #11 +
+INFO  01:00:34,304 - #15 d
+INFO  01:00:34,307 - #5 ;
+INFO  01:00:34,309 - #4 }
+INFO  01:00:34,310 - #15 bool
+INFO  01:00:34,314 - #15 verify
+INFO  01:00:34,315 - #6 (
+INFO  01:00:34,315 - #7 )
+INFO  01:00:34,319 - #3 {
+INFO  01:00:34,319 - #9 print
+INFO  01:00:34,320 - #6 (
+INFO  01:00:34,321 - #19 v
+INFO  01:00:34,322 - #7 )
+INFO  01:00:34,325 - #5 ;
+INFO  01:00:34,326 - #10 return
+INFO  01:00:34,327 - #20 false
+INFO  01:00:34,327 - #5 ;
+INFO  01:00:34,328 - #4 }
+INFO  01:00:34,329 - #13 void
+INFO  01:00:34,329 - #15 main
+INFO  01:00:34,331 - #6 (
+INFO  01:00:34,336 - #7 )
+INFO  01:00:34,336 - #3 {
+INFO  01:00:34,337 - #16 if
+INFO  01:00:34,337 - #6 (
+INFO  01:00:34,338 - #14 1
+INFO  01:00:34,339 - #29 ==
+INFO  01:00:34,353 - #14 6
+INFO  01:00:34,359 - #7 )
+INFO  01:00:34,362 - #9 print
+INFO  01:00:34,363 - #6 (
+INFO  01:00:34,364 - #37 -
+INFO  01:00:34,364 - #14 6
+INFO  01:00:34,365 - #7 )
+INFO  01:00:34,367 - #5 ;
+INFO  01:00:34,368 - #16 if
+INFO  01:00:34,369 - #6 (
+INFO  01:00:34,369 - #14 1
+INFO  01:00:34,370 - #29 ==
+INFO  01:00:34,370 - #14 1
+INFO  01:00:34,370 - #7 )
+INFO  01:00:34,370 - #9 print
+INFO  01:00:34,370 - #6 (
+INFO  01:00:34,370 - #14 2
+INFO  01:00:34,371 - #7 )
+INFO  01:00:34,371 - #5 ;
+INFO  01:00:34,372 - #15 ibool
+INFO  01:00:34,373 - #12 =
+INFO  01:00:34,373 - #20 false
+INFO  01:00:34,374 - #5 ;
+INFO  01:00:34,374 - #9 print
+INFO  01:00:34,375 - #6 (
+INFO  01:00:34,375 - #15 eol
+INFO  01:00:34,375 - #7 )
+INFO  01:00:34,376 - #5 ;
+INFO  01:00:34,376 - #4 }
+INFO  01:00:34,376 - #4 }
+INFO  01:00:34,401 - ===================================
+INFO  01:00:34,407 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  01:00:34,407 - Deklarisana promenljiva i na liniji 7
+INFO  01:00:34,408 - Deklarisana promenljiva ibool na liniji 8
+INFO  01:00:34,408 - Deklarisan niz niz na liniji 10
+INFO  01:00:34,409 - Obradjuje se funkcija sum na liniji 13
+INFO  01:00:34,409 - Deklarisan parametar z na liniji 13
+INFO  01:00:34,410 - Deklarisan parametar d na liniji 13
+INFO  01:00:34,410 - Koriscenje formalnog parametra  na liniji 15
+INFO  01:00:34,411 - DesignatorName(
+ z
+) [DesignatorName] na liniji 15
+INFO  01:00:34,412 - Koriscenje formalnog parametra  na liniji 15
+INFO  01:00:34,412 - DesignatorName(
+ d
+) [DesignatorName] na liniji 15
+INFO  01:00:34,413 - Funkcija sum uspesno definisana na liniji 15
+INFO  01:00:34,413 - Obradjuje se funkcija verify na liniji 20
+INFO  01:00:34,414 - Funkcija verify uspesno definisana na liniji 22
+INFO  01:00:34,414 - Obradjuje se funkcija main na liniji 25
+INFO  01:00:34,414 - Koriscenje promenljive  na liniji 32
+INFO  01:00:34,415 - DesignatorName(
+ ibool
+) [DesignatorName] na liniji 32
+INFO  01:00:34,415 - Koriscenje konstante  na liniji 36
+INFO  01:00:34,415 - DesignatorName(
+ eol
+) [DesignatorName] na liniji 36
+INFO  01:00:34,416 - Print calls = 4
+INFO  01:00:34,416 - Read calls = 0
+INFO  01:00:34,417 - Broj promenljivih = 2
+INFO  01:00:34,417 - Broj nizova = 1
+INFO  01:00:34,417 - Broj konstanti = 1
+INFO  01:00:34,419 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj

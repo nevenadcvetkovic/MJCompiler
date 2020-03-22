@@ -1,0 +1,286 @@
+INFO  23:41:17,694 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:41:17,788 - #2 program
+INFO  23:41:17,788 - #17 test302
+INFO  23:41:17,788 - #24 const
+INFO  23:41:17,790 - #17 int
+INFO  23:41:17,791 - #17 jedan
+INFO  23:41:17,792 - #13 =
+INFO  23:41:17,792 - #16 1
+INFO  23:41:17,792 - #5 ;
+INFO  23:41:17,793 - #17 int
+INFO  23:41:17,795 - #17 i
+INFO  23:41:17,795 - #8 ,
+INFO  23:41:17,799 - #17 t
+INFO  23:41:17,799 - #5 ;
+INFO  23:41:17,800 - #17 bool
+INFO  23:41:17,801 - #17 ibool
+INFO  23:41:17,801 - #5 ;
+INFO  23:41:17,802 - #17 int
+INFO  23:41:17,802 - #17 niz
+INFO  23:41:17,803 - #25 [
+INFO  23:41:17,803 - #26 ]
+INFO  23:41:17,804 - #5 ;
+INFO  23:41:17,805 - #3 {
+INFO  23:41:17,805 - #14 void
+INFO  23:41:17,806 - #17 main
+INFO  23:41:17,807 - #6 (
+INFO  23:41:17,809 - #7 )
+INFO  23:41:17,810 - #3 {
+INFO  23:41:17,811 - #17 niz
+INFO  23:41:17,812 - #13 =
+INFO  23:41:17,813 - #48 new
+INFO  23:41:17,814 - #17 int
+INFO  23:41:17,814 - #25 [
+INFO  23:41:17,814 - #16 3
+INFO  23:41:17,814 - #26 ]
+INFO  23:41:17,815 - #5 ;
+INFO  23:41:17,815 - #21 foreach
+INFO  23:41:17,816 - #6 (
+INFO  23:41:17,816 - #17 i
+INFO  23:41:17,816 - #15 :
+INFO  23:41:17,817 - #17 niz
+INFO  23:41:17,817 - #7 )
+INFO  23:41:17,817 - #3 {
+INFO  23:41:17,818 - #17 t
+INFO  23:41:17,819 - #13 =
+INFO  23:41:17,819 - #17 i
+INFO  23:41:17,820 - #12 +=
+INFO  23:41:17,821 - #16 5
+INFO  23:41:17,823 - #5 ;
+INFO  23:41:17,824 - #9 print
+INFO  23:41:17,824 - #6 (
+INFO  23:41:17,824 - #17 i
+INFO  23:41:17,824 - #7 )
+INFO  23:41:17,826 - #5 ;
+INFO  23:41:17,826 - #4 }
+INFO  23:41:17,827 - #4 }
+INFO  23:41:17,827 - #4 }
+INFO  23:41:17,859 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationsVarsConsts(
+    DeclarationsVarsConsts(
+      DeclarationsVarsConsts(
+        DeclarationsVarsConsts(
+          NoDecl(
+          ) [NoDecl]
+          DeclConsts(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              SingleConst(
+                ConstIdent(
+                 jedan
+                  NumConst(
+                   1
+                  ) [NumConst]
+                ) [ConstIdent]
+              ) [SingleConst]
+            ) [ConstDecl]
+          ) [DeclConsts]
+        ) [DeclarationsVarsConsts]
+        DeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VarIdents(
+              SingleIdent(
+                VarIdent(
+                 i
+                  NoVarSquares(
+                  ) [NoVarSquares]
+                ) [VarIdent]
+              ) [SingleIdent]
+              VarIdent(
+               t
+                NoVarSquares(
+                ) [NoVarSquares]
+              ) [VarIdent]
+            ) [VarIdents]
+          ) [VarDecl]
+        ) [DeclVars]
+      ) [DeclarationsVarsConsts]
+      DeclVars(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleIdent(
+            VarIdent(
+             ibool
+              NoVarSquares(
+              ) [NoVarSquares]
+            ) [VarIdent]
+          ) [SingleIdent]
+        ) [VarDecl]
+      ) [DeclVars]
+    ) [DeclarationsVarsConsts]
+    DeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleIdent(
+          VarIdent(
+           niz
+            VarSquare(
+            ) [VarSquare]
+          ) [VarIdent]
+        ) [SingleIdent]
+      ) [VarDecl]
+    ) [DeclVars]
+  ) [DeclarationsVarsConsts]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          DesStatementClass(
+            DesignEqExpr(
+              DesignatorName(
+               niz
+              ) [DesignatorName]
+              AssEq(
+              ) [AssEq]
+              TermExpr(
+                TermFactor(
+                  FactorNew(
+                    Type(
+                     int
+                    ) [Type]
+                    NewFactorExp(
+                      TermExpr(
+                        TermFactor(
+                          ConstFactor(
+                            FactNumConst(
+                             3
+                            ) [FactNumConst]
+                          ) [ConstFactor]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                    ) [NewFactorExp]
+                  ) [FactorNew]
+                ) [TermFactor]
+              ) [TermExpr]
+            ) [DesignEqExpr]
+          ) [DesStatementClass]
+        ) [Statements]
+        ForEach(
+          Ident(
+           i
+          ) [Ident]
+          DesignatorName(
+           niz
+          ) [DesignatorName]
+          Rparen(
+          ) [Rparen]
+          StatementInside(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                DesStatementClass(
+                  DesignEqExpr(
+                    DesignatorName(
+                     t
+                    ) [DesignatorName]
+                    AssEq(
+                    ) [AssEq]
+                    AddExpr(
+                      TermExpr(
+                        TermFactor(
+                          FactorVar(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                            NoFuncParens(
+                            ) [NoFuncParens]
+                          ) [FactorVar]
+                        ) [TermFactor]
+                      ) [TermExpr]
+                      AddRight(
+                        AddEq(
+                        ) [AddEq]
+                      ) [AddRight]
+                      TermFactor(
+                        ConstFactor(
+                          FactNumConst(
+                           5
+                          ) [FactNumConst]
+                        ) [ConstFactor]
+                      ) [TermFactor]
+                    ) [AddExpr]
+                  ) [DesignEqExpr]
+                ) [DesStatementClass]
+              ) [Statements]
+              PrintStmt(
+                TermExpr(
+                  TermFactor(
+                    FactorVar(
+                      DesignatorName(
+                       i
+                      ) [DesignatorName]
+                      NoFuncParens(
+                      ) [NoFuncParens]
+                    ) [FactorVar]
+                  ) [TermFactor]
+                ) [TermExpr]
+                DontPrintNum(
+                ) [DontPrintNum]
+              ) [PrintStmt]
+            ) [Statements]
+          ) [StatementInside]
+        ) [ForEach]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:41:17,859 - ===================================
+INFO  23:41:17,874 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  23:41:17,874 - Deklarisana promenljiva i na liniji 7
+INFO  23:41:17,874 - Deklarisana promenljiva t na liniji 7
+INFO  23:41:17,874 - Deklarisana promenljiva ibool na liniji 8
+INFO  23:41:17,875 - Deklarisan niz niz na liniji 10
+INFO  23:41:17,875 - Obradjuje se funkcija main na liniji 15
+INFO  23:41:17,875 - Koriscenje promenljive  na liniji 19
+INFO  23:41:17,875 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 19
+INFO  23:41:17,875 - Koriscenje promenljive  na liniji 21
+INFO  23:41:17,876 - DesignatorName(
+ niz
+) [DesignatorName] na liniji 21
+INFO  23:41:17,876 - Koriscenje promenljive  na liniji 22
+INFO  23:41:17,876 - DesignatorName(
+ t
+) [DesignatorName] na liniji 22
+INFO  23:41:17,876 - Koriscenje promenljive  na liniji 22
+INFO  23:41:17,876 - DesignatorName(
+ i
+) [DesignatorName] na liniji 22
+INFO  23:41:17,876 - Koriscenje promenljive  na liniji 23
+INFO  23:41:17,876 - DesignatorName(
+ i
+) [DesignatorName] na liniji 23
+INFO  23:41:17,877 - Print calls = 1
+INFO  23:41:17,877 - Read calls = 0
+INFO  23:41:17,877 - Broj promenljivih = 3
+INFO  23:41:17,877 - Broj nizova = 1
+INFO  23:41:17,877 - Broj konstanti = 0
+INFO  23:41:17,878 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  23:41:17,889 - Parsiranje uspesno zavrseno!
