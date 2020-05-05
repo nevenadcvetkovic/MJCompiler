@@ -457,6 +457,14 @@ public class SemanticPass extends VisitorAdaptor {
 			boolean src = srcStruct.getKind() == Struct.Array;
 			boolean dest = dstStruct.getKind() == Struct.Array;
 			checkAssignable(dstStruct, dest, srcStruct, src, mulTerm.getLine());
+			Term term = mulTerm.getTerm();
+			while (term instanceof MulTerm) {
+				term = ((MulTerm) term).getTerm();
+			}
+			if (!(term instanceof TermFactor && ((TermFactor) term).getFactor() instanceof FactorVar
+					&& ((FactorVar) ((TermFactor) term).getFactor()).getFactorFuncParens() instanceof NoFuncParens)) {
+				report_error("Greska na liniji " + mulTerm.getLine() + " : Operand mora biti promenljiva!", null);
+			}
 		}
 
 		mulTerm.struct = mulTerm.getFactor().struct;
@@ -471,7 +479,7 @@ public class SemanticPass extends VisitorAdaptor {
 	}
 
 	public void visit(AddExpr addExpr) {
-		if (addExpr.getAddOp() instanceof AddOp) {
+		if (addExpr.getAddOp() instanceof AddLeft) {
 			Struct structT = addExpr.getTerm().struct;
 			Struct structE = addExpr.getExpr().struct;
 			if (structT.getElemType() != null) {
@@ -482,7 +490,7 @@ public class SemanticPass extends VisitorAdaptor {
 			}
 			if (!structT.compatibleWith(Tab.find("int").getType())
 					|| !structE.compatibleWith(Tab.find("int").getType())) {
-				report_error("Greska na liniji " + addExpr.getLine() + " : Operand mora biti tipa int", null);
+				report_error("Greska na liniji " + addExpr.getLine() + " : Operand mora biti tipa int!", null);
 			}
 		} else {
 			Struct srcStruct = addExpr.getTerm().struct;
@@ -490,6 +498,22 @@ public class SemanticPass extends VisitorAdaptor {
 			boolean src = srcStruct.getKind() == Struct.Array;
 			boolean dest = dstStruct.getKind() == Struct.Array;
 			checkAssignable(dstStruct, dest, srcStruct, src, addExpr.getLine());
+			Expr expr = addExpr.getExpr();
+			while (expr instanceof AddExpr) {
+				expr = ((AddExpr) expr).getExpr();
+			}
+			if (!(expr instanceof TermExpr && ((((TermExpr) expr).getTerm() instanceof TermFactor
+					&& ((TermFactor) ((TermExpr) expr).getTerm()).getFactor() instanceof FactorVar
+					&& ((FactorVar) ((TermFactor) ((TermExpr) expr).getTerm()).getFactor())
+							.getFactorFuncParens() instanceof NoFuncParens)
+					|| ((TermExpr) expr).getTerm() instanceof MulTerm
+							&& ((MulTerm) ((TermExpr) expr).getTerm()).getFactor() instanceof FactorVar
+							&& ((FactorVar) ((MulTerm) ((TermExpr) expr).getTerm()).getFactor())
+									.getFactorFuncParens() instanceof NoFuncParens))) {
+				report_error("Greska na liniji " + addExpr.getLine() + " : Operand mora biti promenljiva!", null);
+
+			}
+
 		}
 		addExpr.struct = addExpr.getTerm().struct;
 	}

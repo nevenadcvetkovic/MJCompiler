@@ -26,6 +26,7 @@ import rs.ac.bg.etf.pp1.ast.Div;
 import rs.ac.bg.etf.pp1.ast.DivEq;
 import rs.ac.bg.etf.pp1.ast.Else;
 import rs.ac.bg.etf.pp1.ast.Equal;
+import rs.ac.bg.etf.pp1.ast.Expr;
 import rs.ac.bg.etf.pp1.ast.FactBoolConst;
 import rs.ac.bg.etf.pp1.ast.FactCharConst;
 import rs.ac.bg.etf.pp1.ast.FactNumConst;
@@ -71,6 +72,7 @@ import rs.ac.bg.etf.pp1.ast.SingleCondition;
 import rs.ac.bg.etf.pp1.ast.Sub;
 import rs.ac.bg.etf.pp1.ast.SubEq;
 import rs.ac.bg.etf.pp1.ast.SyntaxNode;
+import rs.ac.bg.etf.pp1.ast.Term;
 import rs.ac.bg.etf.pp1.ast.TermExpr;
 import rs.ac.bg.etf.pp1.ast.TermFactor;
 import rs.ac.bg.etf.pp1.ast.VarIdent;
@@ -109,6 +111,11 @@ public class CodeGenerator extends VisitorAdaptor {
 	private ArrayList<Integer> foreachBegin = new ArrayList<>();
 	private ArrayList<Integer> foreachCondToBakpatch = new ArrayList<>();
 	private HashMap<String, Obj> feIterArray = new HashMap<>();
+
+	private boolean start = false;
+	private ArrayList<String> designs = new ArrayList<>();
+	private ArrayList<Integer> operations = new ArrayList<>(30);
+	private ArrayList<Obj> objs = new ArrayList<>();
 
 	@Override
 	public void visit(MethodTypeName MethodTypeName) {
@@ -193,6 +200,20 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	@Override
 	public void visit(DesignEqExpr designExpr) {
+		if (operations.size() > 0) {
+			for (int i = objs.size() - 1; i >= 0; i--) {
+				Code.put(operations.remove(i * 2 + 1));
+				Code.put(operations.remove(i * 2));
+				Code.store(objs.remove(i));
+
+			}
+			start = false;
+
+		}
+		operations.clear();
+		objs.clear();
+		designs.clear();
+		start=false;
 		if (designExpr.getDesignator() instanceof DesignatorClass) {
 			setArrDesignObj(designExpr.getDesignator());
 		} else if (feIterArray.containsKey(((DesignatorName) designExpr.getDesignator()).getName())) {
@@ -204,10 +225,19 @@ public class CodeGenerator extends VisitorAdaptor {
 			designExpr.getDesignator().obj = arrayElem;
 		}
 		if (designExpr.getAssignOp() instanceof AddAss) {
-			Code.put(Code.add);
+			if (((AddAss) designExpr.getAssignOp()).getAddOpRight() instanceof AddEq)
+				Code.put(Code.add);
+			else
+				Code.put(Code.sub);
 		}
 		if (designExpr.getAssignOp() instanceof MulAss) {
-			Code.put(Code.mul);
+			MulAss mulAss = (MulAss) designExpr.getAssignOp();
+			if (mulAss.getMulOpRight() instanceof MulEq)
+				Code.put(Code.mul);
+			else if (mulAss.getMulOpRight() instanceof DivEq)
+				Code.put(Code.div);
+			else
+				Code.put(Code.rem);
 		}
 		Code.store(designExpr.getDesignator().obj);
 
@@ -215,6 +245,8 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	private void setArrDesignObj(Designator designator) {
 		Struct struct = designator.obj.getType().getElemType();
+		if (struct == null)
+			struct = designator.obj.getType();
 		while (struct != null && struct.getElemType() != null) {
 			struct = struct.getElemType();
 		}
@@ -242,13 +274,20 @@ public class CodeGenerator extends VisitorAdaptor {
 			Designator designator = factorVar.getDesignator();
 			if ((factorVar.getDesignator() instanceof DesignatorClass
 					|| feIterArray.containsKey(((DesignatorName) factorVar.getDesignator()).getName()))//
-					&& factorVar.getParent() instanceof TermFactor
-					&& (factorVar.getParent().getParent() instanceof MulTerm
-							&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight
-							|| factorVar.getParent().getParent() instanceof TermExpr
-									&& factorVar.getParent().getParent().getParent() instanceof AddExpr
-									&& ((AddExpr) factorVar.getParent().getParent().getParent())
-											.getAddOp() instanceof AddRight)) {
+							&& (factorVar.getParent() instanceof TermFactor//
+							&& (factorVar.getParent().getParent() instanceof MulTerm//
+							&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight//
+						|| factorVar.getParent().getParent() instanceof TermExpr//
+							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+							&& ((AddExpr) factorVar.getParent().getParent().getParent())//
+									.getAddOp() instanceof AddRight//
+						|| factorVar.getParent().getParent() instanceof AddExpr//
+							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+							&& ((AddExpr) factorVar.getParent().getParent())//
+									.getAddOp() instanceof AddRight)//
+						|| factorVar.getParent() instanceof MulTerm//
+							&& factorVar.getParent().getParent() instanceof MulTerm//
+							&& ((MulTerm) factorVar.getParent()).getMulOp() instanceof MulRight)) {//
 				Code.put(Code.dup2);
 				Code.put(Code.aload);
 			} else
@@ -415,6 +454,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		if (DesignFunc.class != parrent.getClass() && FactorVar.class != parrent.getClass()
 				&& ReadDesign.class != parrent.getClass()) {
 			if (DesignEqExpr.class == parrent.getClass()) {
+				start = true;//ovde problem vidi sto load nema
 				DesignEqExpr expr = (DesignEqExpr) parrent;
 				if (expr.getAssignOp() instanceof AddAss || expr.getAssignOp() instanceof MulAss) {
 					if (feIterArray.containsKey(designator.getName())) {
@@ -424,6 +464,9 @@ public class CodeGenerator extends VisitorAdaptor {
 						Code.put(Code.aload);
 					} else
 						Code.load(designator.obj);
+				}else if(feIterArray.containsKey(designator.getName())) {
+					Code.load(feIterArray.get(designator.getName()));
+					Code.load(designator.obj);
 				}
 			} else {
 				if (feIterArray.containsKey(designator.getName())) {
@@ -433,9 +476,12 @@ public class CodeGenerator extends VisitorAdaptor {
 				if (designator.getParent().getClass() != ForEach.class)
 					Code.load(designator.obj);
 			}
-		}else if(parrent.getClass()==ReadDesign.class && feIterArray.containsKey(designator.getName())) {
+		} else if (parrent.getClass() == ReadDesign.class && feIterArray.containsKey(designator.getName())) {
 			Code.load(feIterArray.get(designator.getName()));
 			Code.load(designator.obj);
+		}
+		if (start && DesignEqExpr.class != parrent.getClass()) {
+			designs.add(designator.getName());
 		}
 	}
 
@@ -516,40 +562,81 @@ public class CodeGenerator extends VisitorAdaptor {
 			if (addLeft.getAddOpLeft() instanceof Sub)
 				Code.put(Code.sub);
 		} else {
+			int i = -1;
 			AddRight addRight = (AddRight) addop.getAddOp();
-			if (addRight.getAddOpRight() instanceof AddEq)
-				Code.put(Code.add);
-			if (addRight.getAddOpRight() instanceof SubEq)
-				Code.put(Code.sub);
+
+			FactorVar factVar = null;
+
 			if (addop.getExpr() instanceof TermExpr) {
 				TermExpr termExpr = (TermExpr) addop.getExpr();
 				if (termExpr.getTerm() instanceof TermFactor) {
 					TermFactor termFactor = (TermFactor) termExpr.getTerm();
 					if (termFactor.getFactor() instanceof FactorVar) {
-						FactorVar factVar = (FactorVar) termFactor.getFactor();
-						if (factVar.getDesignator() instanceof DesignatorClass) {
-							setArrDesignObj(factVar.getDesignator());
+						factVar = (FactorVar) termFactor.getFactor();
+					}
+				} else if (termExpr.getTerm() instanceof MulTerm) {
+					MulTerm mulTerm = (MulTerm) termExpr.getTerm();
+					if (mulTerm.getFactor() instanceof FactorVar) {
+						factVar = (FactorVar) mulTerm.getFactor();
+					}
 
-							Code.put(Code.dup_x2);
-
-						} else if (feIterArray.containsKey(((DesignatorName) factVar.getDesignator()).getName())) {
-							// is an iterator
-							String name = ((DesignatorName) factVar.getDesignator()).getName();
-							Obj design = feIterArray.get(name);
-							Obj arrayElem = new Obj(Obj.Elem, name, factVar.getDesignator().obj.getType(),
-									design.getAdr(), design.getLevel());
-							factVar.getDesignator().obj = arrayElem;
-							Code.put(Code.dup_x2);
-						} else {
-							Code.put(Code.dup);
-						}
-						Code.store(factVar.getDesignator().obj);
-
+				}
+			} else {
+				AddExpr addEx = (AddExpr) addop.getExpr();
+				if (addEx.getTerm() instanceof TermFactor) {
+					TermFactor termFactor = (TermFactor) addEx.getTerm();
+					if (termFactor.getFactor() instanceof FactorVar) {
+						factVar = (FactorVar) termFactor.getFactor();
 					}
 				}
 			}
 
+			if (factVar.getDesignator() instanceof DesignatorClass) {
+				setArrDesignObj(factVar.getDesignator());
+
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup_x2);
+
+			} else if (feIterArray.containsKey(((DesignatorName) factVar.getDesignator()).getName())) {
+				// is an iterator
+				String name = ((DesignatorName) factVar.getDesignator()).getName();
+				Obj design = feIterArray.get(name);
+				Obj arrayElem = new Obj(Obj.Elem, name, factVar.getDesignator().obj.getType(), design.getAdr(),
+						design.getLevel());
+				factVar.getDesignator().obj = arrayElem;
+
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup_x2);
+			} else {
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup);
+			}
+			if (addRight.getAddOpRight() instanceof AddEq)
+				operations.set(i * 2 + 1, Code.add);
+			if (addRight.getAddOpRight() instanceof SubEq)
+				operations.set(i * 2 + 1, Code.sub);
+			objs.set(i, factVar.getDesignator().obj);
+
 		}
+
 	}
 
 	@Override
@@ -566,40 +653,73 @@ public class CodeGenerator extends VisitorAdaptor {
 				Code.put(Code.rem);
 			}
 		} else {
+			int i = -1;
 			MulRight mulRight = (MulRight) mulop.getMulOp();
-			if (mulRight.getMulOpRight() instanceof MulEq) {
-				Code.put(Code.mul);
-			}
-			if (mulRight.getMulOpRight() instanceof DivEq) {
-				Code.put(Code.div);
-			}
-			if (mulRight.getMulOpRight() instanceof ModEq) {
-				Code.put(Code.rem);
-			}
+
+			FactorVar factVar = null;
 
 			if (mulop.getTerm() instanceof TermFactor) {
 				TermFactor fact = (TermFactor) mulop.getTerm();
 				if (fact.getFactor() instanceof FactorVar) {
-					FactorVar factVar = (FactorVar) fact.getFactor();
-					if (factVar.getDesignator() instanceof DesignatorClass) {
-						setArrDesignObj(factVar.getDesignator());
-
-						Code.put(Code.dup_x2);
-
-					} else if (feIterArray.containsKey(((DesignatorName) factVar.getDesignator()).getName())) {
-						// is an iterator
-						String name = ((DesignatorName) factVar.getDesignator()).getName();
-						Obj design = feIterArray.get(name);
-						Obj arrayElem = new Obj(Obj.Elem, name, factVar.getDesignator().obj.getType(), design.getAdr(),
-								design.getLevel());
-						factVar.getDesignator().obj = arrayElem;
-						Code.put(Code.dup_x2);
-					} else
-						Code.put(Code.dup);
-					Code.store(factVar.getDesignator().obj);
+					factVar = (FactorVar) fact.getFactor();
 				}
+			} else {
+				MulTerm term = (MulTerm) mulop.getTerm();
+				if (term.getFactor() instanceof FactorVar)
+					factVar = (FactorVar) term.getFactor();
 			}
+			if (factVar.getDesignator() instanceof DesignatorClass) {
+				setArrDesignObj(factVar.getDesignator());
+
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup_x2);
+
+			} else if (feIterArray.containsKey(((DesignatorName) factVar.getDesignator()).getName())) {
+				// is an iterator
+				String name = ((DesignatorName) factVar.getDesignator()).getName();
+				Obj design = feIterArray.get(name);
+				Obj arrayElem = new Obj(Obj.Elem, name, factVar.getDesignator().obj.getType(), design.getAdr(),
+						design.getLevel());
+				factVar.getDesignator().obj = arrayElem;
+
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup_x2);
+			} else {
+				i = designs.indexOf(factVar.getDesignator().obj.getName());
+				designs.set(i, null);
+				while (operations.size() < i * 2 + 2) {
+					operations.add(0);
+					operations.add(0);
+					objs.add(null);
+				}
+				operations.set(i * 2, Code.dup);
+			}
+
+			if (mulRight.getMulOpRight() instanceof MulEq) {
+				operations.set(i * 2 + 1, Code.mul);
+			}
+			if (mulRight.getMulOpRight() instanceof DivEq) {
+				operations.set(i * 2 + 1, Code.div);
+			}
+			if (mulRight.getMulOpRight() instanceof ModEq) {
+				operations.set(i * 2 + 1, Code.div);
+			}
+
+			objs.set(i, factVar.getDesignator().obj);
 		}
+
 	}
 
 	@Override
