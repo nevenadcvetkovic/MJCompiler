@@ -277,17 +277,29 @@ public class CodeGenerator extends VisitorAdaptor {
 							&& (factorVar.getParent() instanceof TermFactor//
 							&& (factorVar.getParent().getParent() instanceof MulTerm//
 							&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight//
+							&& ((MulTerm) factorVar.getParent().getParent()).getTerm()==factorVar.getParent()//
 						|| factorVar.getParent().getParent() instanceof TermExpr//
 							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
 							&& ((AddExpr) factorVar.getParent().getParent().getParent())//
 									.getAddOp() instanceof AddRight//
+							&& ((AddExpr) factorVar.getParent().getParent().getParent())
+									.getExpr()==factorVar.getParent().getParent()
 						|| factorVar.getParent().getParent() instanceof AddExpr//
 							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
-							&& ((AddExpr) factorVar.getParent().getParent())//
+							&& ((AddExpr) factorVar.getParent().getParent().getParent())//
 									.getAddOp() instanceof AddRight)//
+							//&& ((AddExpr) factorVar.getParent().getParent().getParent())
+								//	.getExpr()==factorVar.getParent().getParent()
 						|| factorVar.getParent() instanceof MulTerm//
 							&& factorVar.getParent().getParent() instanceof MulTerm//
-							&& ((MulTerm) factorVar.getParent()).getMulOp() instanceof MulRight)) {//
+							&& ((MulTerm) factorVar.getParent()).getMulOp() instanceof MulRight
+							&& (((MulTerm) factorVar.getParent()).getTerm() instanceof TermFactor 
+									&& ((TermFactor) ((MulTerm) factorVar.getParent()).getTerm()).getFactor()==factorVar) //moze da se desi da treba da se doda jos ||
+						|| factorVar.getParent() instanceof MulTerm//
+							&& factorVar.getParent().getParent() instanceof TermExpr//
+							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+							&& ((AddExpr) factorVar.getParent().getParent().getParent()).getAddOp() instanceof AddRight
+							&& ((AddExpr) factorVar.getParent().getParent().getParent()).getExpr()==factorVar.getParent().getParent())) {//
 				Code.put(Code.dup2);
 				Code.put(Code.aload);
 			} else
@@ -482,6 +494,9 @@ public class CodeGenerator extends VisitorAdaptor {
 		}
 		if (start && DesignEqExpr.class != parrent.getClass()) {
 			designs.add(designator.getName());
+		}
+		if (DesignatorClass.class == parrent.getClass() && DesignEqExpr.class == parrent.getParent().getClass()) {
+			start=true;
 		}
 	}
 

@@ -19,9 +19,9 @@ int niz[];
 		//z=3;
 		//x=7;
 		i=4;niz[0]=2;
-		//niz[0]*=niz[0]*=niz[0]*=niz[0]*=niz[0]*=niz[0];
+		niz[0]*=niz[0]*=niz[0]+5*5;
 		foreach(iter:niz){
-			a%=iter%=iter*=iter*=iter*=2;
+			//a%=iter%=iter*=iter*=iter*=2;
 		}
 		
 		foreach(iter:niz){
