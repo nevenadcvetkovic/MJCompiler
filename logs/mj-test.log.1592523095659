@@ -1,405 +1,405 @@
-INFO  13:18:28,726 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
-INFO  13:18:28,810 - #2 program
-INFO  13:18:28,811 - #17 test302
-INFO  13:18:28,811 - #24 const
-INFO  13:18:28,813 - #17 int
-INFO  13:18:28,813 - #17 jedan
-INFO  13:18:28,815 - #13 =
-INFO  13:18:28,815 - #16 1
-INFO  13:18:28,815 - #5 ;
-INFO  13:18:28,817 - #17 int
-INFO  13:18:28,819 - #17 i
-INFO  13:18:28,820 - #5 ;
-INFO  13:18:28,823 - #17 bool
-INFO  13:18:28,823 - #17 ibool
-INFO  13:18:28,824 - #5 ;
-INFO  13:18:28,824 - #17 int
-INFO  13:18:28,824 - #17 niz
-INFO  13:18:28,824 - #25 [
-INFO  13:18:28,824 - #26 ]
-INFO  13:18:28,825 - #5 ;
-INFO  13:18:28,826 - #3 {
-INFO  13:18:28,826 - #17 int
-INFO  13:18:28,827 - #17 sum
-INFO  13:18:28,829 - #6 (
-INFO  13:18:28,831 - #17 int
-INFO  13:18:28,831 - #17 z
-INFO  13:18:28,831 - #8 ,
-INFO  13:18:28,836 - #17 int
-INFO  13:18:28,836 - #17 d
-INFO  13:18:28,836 - #7 )
-INFO  13:18:28,837 - #3 {
-INFO  13:18:28,838 - #10 return
-INFO  13:18:28,839 - #17 z
-INFO  13:18:28,839 - #11 +
-INFO  13:18:28,840 - #17 d
-INFO  13:18:28,842 - #5 ;
-INFO  13:18:28,842 - #4 }
-INFO  13:18:28,843 - #17 int
-INFO  13:18:28,844 - #17 inkrement
-INFO  13:18:28,845 - #6 (
-INFO  13:18:28,845 - #17 int
-INFO  13:18:28,845 - #17 a
-INFO  13:18:28,845 - #8 ,
-INFO  13:18:28,845 - #17 int
-INFO  13:18:28,846 - #17 inc
-INFO  13:18:28,846 - #7 )
-INFO  13:18:28,846 - #17 int
-INFO  13:18:28,846 - #17 pom
-INFO  13:18:28,846 - #5 ;
-INFO  13:18:28,847 - #3 {
-INFO  13:18:28,847 - #18 if
-INFO  13:18:28,847 - #6 (
-INFO  13:18:28,847 - #17 inc
-INFO  13:18:28,847 - #32 ==
-INFO  13:18:28,848 - #17 jedan
-INFO  13:18:28,850 - #7 )
-INFO  13:18:28,852 - #17 pom
-INFO  13:18:28,852 - #13 =
-INFO  13:18:28,853 - #16 1
-INFO  13:18:28,854 - #5 ;
-INFO  13:18:28,862 - #19 else
-INFO  13:18:28,862 - #18 if
-INFO  13:18:28,864 - #6 (
-INFO  13:18:28,864 - #17 inc
-INFO  13:18:28,865 - #32 ==
-INFO  13:18:28,865 - #16 2
-INFO  13:18:28,865 - #7 )
-INFO  13:18:28,865 - #17 pom
-INFO  13:18:28,866 - #13 =
-INFO  13:18:28,866 - #17 a
-INFO  13:18:28,866 - #5 ;
-INFO  13:18:28,866 - #10 return
-INFO  13:18:28,868 - #17 sum
-INFO  13:18:28,868 - #6 (
-INFO  13:18:28,869 - #17 a
-INFO  13:18:28,870 - #8 ,
-INFO  13:18:28,870 - #17 pom
-INFO  13:18:28,871 - #7 )
-INFO  13:18:28,871 - #5 ;
-INFO  13:18:28,871 - #4 }
-INFO  13:18:28,872 - #17 bool
-INFO  13:18:28,872 - #17 verify
-INFO  13:18:28,873 - #6 (
-INFO  13:18:28,873 - #7 )
-INFO  13:18:28,875 - #3 {
-INFO  13:18:28,875 - #9 print
-INFO  13:18:28,878 - #6 (
-INFO  13:18:28,878 - #22 v
-INFO  13:18:28,878 - #7 )
-INFO  13:18:28,880 - #5 ;
-INFO  13:18:28,880 - #10 return
-INFO  13:18:28,881 - #23 false
-INFO  13:18:28,881 - #5 ;
-INFO  13:18:28,882 - #4 }
-INFO  13:18:28,882 - #14 void
-INFO  13:18:28,882 - #17 main
-INFO  13:18:28,884 - #6 (
-INFO  13:18:28,885 - #7 )
-INFO  13:18:28,885 - #3 {
-INFO  13:18:28,885 - #18 if
-INFO  13:18:28,885 - #6 (
-INFO  13:18:28,885 - #16 1
-INFO  13:18:28,885 - #33 !=
-INFO  13:18:28,886 - #16 1
-INFO  13:18:28,887 - #7 )
-INFO  13:18:28,887 - #9 print
-INFO  13:18:28,887 - #6 (
-INFO  13:18:28,888 - #40 -
-INFO  13:18:28,888 - #16 6
-INFO  13:18:28,888 - #7 )
-INFO  13:18:28,888 - #5 ;
-INFO  13:18:28,888 - #19 else
-INFO  13:18:28,888 - #9 print
-INFO  13:18:28,888 - #6 (
-INFO  13:18:28,889 - #16 0
-INFO  13:18:28,889 - #7 )
-INFO  13:18:28,889 - #5 ;
-INFO  13:18:28,889 - #17 ibool
-INFO  13:18:28,889 - #13 =
-INFO  13:18:28,889 - #23 false
-INFO  13:18:28,889 - #5 ;
-INFO  13:18:28,890 - #17 i
-INFO  13:18:28,890 - #13 =
-INFO  13:18:28,890 - #16 0
-INFO  13:18:28,890 - #5 ;
-INFO  13:18:28,890 - #20 for
-INFO  13:18:28,890 - #6 (
-INFO  13:18:28,890 - #17 i
-INFO  13:18:28,891 - #13 =
-INFO  13:18:28,891 - #16 0
-INFO  13:18:28,891 - #5 ;
-INFO  13:18:28,891 - #17 i
-INFO  13:18:28,891 - #36 <
-INFO  13:18:28,891 - #16 5
-INFO  13:18:28,892 - #5 ;
-INFO  13:18:28,893 - #17 i
-INFO  13:18:28,893 - #30 ++
-INFO  13:18:28,893 - #7 )
-INFO  13:18:28,893 - #3 {
-INFO  13:18:28,893 - #18 if
-INFO  13:18:28,894 - #6 (
-INFO  13:18:28,894 - #17 i
-INFO  13:18:28,894 - #32 ==
-INFO  13:18:28,894 - #16 2
-INFO  13:18:28,894 - #7 )
-INFO  13:18:28,894 - #17 ibool
-INFO  13:18:28,894 - #13 =
-INFO  13:18:28,894 - #23 true
-INFO  13:18:28,895 - #5 ;
-INFO  13:18:28,895 - #4 }
-INFO  13:18:28,895 - #18 if
-INFO  13:18:28,895 - #6 (
-INFO  13:18:28,895 - #17 ibool
-INFO  13:18:28,895 - #7 )
-INFO  13:18:28,896 - #18 if
-INFO  13:18:28,896 - #6 (
-INFO  13:18:28,897 - #17 i
-INFO  13:18:28,897 - #32 ==
-INFO  13:18:28,897 - #16 5
-INFO  13:18:28,897 - #7 )
-INFO  13:18:28,897 - #9 print
-INFO  13:18:28,897 - #6 (
-INFO  13:18:28,898 - #16 1
-INFO  13:18:28,898 - #7 )
-INFO  13:18:28,898 - #5 ;
-INFO  13:18:28,898 - #19 else
-INFO  13:18:28,898 - #9 print
-INFO  13:18:28,898 - #6 (
-INFO  13:18:28,898 - #40 -
-INFO  13:18:28,898 - #16 1
-INFO  13:18:28,898 - #7 )
-INFO  13:18:28,898 - #5 ;
-INFO  13:18:28,898 - #17 niz
-INFO  13:18:28,899 - #13 =
-INFO  13:18:28,899 - #48 new
-INFO  13:18:28,899 - #17 int
-INFO  13:18:28,899 - #25 [
-INFO  13:18:28,899 - #16 3
-INFO  13:18:28,899 - #26 ]
-INFO  13:18:28,899 - #5 ;
-INFO  13:18:28,900 - #17 niz
-INFO  13:18:28,900 - #25 [
-INFO  13:18:28,900 - #16 0
-INFO  13:18:28,901 - #26 ]
-INFO  13:18:28,901 - #13 =
-INFO  13:18:28,902 - #16 1
-INFO  13:18:28,902 - #5 ;
-INFO  13:18:28,902 - #17 niz
-INFO  13:18:28,902 - #25 [
-INFO  13:18:28,902 - #16 1
-INFO  13:18:28,902 - #26 ]
-INFO  13:18:28,902 - #13 =
-INFO  13:18:28,903 - #16 2
-INFO  13:18:28,903 - #5 ;
-INFO  13:18:28,903 - #17 niz
-INFO  13:18:28,903 - #25 [
-INFO  13:18:28,903 - #16 2
-INFO  13:18:28,903 - #26 ]
-INFO  13:18:28,903 - #13 =
-INFO  13:18:28,903 - #17 sum
-INFO  13:18:28,903 - #6 (
-INFO  13:18:28,903 - #17 niz
-INFO  13:18:28,903 - #25 [
-INFO  13:18:28,904 - #16 1
-INFO  13:18:28,904 - #26 ]
-INFO  13:18:28,904 - #8 ,
-INFO  13:18:28,904 - #17 niz
-INFO  13:18:28,904 - #25 [
-INFO  13:18:28,904 - #16 0
-INFO  13:18:28,904 - #26 ]
-INFO  13:18:28,904 - #7 )
-INFO  13:18:28,904 - #11 +
-INFO  13:18:28,904 - #16 1
-INFO  13:18:28,904 - #5 ;
-INFO  13:18:28,905 - #18 if
-INFO  13:18:28,905 - #6 (
-INFO  13:18:28,905 - #17 niz
-INFO  13:18:28,905 - #25 [
-INFO  13:18:28,905 - #16 2
-INFO  13:18:28,905 - #26 ]
-INFO  13:18:28,905 - #32 ==
-INFO  13:18:28,905 - #16 4
-INFO  13:18:28,905 - #38 ||
-INFO  13:18:28,905 - #17 verify
-INFO  13:18:28,905 - #6 (
-INFO  13:18:28,905 - #7 )
-INFO  13:18:28,906 - #7 )
-INFO  13:18:28,907 - #9 print
-INFO  13:18:28,907 - #6 (
-INFO  13:18:28,907 - #17 ord
-INFO  13:18:28,907 - #6 (
-INFO  13:18:28,907 - #22 A
-INFO  13:18:28,907 - #7 )
-INFO  13:18:28,907 - #7 )
-INFO  13:18:28,907 - #5 ;
-INFO  13:18:28,908 - #19 else
-INFO  13:18:28,908 - #9 print
-INFO  13:18:28,908 - #6 (
-INFO  13:18:28,908 - #17 ord
-INFO  13:18:28,908 - #6 (
-INFO  13:18:28,908 - #22 a
-INFO  13:18:28,908 - #7 )
-INFO  13:18:28,908 - #7 )
-INFO  13:18:28,908 - #5 ;
-INFO  13:18:28,908 - #9 print
-INFO  13:18:28,908 - #6 (
-INFO  13:18:28,909 - #17 eol
-INFO  13:18:28,909 - #7 )
-INFO  13:18:28,909 - #5 ;
-INFO  13:18:28,909 - #17 i
-INFO  13:18:28,909 - #13 =
-INFO  13:18:28,909 - #16 0
-INFO  13:18:28,909 - #5 ;
-INFO  13:18:28,909 - #20 for
-INFO  13:18:28,909 - #6 (
-INFO  13:18:28,909 - #5 ;
-INFO  13:18:28,911 - #17 i
-INFO  13:18:28,911 - #36 <
-INFO  13:18:28,911 - #16 10
-INFO  13:18:28,911 - #5 ;
-INFO  13:18:28,911 - #7 )
-INFO  13:18:28,912 - #3 {
-INFO  13:18:28,912 - #18 if
-INFO  13:18:28,912 - #6 (
-INFO  13:18:28,912 - #17 i
-INFO  13:18:28,913 - #32 ==
-INFO  13:18:28,913 - #16 3
-INFO  13:18:28,913 - #7 )
-INFO  13:18:28,913 - #3 {
-INFO  13:18:28,913 - #17 i
-INFO  13:18:28,913 - #30 ++
-INFO  13:18:28,913 - #5 ;
-INFO  13:18:28,913 - #29 continue
-INFO  13:18:28,913 - #5 ;
-INFO  13:18:28,914 - #4 }
-INFO  13:18:28,914 - #18 if
-INFO  13:18:28,915 - #6 (
-INFO  13:18:28,915 - #17 i
-INFO  13:18:28,915 - #32 ==
-INFO  13:18:28,915 - #16 4
-INFO  13:18:28,915 - #7 )
-INFO  13:18:28,915 - #28 break
-INFO  13:18:28,915 - #5 ;
-INFO  13:18:28,915 - #17 i
-INFO  13:18:28,916 - #13 =
-INFO  13:18:28,916 - #17 inkrement
-INFO  13:18:28,917 - #6 (
-INFO  13:18:28,917 - #17 i
-INFO  13:18:28,917 - #8 ,
-INFO  13:18:28,917 - #16 1
-INFO  13:18:28,917 - #7 )
-INFO  13:18:28,917 - #5 ;
-INFO  13:18:28,917 - #4 }
-INFO  13:18:28,918 - #18 if
-INFO  13:18:28,918 - #6 (
-INFO  13:18:28,918 - #17 i
-INFO  13:18:28,918 - #32 ==
-INFO  13:18:28,918 - #16 3
-INFO  13:18:28,918 - #39 &&
-INFO  13:18:28,918 - #17 verify
-INFO  13:18:28,918 - #6 (
-INFO  13:18:28,918 - #7 )
-INFO  13:18:28,918 - #7 )
-INFO  13:18:28,919 - #9 print
-INFO  13:18:28,919 - #6 (
-INFO  13:18:28,919 - #16 4
-INFO  13:18:28,919 - #7 )
-INFO  13:18:28,919 - #5 ;
-INFO  13:18:28,919 - #19 else
-INFO  13:18:28,919 - #9 print
-INFO  13:18:28,919 - #6 (
-INFO  13:18:28,919 - #40 -
-INFO  13:18:28,919 - #16 4
-INFO  13:18:28,919 - #7 )
-INFO  13:18:28,919 - #5 ;
-INFO  13:18:28,919 - #27 read
-INFO  13:18:28,919 - #6 (
-INFO  13:18:28,919 - #17 niz
-INFO  13:18:28,919 - #25 [
-INFO  13:18:28,919 - #16 0
-INFO  13:18:28,920 - #26 ]
-INFO  13:18:28,920 - #7 )
-INFO  13:18:28,920 - #5 ;
-INFO  13:18:28,920 - #27 read
-INFO  13:18:28,920 - #6 (
-INFO  13:18:28,920 - #17 niz
-INFO  13:18:28,920 - #25 [
-INFO  13:18:28,920 - #16 1
-INFO  13:18:28,920 - #26 ]
-INFO  13:18:28,921 - #7 )
-INFO  13:18:28,921 - #5 ;
-INFO  13:18:28,921 - #27 read
-INFO  13:18:28,921 - #6 (
-INFO  13:18:28,921 - #17 niz
-INFO  13:18:28,921 - #25 [
-INFO  13:18:28,921 - #16 2
-INFO  13:18:28,921 - #26 ]
-INFO  13:18:28,921 - #7 )
-INFO  13:18:28,921 - #5 ;
-INFO  13:18:28,921 - #9 print
-INFO  13:18:28,921 - #6 (
-INFO  13:18:28,921 - #17 eol
-INFO  13:18:28,921 - #7 )
-INFO  13:18:28,922 - #5 ;
-INFO  13:18:28,922 - #9 print
-INFO  13:18:28,922 - #6 (
-INFO  13:18:28,922 - #17 sum
-INFO  13:18:28,922 - #6 (
-INFO  13:18:28,922 - #17 sum
-INFO  13:18:28,922 - #6 (
-INFO  13:18:28,922 - #17 niz
-INFO  13:18:28,922 - #25 [
-INFO  13:18:28,922 - #16 0
-INFO  13:18:28,922 - #26 ]
-INFO  13:18:28,922 - #8 ,
-INFO  13:18:28,922 - #17 niz
-INFO  13:18:28,922 - #25 [
-INFO  13:18:28,922 - #16 1
-INFO  13:18:28,923 - #26 ]
-INFO  13:18:28,923 - #7 )
-INFO  13:18:28,923 - #8 ,
-INFO  13:18:28,923 - #17 niz
-INFO  13:18:28,923 - #25 [
-INFO  13:18:28,923 - #16 2
-INFO  13:18:28,924 - #26 ]
-INFO  13:18:28,924 - #7 )
-INFO  13:18:28,924 - #7 )
-INFO  13:18:28,924 - #5 ;
-INFO  13:18:28,924 - #21 foreach
-INFO  13:18:28,924 - #6 (
-INFO  13:18:28,924 - #17 i
-INFO  13:18:28,924 - #15 :
-INFO  13:18:28,925 - #17 niz
-INFO  13:18:28,925 - #7 )
-INFO  13:18:28,926 - #3 {
-INFO  13:18:28,926 - #9 print
-INFO  13:18:28,927 - #6 (
-INFO  13:18:28,927 - #17 i
-INFO  13:18:28,927 - #7 )
-INFO  13:18:28,927 - #5 ;
-INFO  13:18:28,927 - #4 }
-INFO  13:18:28,927 - #9 print
-INFO  13:18:28,930 - #6 (
-INFO  13:18:28,930 - #17 eol
-INFO  13:18:28,930 - #7 )
-INFO  13:18:28,930 - #5 ;
-INFO  13:18:28,930 - #9 print
-INFO  13:18:28,930 - #6 (
-INFO  13:18:28,930 - #17 inkrement
-INFO  13:18:28,930 - #6 (
-INFO  13:18:28,930 - #17 niz
-INFO  13:18:28,930 - #25 [
-INFO  13:18:28,930 - #16 2
-INFO  13:18:28,930 - #26 ]
-INFO  13:18:28,930 - #8 ,
-INFO  13:18:28,930 - #16 2
-INFO  13:18:28,930 - #7 )
-INFO  13:18:28,931 - #7 )
-INFO  13:18:28,931 - #5 ;
-INFO  13:18:28,931 - #4 }
-INFO  13:18:28,931 - #4 }
-INFO  13:18:28,966 - Program(
+INFO  11:25:10,429 - Compiling source file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  11:25:10,526 - #2 program
+INFO  11:25:10,526 - #17 test302
+INFO  11:25:10,527 - #24 const
+INFO  11:25:10,529 - #17 int
+INFO  11:25:10,529 - #17 jedan
+INFO  11:25:10,530 - #13 =
+INFO  11:25:10,531 - #16 1
+INFO  11:25:10,531 - #5 ;
+INFO  11:25:10,533 - #17 int
+INFO  11:25:10,536 - #17 i
+INFO  11:25:10,537 - #5 ;
+INFO  11:25:10,541 - #17 bool
+INFO  11:25:10,542 - #17 ibool
+INFO  11:25:10,543 - #5 ;
+INFO  11:25:10,543 - #17 int
+INFO  11:25:10,545 - #17 niz
+INFO  11:25:10,545 - #25 [
+INFO  11:25:10,545 - #26 ]
+INFO  11:25:10,546 - #5 ;
+INFO  11:25:10,548 - #3 {
+INFO  11:25:10,549 - #17 int
+INFO  11:25:10,551 - #17 sum
+INFO  11:25:10,551 - #6 (
+INFO  11:25:10,553 - #17 int
+INFO  11:25:10,553 - #17 z
+INFO  11:25:10,553 - #8 ,
+INFO  11:25:10,557 - #17 int
+INFO  11:25:10,557 - #17 d
+INFO  11:25:10,558 - #7 )
+INFO  11:25:10,558 - #3 {
+INFO  11:25:10,559 - #10 return
+INFO  11:25:10,561 - #17 z
+INFO  11:25:10,561 - #11 +
+INFO  11:25:10,563 - #17 d
+INFO  11:25:10,565 - #5 ;
+INFO  11:25:10,565 - #4 }
+INFO  11:25:10,566 - #17 int
+INFO  11:25:10,568 - #17 inkrement
+INFO  11:25:10,568 - #6 (
+INFO  11:25:10,568 - #17 int
+INFO  11:25:10,568 - #17 a
+INFO  11:25:10,568 - #8 ,
+INFO  11:25:10,568 - #17 int
+INFO  11:25:10,568 - #17 inc
+INFO  11:25:10,569 - #7 )
+INFO  11:25:10,569 - #17 int
+INFO  11:25:10,569 - #17 pom
+INFO  11:25:10,569 - #5 ;
+INFO  11:25:10,569 - #3 {
+INFO  11:25:10,569 - #18 if
+INFO  11:25:10,570 - #6 (
+INFO  11:25:10,570 - #17 inc
+INFO  11:25:10,570 - #32 ==
+INFO  11:25:10,570 - #17 jedan
+INFO  11:25:10,572 - #7 )
+INFO  11:25:10,574 - #17 pom
+INFO  11:25:10,575 - #13 =
+INFO  11:25:10,575 - #16 1
+INFO  11:25:10,576 - #5 ;
+INFO  11:25:10,585 - #19 else
+INFO  11:25:10,585 - #18 if
+INFO  11:25:10,587 - #6 (
+INFO  11:25:10,588 - #17 inc
+INFO  11:25:10,588 - #32 ==
+INFO  11:25:10,589 - #16 2
+INFO  11:25:10,589 - #7 )
+INFO  11:25:10,589 - #17 pom
+INFO  11:25:10,589 - #13 =
+INFO  11:25:10,590 - #17 a
+INFO  11:25:10,590 - #5 ;
+INFO  11:25:10,590 - #10 return
+INFO  11:25:10,592 - #17 sum
+INFO  11:25:10,592 - #6 (
+INFO  11:25:10,592 - #17 a
+INFO  11:25:10,593 - #8 ,
+INFO  11:25:10,594 - #17 pom
+INFO  11:25:10,594 - #7 )
+INFO  11:25:10,595 - #5 ;
+INFO  11:25:10,596 - #4 }
+INFO  11:25:10,596 - #17 bool
+INFO  11:25:10,596 - #17 verify
+INFO  11:25:10,597 - #6 (
+INFO  11:25:10,597 - #7 )
+INFO  11:25:10,598 - #3 {
+INFO  11:25:10,598 - #9 print
+INFO  11:25:10,599 - #6 (
+INFO  11:25:10,599 - #22 v
+INFO  11:25:10,599 - #7 )
+INFO  11:25:10,600 - #5 ;
+INFO  11:25:10,600 - #10 return
+INFO  11:25:10,601 - #23 false
+INFO  11:25:10,601 - #5 ;
+INFO  11:25:10,601 - #4 }
+INFO  11:25:10,601 - #14 void
+INFO  11:25:10,601 - #17 main
+INFO  11:25:10,602 - #6 (
+INFO  11:25:10,603 - #7 )
+INFO  11:25:10,603 - #3 {
+INFO  11:25:10,603 - #18 if
+INFO  11:25:10,603 - #6 (
+INFO  11:25:10,603 - #16 1
+INFO  11:25:10,603 - #33 !=
+INFO  11:25:10,603 - #16 1
+INFO  11:25:10,604 - #7 )
+INFO  11:25:10,604 - #9 print
+INFO  11:25:10,604 - #6 (
+INFO  11:25:10,604 - #40 -
+INFO  11:25:10,604 - #16 6
+INFO  11:25:10,605 - #7 )
+INFO  11:25:10,605 - #5 ;
+INFO  11:25:10,605 - #19 else
+INFO  11:25:10,605 - #9 print
+INFO  11:25:10,605 - #6 (
+INFO  11:25:10,605 - #16 0
+INFO  11:25:10,605 - #7 )
+INFO  11:25:10,605 - #5 ;
+INFO  11:25:10,606 - #17 ibool
+INFO  11:25:10,606 - #13 =
+INFO  11:25:10,606 - #23 false
+INFO  11:25:10,606 - #5 ;
+INFO  11:25:10,606 - #17 i
+INFO  11:25:10,606 - #13 =
+INFO  11:25:10,606 - #16 0
+INFO  11:25:10,607 - #5 ;
+INFO  11:25:10,607 - #20 for
+INFO  11:25:10,607 - #6 (
+INFO  11:25:10,607 - #17 i
+INFO  11:25:10,607 - #13 =
+INFO  11:25:10,607 - #16 0
+INFO  11:25:10,607 - #5 ;
+INFO  11:25:10,608 - #17 i
+INFO  11:25:10,608 - #36 <
+INFO  11:25:10,608 - #16 5
+INFO  11:25:10,609 - #5 ;
+INFO  11:25:10,609 - #17 i
+INFO  11:25:10,609 - #30 ++
+INFO  11:25:10,610 - #7 )
+INFO  11:25:10,610 - #3 {
+INFO  11:25:10,610 - #18 if
+INFO  11:25:10,610 - #6 (
+INFO  11:25:10,610 - #17 i
+INFO  11:25:10,611 - #32 ==
+INFO  11:25:10,611 - #16 2
+INFO  11:25:10,611 - #7 )
+INFO  11:25:10,612 - #17 ibool
+INFO  11:25:10,612 - #13 =
+INFO  11:25:10,613 - #23 true
+INFO  11:25:10,613 - #5 ;
+INFO  11:25:10,613 - #4 }
+INFO  11:25:10,613 - #18 if
+INFO  11:25:10,613 - #6 (
+INFO  11:25:10,614 - #17 ibool
+INFO  11:25:10,614 - #7 )
+INFO  11:25:10,615 - #18 if
+INFO  11:25:10,615 - #6 (
+INFO  11:25:10,615 - #17 i
+INFO  11:25:10,615 - #32 ==
+INFO  11:25:10,615 - #16 5
+INFO  11:25:10,615 - #7 )
+INFO  11:25:10,615 - #9 print
+INFO  11:25:10,615 - #6 (
+INFO  11:25:10,616 - #16 1
+INFO  11:25:10,616 - #7 )
+INFO  11:25:10,616 - #5 ;
+INFO  11:25:10,616 - #19 else
+INFO  11:25:10,616 - #9 print
+INFO  11:25:10,616 - #6 (
+INFO  11:25:10,616 - #40 -
+INFO  11:25:10,616 - #16 1
+INFO  11:25:10,616 - #7 )
+INFO  11:25:10,617 - #5 ;
+INFO  11:25:10,617 - #17 niz
+INFO  11:25:10,617 - #13 =
+INFO  11:25:10,617 - #48 new
+INFO  11:25:10,617 - #17 int
+INFO  11:25:10,617 - #25 [
+INFO  11:25:10,617 - #16 3
+INFO  11:25:10,617 - #26 ]
+INFO  11:25:10,618 - #5 ;
+INFO  11:25:10,618 - #17 niz
+INFO  11:25:10,618 - #25 [
+INFO  11:25:10,618 - #16 0
+INFO  11:25:10,618 - #26 ]
+INFO  11:25:10,618 - #13 =
+INFO  11:25:10,619 - #16 1
+INFO  11:25:10,619 - #5 ;
+INFO  11:25:10,619 - #17 niz
+INFO  11:25:10,619 - #25 [
+INFO  11:25:10,619 - #16 1
+INFO  11:25:10,619 - #26 ]
+INFO  11:25:10,620 - #13 =
+INFO  11:25:10,620 - #16 2
+INFO  11:25:10,620 - #5 ;
+INFO  11:25:10,620 - #17 niz
+INFO  11:25:10,620 - #25 [
+INFO  11:25:10,621 - #16 2
+INFO  11:25:10,621 - #26 ]
+INFO  11:25:10,621 - #13 =
+INFO  11:25:10,621 - #17 sum
+INFO  11:25:10,621 - #6 (
+INFO  11:25:10,621 - #17 niz
+INFO  11:25:10,621 - #25 [
+INFO  11:25:10,621 - #16 1
+INFO  11:25:10,621 - #26 ]
+INFO  11:25:10,621 - #8 ,
+INFO  11:25:10,622 - #17 niz
+INFO  11:25:10,622 - #25 [
+INFO  11:25:10,622 - #16 0
+INFO  11:25:10,622 - #26 ]
+INFO  11:25:10,622 - #7 )
+INFO  11:25:10,622 - #11 +
+INFO  11:25:10,622 - #16 1
+INFO  11:25:10,622 - #5 ;
+INFO  11:25:10,622 - #18 if
+INFO  11:25:10,622 - #6 (
+INFO  11:25:10,623 - #17 niz
+INFO  11:25:10,623 - #25 [
+INFO  11:25:10,623 - #16 2
+INFO  11:25:10,623 - #26 ]
+INFO  11:25:10,623 - #32 ==
+INFO  11:25:10,623 - #16 4
+INFO  11:25:10,623 - #38 ||
+INFO  11:25:10,623 - #17 verify
+INFO  11:25:10,623 - #6 (
+INFO  11:25:10,623 - #7 )
+INFO  11:25:10,625 - #7 )
+INFO  11:25:10,625 - #9 print
+INFO  11:25:10,625 - #6 (
+INFO  11:25:10,625 - #17 ord
+INFO  11:25:10,625 - #6 (
+INFO  11:25:10,626 - #22 A
+INFO  11:25:10,626 - #7 )
+INFO  11:25:10,626 - #7 )
+INFO  11:25:10,626 - #5 ;
+INFO  11:25:10,626 - #19 else
+INFO  11:25:10,626 - #9 print
+INFO  11:25:10,626 - #6 (
+INFO  11:25:10,626 - #17 ord
+INFO  11:25:10,626 - #6 (
+INFO  11:25:10,626 - #22 a
+INFO  11:25:10,626 - #7 )
+INFO  11:25:10,627 - #7 )
+INFO  11:25:10,627 - #5 ;
+INFO  11:25:10,627 - #9 print
+INFO  11:25:10,627 - #6 (
+INFO  11:25:10,627 - #17 eol
+INFO  11:25:10,627 - #7 )
+INFO  11:25:10,627 - #5 ;
+INFO  11:25:10,627 - #17 i
+INFO  11:25:10,627 - #13 =
+INFO  11:25:10,627 - #16 0
+INFO  11:25:10,629 - #5 ;
+INFO  11:25:10,629 - #20 for
+INFO  11:25:10,630 - #6 (
+INFO  11:25:10,630 - #5 ;
+INFO  11:25:10,632 - #17 i
+INFO  11:25:10,632 - #36 <
+INFO  11:25:10,632 - #16 10
+INFO  11:25:10,632 - #5 ;
+INFO  11:25:10,632 - #7 )
+INFO  11:25:10,633 - #3 {
+INFO  11:25:10,634 - #18 if
+INFO  11:25:10,634 - #6 (
+INFO  11:25:10,634 - #17 i
+INFO  11:25:10,634 - #32 ==
+INFO  11:25:10,634 - #16 3
+INFO  11:25:10,634 - #7 )
+INFO  11:25:10,634 - #3 {
+INFO  11:25:10,634 - #17 i
+INFO  11:25:10,635 - #30 ++
+INFO  11:25:10,635 - #5 ;
+INFO  11:25:10,636 - #29 continue
+INFO  11:25:10,636 - #5 ;
+INFO  11:25:10,636 - #4 }
+INFO  11:25:10,637 - #18 if
+INFO  11:25:10,638 - #6 (
+INFO  11:25:10,638 - #17 i
+INFO  11:25:10,638 - #32 ==
+INFO  11:25:10,638 - #16 4
+INFO  11:25:10,639 - #7 )
+INFO  11:25:10,639 - #28 break
+INFO  11:25:10,639 - #5 ;
+INFO  11:25:10,639 - #17 i
+INFO  11:25:10,640 - #13 =
+INFO  11:25:10,641 - #17 inkrement
+INFO  11:25:10,641 - #6 (
+INFO  11:25:10,641 - #17 i
+INFO  11:25:10,641 - #8 ,
+INFO  11:25:10,641 - #16 1
+INFO  11:25:10,641 - #7 )
+INFO  11:25:10,641 - #5 ;
+INFO  11:25:10,641 - #4 }
+INFO  11:25:10,641 - #18 if
+INFO  11:25:10,642 - #6 (
+INFO  11:25:10,642 - #17 i
+INFO  11:25:10,642 - #32 ==
+INFO  11:25:10,642 - #16 3
+INFO  11:25:10,642 - #39 &&
+INFO  11:25:10,642 - #17 verify
+INFO  11:25:10,642 - #6 (
+INFO  11:25:10,642 - #7 )
+INFO  11:25:10,642 - #7 )
+INFO  11:25:10,643 - #9 print
+INFO  11:25:10,643 - #6 (
+INFO  11:25:10,643 - #16 4
+INFO  11:25:10,643 - #7 )
+INFO  11:25:10,643 - #5 ;
+INFO  11:25:10,643 - #19 else
+INFO  11:25:10,643 - #9 print
+INFO  11:25:10,643 - #6 (
+INFO  11:25:10,644 - #40 -
+INFO  11:25:10,644 - #16 4
+INFO  11:25:10,644 - #7 )
+INFO  11:25:10,644 - #5 ;
+INFO  11:25:10,644 - #27 read
+INFO  11:25:10,644 - #6 (
+INFO  11:25:10,644 - #17 niz
+INFO  11:25:10,644 - #25 [
+INFO  11:25:10,644 - #16 0
+INFO  11:25:10,645 - #26 ]
+INFO  11:25:10,645 - #7 )
+INFO  11:25:10,645 - #5 ;
+INFO  11:25:10,645 - #27 read
+INFO  11:25:10,645 - #6 (
+INFO  11:25:10,645 - #17 niz
+INFO  11:25:10,645 - #25 [
+INFO  11:25:10,645 - #16 1
+INFO  11:25:10,646 - #26 ]
+INFO  11:25:10,646 - #7 )
+INFO  11:25:10,646 - #5 ;
+INFO  11:25:10,646 - #27 read
+INFO  11:25:10,646 - #6 (
+INFO  11:25:10,646 - #17 niz
+INFO  11:25:10,646 - #25 [
+INFO  11:25:10,646 - #16 2
+INFO  11:25:10,646 - #26 ]
+INFO  11:25:10,646 - #7 )
+INFO  11:25:10,646 - #5 ;
+INFO  11:25:10,646 - #9 print
+INFO  11:25:10,646 - #6 (
+INFO  11:25:10,647 - #17 eol
+INFO  11:25:10,647 - #7 )
+INFO  11:25:10,647 - #5 ;
+INFO  11:25:10,647 - #9 print
+INFO  11:25:10,647 - #6 (
+INFO  11:25:10,647 - #17 sum
+INFO  11:25:10,647 - #6 (
+INFO  11:25:10,647 - #17 sum
+INFO  11:25:10,647 - #6 (
+INFO  11:25:10,647 - #17 niz
+INFO  11:25:10,647 - #25 [
+INFO  11:25:10,647 - #16 0
+INFO  11:25:10,647 - #26 ]
+INFO  11:25:10,648 - #8 ,
+INFO  11:25:10,648 - #17 niz
+INFO  11:25:10,648 - #25 [
+INFO  11:25:10,648 - #16 1
+INFO  11:25:10,648 - #26 ]
+INFO  11:25:10,648 - #7 )
+INFO  11:25:10,648 - #8 ,
+INFO  11:25:10,648 - #17 niz
+INFO  11:25:10,648 - #25 [
+INFO  11:25:10,648 - #16 2
+INFO  11:25:10,648 - #26 ]
+INFO  11:25:10,648 - #7 )
+INFO  11:25:10,649 - #7 )
+INFO  11:25:10,649 - #5 ;
+INFO  11:25:10,649 - #21 foreach
+INFO  11:25:10,649 - #6 (
+INFO  11:25:10,649 - #17 i
+INFO  11:25:10,649 - #15 :
+INFO  11:25:10,650 - #17 niz
+INFO  11:25:10,650 - #7 )
+INFO  11:25:10,650 - #3 {
+INFO  11:25:10,651 - #9 print
+INFO  11:25:10,652 - #6 (
+INFO  11:25:10,652 - #17 i
+INFO  11:25:10,652 - #7 )
+INFO  11:25:10,652 - #5 ;
+INFO  11:25:10,652 - #4 }
+INFO  11:25:10,652 - #9 print
+INFO  11:25:10,654 - #6 (
+INFO  11:25:10,654 - #17 eol
+INFO  11:25:10,654 - #7 )
+INFO  11:25:10,655 - #5 ;
+INFO  11:25:10,655 - #9 print
+INFO  11:25:10,656 - #6 (
+INFO  11:25:10,656 - #17 inkrement
+INFO  11:25:10,656 - #6 (
+INFO  11:25:10,656 - #17 niz
+INFO  11:25:10,667 - #25 [
+INFO  11:25:10,668 - #16 2
+INFO  11:25:10,668 - #26 ]
+INFO  11:25:10,668 - #8 ,
+INFO  11:25:10,668 - #16 2
+INFO  11:25:10,668 - #7 )
+INFO  11:25:10,668 - #7 )
+INFO  11:25:10,668 - #5 ;
+INFO  11:25:10,669 - #4 }
+INFO  11:25:10,669 - #4 }
+INFO  11:25:10,718 - Program(
   ProgName(
    test302
   ) [ProgName]
@@ -2042,66 +2042,66 @@ INFO  13:18:28,966 - Program(
     ) [MethodDecl]
   ) [MethodDeclarations]
 ) [Program]
-INFO  13:18:28,972 - ===================================
-INFO  13:18:28,977 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
-INFO  13:18:28,977 - Deklarisana promenljiva i na liniji 7
-INFO  13:18:28,977 - Deklarisana promenljiva ibool na liniji 8
-INFO  13:18:28,977 - Deklarisan niz niz na liniji 10
-INFO  13:18:28,978 - Obradjuje se funkcija sum na liniji 13
-INFO  13:18:28,978 - Deklarisan parametar z na liniji 13
-INFO  13:18:28,978 - Deklarisan parametar d na liniji 13
-INFO  13:18:28,978 - Koriscenje formalnog parametra  na liniji 15
-INFO  13:18:28,978 - DesignatorName(
+INFO  11:25:10,724 - ===================================
+INFO  11:25:10,729 - Deklarisana konstanta jedan i ima vrednost 1 na liniji 5
+INFO  11:25:10,729 - Deklarisana promenljiva i na liniji 7
+INFO  11:25:10,729 - Deklarisana promenljiva ibool na liniji 8
+INFO  11:25:10,729 - Deklarisan niz niz na liniji 10
+INFO  11:25:10,730 - Obradjuje se funkcija sum na liniji 13
+INFO  11:25:10,730 - Deklarisan parametar z na liniji 13
+INFO  11:25:10,730 - Deklarisan parametar d na liniji 13
+INFO  11:25:10,730 - Koriscenje formalnog parametra  na liniji 15
+INFO  11:25:10,730 - DesignatorName(
  z
 ) [DesignatorName] na liniji 15
-INFO  13:18:28,978 - Koriscenje formalnog parametra  na liniji 15
-INFO  13:18:28,978 - DesignatorName(
+INFO  11:25:10,730 - Koriscenje formalnog parametra  na liniji 15
+INFO  11:25:10,730 - DesignatorName(
  d
 ) [DesignatorName] na liniji 15
-INFO  13:18:28,979 - Funkcija sum uspesno definisana na liniji 15
-INFO  13:18:28,979 - Obradjuje se funkcija inkrement na liniji 18
-INFO  13:18:28,979 - Deklarisan parametar a na liniji 18
-INFO  13:18:28,979 - Deklarisan parametar inc na liniji 18
-INFO  13:18:28,979 - Deklarisana promenljiva pom na liniji 18
-INFO  13:18:28,979 - Koriscenje formalnog parametra  na liniji 20
-INFO  13:18:28,979 - DesignatorName(
+INFO  11:25:10,730 - Funkcija sum uspesno definisana na liniji 15
+INFO  11:25:10,731 - Obradjuje se funkcija inkrement na liniji 18
+INFO  11:25:10,731 - Deklarisan parametar a na liniji 18
+INFO  11:25:10,731 - Deklarisan parametar inc na liniji 18
+INFO  11:25:10,731 - Deklarisana promenljiva pom na liniji 18
+INFO  11:25:10,731 - Koriscenje formalnog parametra  na liniji 20
+INFO  11:25:10,731 - DesignatorName(
  inc
 ) [DesignatorName] na liniji 20
-INFO  13:18:28,979 - Koriscenje konstante  na liniji 20
-INFO  13:18:28,979 - DesignatorName(
+INFO  11:25:10,731 - Koriscenje konstante  na liniji 20
+INFO  11:25:10,731 - DesignatorName(
  jedan
 ) [DesignatorName] na liniji 20
-INFO  13:18:28,979 - Koriscenje promenljive  na liniji 20
-INFO  13:18:28,979 - DesignatorName(
+INFO  11:25:10,731 - Koriscenje promenljive  na liniji 20
+INFO  11:25:10,731 - DesignatorName(
  pom
 ) [DesignatorName] na liniji 20
-INFO  13:18:28,979 - Koriscenje formalnog parametra  na liniji 21
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,731 - Koriscenje formalnog parametra  na liniji 21
+INFO  11:25:10,731 - DesignatorName(
  inc
 ) [DesignatorName] na liniji 21
-INFO  13:18:28,980 - Koriscenje promenljive  na liniji 21
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,731 - Koriscenje promenljive  na liniji 21
+INFO  11:25:10,731 - DesignatorName(
  pom
 ) [DesignatorName] na liniji 21
-INFO  13:18:28,980 - Koriscenje formalnog parametra  na liniji 21
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,731 - Koriscenje formalnog parametra  na liniji 21
+INFO  11:25:10,732 - DesignatorName(
  a
 ) [DesignatorName] na liniji 21
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,732 - DesignatorName(
  sum
 ) [DesignatorName] na liniji 23
-INFO  13:18:28,980 - Koriscenje formalnog parametra  na liniji 23
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,732 - Koriscenje formalnog parametra  na liniji 23
+INFO  11:25:10,732 - DesignatorName(
  a
 ) [DesignatorName] na liniji 23
-INFO  13:18:28,980 - Koriscenje promenljive  na liniji 23
-INFO  13:18:28,980 - DesignatorName(
+INFO  11:25:10,732 - Koriscenje promenljive  na liniji 23
+INFO  11:25:10,732 - DesignatorName(
  pom
 ) [DesignatorName] na liniji 23
-INFO  13:18:28,981 - Postavljen formalni parametar z na liniji 23
-INFO  13:18:28,981 - Postavljen formalni parametar d na liniji 23
-INFO  13:18:28,981 - Poziv funkcije sum na liniji 23
-INFO  13:18:28,981 - FactorVar(
+INFO  11:25:10,732 - Postavljen formalni parametar z na liniji 23
+INFO  11:25:10,733 - Postavljen formalni parametar d na liniji 23
+INFO  11:25:10,733 - Poziv funkcije sum na liniji 23
+INFO  11:25:10,733 - FactorVar(
   DesignatorName(
    sum
   ) [DesignatorName]
@@ -2138,39 +2138,39 @@ INFO  13:18:28,981 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 23
-INFO  13:18:28,981 - Funkcija inkrement uspesno definisana na liniji 23
-INFO  13:18:28,982 - Obradjuje se funkcija verify na liniji 26
-INFO  13:18:28,983 - Funkcija verify uspesno definisana na liniji 28
-INFO  13:18:28,983 - Obradjuje se funkcija main na liniji 31
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 36
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Funkcija inkrement uspesno definisana na liniji 23
+INFO  11:25:10,733 - Obradjuje se funkcija verify na liniji 26
+INFO  11:25:10,733 - Funkcija verify uspesno definisana na liniji 28
+INFO  11:25:10,733 - Obradjuje se funkcija main na liniji 31
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 36
+INFO  11:25:10,733 - DesignatorName(
  ibool
 ) [DesignatorName] na liniji 36
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 37
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 37
+INFO  11:25:10,733 - DesignatorName(
  i
 ) [DesignatorName] na liniji 37
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 38
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 38
+INFO  11:25:10,733 - DesignatorName(
  i
 ) [DesignatorName] na liniji 38
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 38
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 38
+INFO  11:25:10,733 - DesignatorName(
  i
 ) [DesignatorName] na liniji 38
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 38
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 38
+INFO  11:25:10,733 - DesignatorName(
  i
 ) [DesignatorName] na liniji 38
-INFO  13:18:28,983 - Koriscenje promenljive  na liniji 40
-INFO  13:18:28,983 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 40
+INFO  11:25:10,733 - DesignatorName(
  i
 ) [DesignatorName] na liniji 40
-INFO  13:18:28,984 - Koriscenje promenljive  na liniji 40
-INFO  13:18:28,985 - DesignatorName(
+INFO  11:25:10,733 - Koriscenje promenljive  na liniji 40
+INFO  11:25:10,734 - DesignatorName(
  ibool
 ) [DesignatorName] na liniji 40
-INFO  13:18:28,985 - ForStm(
+INFO  11:25:10,734 - ForStm(
   ForStmtDesign(
     DesignEqExpr(
       DesignatorName(
@@ -2285,24 +2285,24 @@ INFO  13:18:28,985 - ForStm(
     ) [Statements]
   ) [StatementInside]
 ) [ForStm] na liniji 38
-INFO  13:18:28,985 - Koriscenje promenljive  na liniji 43
-INFO  13:18:28,985 - DesignatorName(
+INFO  11:25:10,734 - Koriscenje promenljive  na liniji 43
+INFO  11:25:10,734 - DesignatorName(
  ibool
 ) [DesignatorName] na liniji 43
-INFO  13:18:28,985 - Koriscenje promenljive  na liniji 44
-INFO  13:18:28,986 - DesignatorName(
+INFO  11:25:10,734 - Koriscenje promenljive  na liniji 44
+INFO  11:25:10,734 - DesignatorName(
  i
 ) [DesignatorName] na liniji 44
-INFO  13:18:28,986 - Koriscenje promenljive  na liniji 47
-INFO  13:18:28,986 - DesignatorName(
+INFO  11:25:10,734 - Koriscenje promenljive  na liniji 47
+INFO  11:25:10,734 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 47
-INFO  13:18:28,987 - Koriscenje promenljive  na liniji 48
-INFO  13:18:28,987 - DesignatorName(
+INFO  11:25:10,734 - Koriscenje promenljive  na liniji 48
+INFO  11:25:10,734 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 48
-INFO  13:18:28,987 - Pristup nizu  na liniji 48
-INFO  13:18:28,987 - DesignatorClass(
+INFO  11:25:10,734 - Pristup nizu  na liniji 48
+INFO  11:25:10,735 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2318,12 +2318,12 @@ INFO  13:18:28,987 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 48
-INFO  13:18:28,987 - Koriscenje promenljive  na liniji 49
-INFO  13:18:28,987 - DesignatorName(
+INFO  11:25:10,735 - Koriscenje promenljive  na liniji 49
+INFO  11:25:10,735 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 49
-INFO  13:18:28,987 - Pristup nizu  na liniji 49
-INFO  13:18:28,987 - DesignatorClass(
+INFO  11:25:10,735 - Pristup nizu  na liniji 49
+INFO  11:25:10,735 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2339,12 +2339,12 @@ INFO  13:18:28,987 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 49
-INFO  13:18:28,988 - Koriscenje promenljive  na liniji 50
-INFO  13:18:28,988 - DesignatorName(
+INFO  11:25:10,735 - Koriscenje promenljive  na liniji 50
+INFO  11:25:10,735 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 50
-INFO  13:18:28,988 - Pristup nizu  na liniji 50
-INFO  13:18:28,988 - DesignatorClass(
+INFO  11:25:10,735 - Pristup nizu  na liniji 50
+INFO  11:25:10,735 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2360,15 +2360,15 @@ INFO  13:18:28,988 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 50
-INFO  13:18:28,988 - DesignatorName(
+INFO  11:25:10,735 - DesignatorName(
  sum
 ) [DesignatorName] na liniji 50
-INFO  13:18:28,988 - Koriscenje promenljive  na liniji 50
-INFO  13:18:28,988 - DesignatorName(
+INFO  11:25:10,735 - Koriscenje promenljive  na liniji 50
+INFO  11:25:10,735 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 50
-INFO  13:18:28,988 - Pristup nizu  na liniji 50
-INFO  13:18:28,988 - DesignatorClass(
+INFO  11:25:10,735 - Pristup nizu  na liniji 50
+INFO  11:25:10,735 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2384,12 +2384,12 @@ INFO  13:18:28,988 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 50
-INFO  13:18:28,996 - Koriscenje promenljive  na liniji 50
-INFO  13:18:28,996 - DesignatorName(
+INFO  11:25:10,736 - Koriscenje promenljive  na liniji 50
+INFO  11:25:10,736 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 50
-INFO  13:18:28,996 - Pristup nizu  na liniji 50
-INFO  13:18:28,996 - DesignatorClass(
+INFO  11:25:10,736 - Pristup nizu  na liniji 50
+INFO  11:25:10,736 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2405,10 +2405,10 @@ INFO  13:18:28,996 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 50
-INFO  13:18:28,996 - Postavljen formalni parametar z na liniji 50
-INFO  13:18:28,996 - Postavljen formalni parametar d na liniji 50
-INFO  13:18:28,996 - Poziv funkcije sum na liniji 50
-INFO  13:18:28,996 - FactorVar(
+INFO  11:25:10,736 - Postavljen formalni parametar z na liniji 50
+INFO  11:25:10,736 - Postavljen formalni parametar d na liniji 50
+INFO  11:25:10,736 - Poziv funkcije sum na liniji 50
+INFO  11:25:10,736 - FactorVar(
   DesignatorName(
    sum
   ) [DesignatorName]
@@ -2471,12 +2471,12 @@ INFO  13:18:28,996 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 50
-INFO  13:18:29,006 - Koriscenje promenljive  na liniji 51
-INFO  13:18:29,006 - DesignatorName(
+INFO  11:25:10,736 - Koriscenje promenljive  na liniji 51
+INFO  11:25:10,736 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 51
-INFO  13:18:29,006 - Pristup nizu  na liniji 51
-INFO  13:18:29,006 - DesignatorClass(
+INFO  11:25:10,736 - Pristup nizu  na liniji 51
+INFO  11:25:10,737 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2492,59 +2492,59 @@ INFO  13:18:29,006 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 51
-INFO  13:18:29,006 - DesignatorName(
+INFO  11:25:10,737 - DesignatorName(
  verify
 ) [DesignatorName] na liniji 51
-INFO  13:18:29,006 - Poziv funkcije verify na liniji 51
-INFO  13:18:29,007 - DesignatorName(
+INFO  11:25:10,737 - Poziv funkcije verify na liniji 51
+INFO  11:25:10,737 - DesignatorName(
  ord
 ) [DesignatorName] na liniji 51
-INFO  13:18:29,007 - Poziv funkcije ord na liniji 51
-INFO  13:18:29,007 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 51
-INFO  13:18:29,007 - DesignatorName(
+INFO  11:25:10,737 - Poziv funkcije ord na liniji 51
+INFO  11:25:10,737 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 51
+INFO  11:25:10,737 - DesignatorName(
  ord
 ) [DesignatorName] na liniji 52
-INFO  13:18:29,007 - Poziv funkcije ord na liniji 52
-INFO  13:18:29,007 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 52
-INFO  13:18:29,007 - Koriscenje konstante  na liniji 54
-INFO  13:18:29,007 - DesignatorName(
+INFO  11:25:10,737 - Poziv funkcije ord na liniji 52
+INFO  11:25:10,737 - rs.etf.pp1.symboltable.concepts.Obj@6e2c634b na liniji 52
+INFO  11:25:10,738 - Koriscenje konstante  na liniji 54
+INFO  11:25:10,738 - DesignatorName(
  eol
 ) [DesignatorName] na liniji 54
-INFO  13:18:29,007 - Koriscenje promenljive  na liniji 55
-INFO  13:18:29,007 - DesignatorName(
+INFO  11:25:10,738 - Koriscenje promenljive  na liniji 55
+INFO  11:25:10,738 - DesignatorName(
  i
 ) [DesignatorName] na liniji 55
-INFO  13:18:29,007 - Koriscenje promenljive  na liniji 56
-INFO  13:18:29,007 - DesignatorName(
+INFO  11:25:10,738 - Koriscenje promenljive  na liniji 56
+INFO  11:25:10,738 - DesignatorName(
  i
 ) [DesignatorName] na liniji 56
-INFO  13:18:29,008 - Koriscenje promenljive  na liniji 58
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,738 - Koriscenje promenljive  na liniji 58
+INFO  11:25:10,738 - DesignatorName(
  i
 ) [DesignatorName] na liniji 58
-INFO  13:18:29,008 - Koriscenje promenljive  na liniji 60
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,739 - Koriscenje promenljive  na liniji 60
+INFO  11:25:10,739 - DesignatorName(
  i
 ) [DesignatorName] na liniji 60
-INFO  13:18:29,008 - Koriscenje promenljive  na liniji 63
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,739 - Koriscenje promenljive  na liniji 63
+INFO  11:25:10,739 - DesignatorName(
  i
 ) [DesignatorName] na liniji 63
-INFO  13:18:29,008 - Koriscenje promenljive  na liniji 64
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,739 - Koriscenje promenljive  na liniji 64
+INFO  11:25:10,739 - DesignatorName(
  i
 ) [DesignatorName] na liniji 64
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,739 - DesignatorName(
  inkrement
 ) [DesignatorName] na liniji 64
-INFO  13:18:29,008 - Koriscenje promenljive  na liniji 64
-INFO  13:18:29,008 - DesignatorName(
+INFO  11:25:10,739 - Koriscenje promenljive  na liniji 64
+INFO  11:25:10,739 - DesignatorName(
  i
 ) [DesignatorName] na liniji 64
-INFO  13:18:29,008 - Postavljen formalni parametar a na liniji 64
-INFO  13:18:29,008 - Postavljen formalni parametar inc na liniji 64
-INFO  13:18:29,009 - Poziv funkcije inkrement na liniji 64
-INFO  13:18:29,009 - FactorVar(
+INFO  11:25:10,740 - Postavljen formalni parametar a na liniji 64
+INFO  11:25:10,740 - Postavljen formalni parametar inc na liniji 64
+INFO  11:25:10,740 - Poziv funkcije inkrement na liniji 64
+INFO  11:25:10,740 - FactorVar(
   DesignatorName(
    inkrement
   ) [DesignatorName]
@@ -2579,7 +2579,7 @@ INFO  13:18:29,009 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 64
-INFO  13:18:29,009 - ForStm(
+INFO  11:25:10,740 - ForStm(
   NoForDesign(
   ) [NoForDesign]
   ForCond(
@@ -2758,20 +2758,20 @@ INFO  13:18:29,009 - ForStm(
     ) [Statements]
   ) [StatementInside]
 ) [ForStm] na liniji 5
-INFO  13:18:29,014 - Koriscenje promenljive  na liniji 67
-INFO  13:18:29,014 - DesignatorName(
+INFO  11:25:10,741 - Koriscenje promenljive  na liniji 67
+INFO  11:25:10,741 - DesignatorName(
  i
 ) [DesignatorName] na liniji 67
-INFO  13:18:29,014 - DesignatorName(
+INFO  11:25:10,741 - DesignatorName(
  verify
 ) [DesignatorName] na liniji 67
-INFO  13:18:29,014 - Poziv funkcije verify na liniji 67
-INFO  13:18:29,014 - Koriscenje promenljive  na liniji 70
-INFO  13:18:29,014 - DesignatorName(
+INFO  11:25:10,741 - Poziv funkcije verify na liniji 67
+INFO  11:25:10,742 - Koriscenje promenljive  na liniji 70
+INFO  11:25:10,742 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 70
-INFO  13:18:29,014 - Pristup nizu  na liniji 70
-INFO  13:18:29,014 - DesignatorClass(
+INFO  11:25:10,742 - Pristup nizu  na liniji 70
+INFO  11:25:10,742 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2787,12 +2787,12 @@ INFO  13:18:29,014 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 70
-INFO  13:18:29,014 - Koriscenje promenljive  na liniji 71
-INFO  13:18:29,014 - DesignatorName(
+INFO  11:25:10,742 - Koriscenje promenljive  na liniji 71
+INFO  11:25:10,742 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 71
-INFO  13:18:29,014 - Pristup nizu  na liniji 71
-INFO  13:18:29,014 - DesignatorClass(
+INFO  11:25:10,742 - Pristup nizu  na liniji 71
+INFO  11:25:10,743 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2808,12 +2808,12 @@ INFO  13:18:29,014 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 71
-INFO  13:18:29,014 - Koriscenje promenljive  na liniji 72
-INFO  13:18:29,014 - DesignatorName(
+INFO  11:25:10,743 - Koriscenje promenljive  na liniji 72
+INFO  11:25:10,743 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 72
-INFO  13:18:29,015 - Pristup nizu  na liniji 72
-INFO  13:18:29,015 - DesignatorClass(
+INFO  11:25:10,743 - Pristup nizu  na liniji 72
+INFO  11:25:10,743 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2829,22 +2829,22 @@ INFO  13:18:29,015 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 72
-INFO  13:18:29,015 - Koriscenje konstante  na liniji 73
-INFO  13:18:29,015 - DesignatorName(
+INFO  11:25:10,743 - Koriscenje konstante  na liniji 73
+INFO  11:25:10,743 - DesignatorName(
  eol
 ) [DesignatorName] na liniji 73
-INFO  13:18:29,015 - DesignatorName(
+INFO  11:25:10,743 - DesignatorName(
  sum
 ) [DesignatorName] na liniji 75
-INFO  13:18:29,015 - DesignatorName(
+INFO  11:25:10,743 - DesignatorName(
  sum
 ) [DesignatorName] na liniji 75
-INFO  13:18:29,015 - Koriscenje promenljive  na liniji 75
-INFO  13:18:29,015 - DesignatorName(
+INFO  11:25:10,743 - Koriscenje promenljive  na liniji 75
+INFO  11:25:10,743 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 75
-INFO  13:18:29,015 - Pristup nizu  na liniji 75
-INFO  13:18:29,015 - DesignatorClass(
+INFO  11:25:10,743 - Pristup nizu  na liniji 75
+INFO  11:25:10,743 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2860,12 +2860,12 @@ INFO  13:18:29,015 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 75
-INFO  13:18:29,015 - Koriscenje promenljive  na liniji 75
-INFO  13:18:29,015 - DesignatorName(
+INFO  11:25:10,744 - Koriscenje promenljive  na liniji 75
+INFO  11:25:10,744 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 75
-INFO  13:18:29,015 - Pristup nizu  na liniji 75
-INFO  13:18:29,015 - DesignatorClass(
+INFO  11:25:10,744 - Pristup nizu  na liniji 75
+INFO  11:25:10,744 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2881,10 +2881,10 @@ INFO  13:18:29,015 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 75
-INFO  13:18:29,017 - Postavljen formalni parametar z na liniji 75
-INFO  13:18:29,018 - Postavljen formalni parametar d na liniji 75
-INFO  13:18:29,018 - Poziv funkcije sum na liniji 75
-INFO  13:18:29,018 - FactorVar(
+INFO  11:25:10,744 - Postavljen formalni parametar z na liniji 75
+INFO  11:25:10,745 - Postavljen formalni parametar d na liniji 75
+INFO  11:25:10,745 - Poziv funkcije sum na liniji 75
+INFO  11:25:10,745 - FactorVar(
   DesignatorName(
    sum
   ) [DesignatorName]
@@ -2947,12 +2947,12 @@ INFO  13:18:29,018 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 75
-INFO  13:18:29,018 - Koriscenje promenljive  na liniji 75
-INFO  13:18:29,018 - DesignatorName(
+INFO  11:25:10,745 - Koriscenje promenljive  na liniji 75
+INFO  11:25:10,745 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 75
-INFO  13:18:29,018 - Pristup nizu  na liniji 75
-INFO  13:18:29,018 - DesignatorClass(
+INFO  11:25:10,745 - Pristup nizu  na liniji 75
+INFO  11:25:10,745 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -2968,10 +2968,10 @@ INFO  13:18:29,018 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 75
-INFO  13:18:29,018 - Postavljen formalni parametar z na liniji 75
-INFO  13:18:29,018 - Postavljen formalni parametar d na liniji 75
-INFO  13:18:29,018 - Poziv funkcije sum na liniji 75
-INFO  13:18:29,018 - FactorVar(
+INFO  11:25:10,745 - Postavljen formalni parametar z na liniji 75
+INFO  11:25:10,745 - Postavljen formalni parametar d na liniji 75
+INFO  11:25:10,745 - Poziv funkcije sum na liniji 75
+INFO  11:25:10,745 - FactorVar(
   DesignatorName(
    sum
   ) [DesignatorName]
@@ -3077,27 +3077,27 @@ INFO  13:18:29,018 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 75
-INFO  13:18:29,019 - Koriscenje promenljive  na liniji 77
-INFO  13:18:29,019 - DesignatorName(
+INFO  11:25:10,746 - Koriscenje promenljive  na liniji 77
+INFO  11:25:10,746 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 77
-INFO  13:18:29,019 - Koriscenje promenljive  na liniji 78
-INFO  13:18:29,019 - DesignatorName(
+INFO  11:25:10,746 - Koriscenje promenljive  na liniji 78
+INFO  11:25:10,746 - DesignatorName(
  i
 ) [DesignatorName] na liniji 78
-INFO  13:18:29,019 - Koriscenje konstante  na liniji 81
-INFO  13:18:29,019 - DesignatorName(
+INFO  11:25:10,746 - Koriscenje konstante  na liniji 81
+INFO  11:25:10,746 - DesignatorName(
  eol
 ) [DesignatorName] na liniji 81
-INFO  13:18:29,019 - DesignatorName(
+INFO  11:25:10,746 - DesignatorName(
  inkrement
 ) [DesignatorName] na liniji 82
-INFO  13:18:29,019 - Koriscenje promenljive  na liniji 82
-INFO  13:18:29,019 - DesignatorName(
+INFO  11:25:10,746 - Koriscenje promenljive  na liniji 82
+INFO  11:25:10,746 - DesignatorName(
  niz
 ) [DesignatorName] na liniji 82
-INFO  13:18:29,019 - Pristup nizu  na liniji 82
-INFO  13:18:29,019 - DesignatorClass(
+INFO  11:25:10,746 - Pristup nizu  na liniji 82
+INFO  11:25:10,746 - DesignatorClass(
   DesignatorName(
    niz
   ) [DesignatorName]
@@ -3113,10 +3113,10 @@ INFO  13:18:29,019 - DesignatorClass(
     ) [TermExpr]
   ) [SQExp]
 ) [DesignatorClass] na liniji 82
-INFO  13:18:29,019 - Postavljen formalni parametar a na liniji 82
-INFO  13:18:29,019 - Postavljen formalni parametar inc na liniji 82
-INFO  13:18:29,019 - Poziv funkcije inkrement na liniji 82
-INFO  13:18:29,020 - FactorVar(
+INFO  11:25:10,746 - Postavljen formalni parametar a na liniji 82
+INFO  11:25:10,746 - Postavljen formalni parametar inc na liniji 82
+INFO  11:25:10,746 - Poziv funkcije inkrement na liniji 82
+INFO  11:25:10,747 - FactorVar(
   DesignatorName(
    inkrement
   ) [DesignatorName]
@@ -3164,10 +3164,10 @@ INFO  13:18:29,020 - FactorVar(
     ) [Actuals]
   ) [FactorFuncParen]
 ) [FactorVar] na liniji 82
-INFO  13:18:29,020 - Print calls = 15
-INFO  13:18:29,020 - Read calls = 3
-INFO  13:18:29,020 - Broj promenljivih = 3
-INFO  13:18:29,020 - Broj nizova = 1
-INFO  13:18:29,020 - Broj konstanti = 0
-INFO  13:18:29,022 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
-INFO  13:18:29,036 - Parsiranje uspesno zavrseno!
+INFO  11:25:10,747 - Print calls = 15
+INFO  11:25:10,747 - Read calls = 3
+INFO  11:25:10,747 - Broj promenljivih = 3
+INFO  11:25:10,747 - Broj nizova = 1
+INFO  11:25:10,747 - Broj konstanti = 0
+INFO  11:25:10,748 - Generating bytecode file: D:\Faks\4.godina\pp\pp1lab.templateAST\pp1lab.templateAST\workspace\MJCompiler\test\program.obj
+INFO  11:25:10,773 - Parsiranje uspesno zavrseno!

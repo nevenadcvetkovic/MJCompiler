@@ -113,9 +113,14 @@ public class CodeGenerator extends VisitorAdaptor {
 	private HashMap<String, Obj> feIterArray = new HashMap<>();
 
 	private boolean start = false;
-	private ArrayList<String> designs = new ArrayList<>();
-	private ArrayList<Integer> operations = new ArrayList<>(30);
-	private ArrayList<Obj> objs = new ArrayList<>();
+	private ArrayList<String> designs = null;
+	private ArrayList<Integer> operations = null;
+	private ArrayList<Obj> objs = null;
+
+	private ArrayList<Boolean> startList = new ArrayList<>();
+	private ArrayList<ArrayList<String>> designsList = new ArrayList<>();
+	private ArrayList<ArrayList<Integer>> operationsList = new ArrayList<>();
+	private ArrayList<ArrayList<Obj>> objsList = new ArrayList<>();
 
 	@Override
 	public void visit(MethodTypeName MethodTypeName) {
@@ -140,6 +145,20 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.put(Code.enter);
 		Code.put(fpCnt.getCount());
 		Code.put(varCnt.getCount() + fpCnt.getCount());
+
+		// init for the expressions
+		startList.add(new Boolean(false));
+		start = false;
+
+		designsList.add(new ArrayList<>(30));
+		designs = designsList.get(designsList.size() - 1);
+
+		operationsList.add(new ArrayList<>());
+		operations = operationsList.get(operationsList.size() - 1);
+
+		objsList.add(new ArrayList<>());
+		objs = objsList.get(objsList.size() - 1);
+
 	}
 
 	@Override
@@ -156,6 +175,21 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(MethodDecl MethodDecl) {
 		Code.put(Code.exit);
 		Code.put(Code.return_);
+		int size = startList.size();
+		if (size > 0) {
+			startList.remove(size - 1);
+			designsList.remove(size - 1);
+			operationsList.remove(size - 1);
+			objsList.remove(size - 1);
+		}
+
+		if (size - 1 > 0) {
+			size -= 2;
+			start = startList.get(size);
+			designs = designsList.get(size);
+			operations = operationsList.get(size);
+			objs = objsList.get(size);
+		}
 	}
 
 	@Override
@@ -213,7 +247,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		operations.clear();
 		objs.clear();
 		designs.clear();
-		start=false;
+		start = false;
 		if (designExpr.getDesignator() instanceof DesignatorClass) {
 			setArrDesignObj(designExpr.getDesignator());
 		} else if (feIterArray.containsKey(((DesignatorName) designExpr.getDesignator()).getName())) {
@@ -274,32 +308,36 @@ public class CodeGenerator extends VisitorAdaptor {
 			Designator designator = factorVar.getDesignator();
 			if ((factorVar.getDesignator() instanceof DesignatorClass
 					|| feIterArray.containsKey(((DesignatorName) factorVar.getDesignator()).getName()))//
-							&& (factorVar.getParent() instanceof TermFactor//
+					&& (factorVar.getParent() instanceof TermFactor//
 							&& (factorVar.getParent().getParent() instanceof MulTerm//
-							&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight//
-							&& ((MulTerm) factorVar.getParent().getParent()).getTerm()==factorVar.getParent()//
-						|| factorVar.getParent().getParent() instanceof TermExpr//
-							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
-							&& ((AddExpr) factorVar.getParent().getParent().getParent())//
-									.getAddOp() instanceof AddRight//
-							&& ((AddExpr) factorVar.getParent().getParent().getParent())
-									.getExpr()==factorVar.getParent().getParent()
-						|| factorVar.getParent().getParent() instanceof AddExpr//
-							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
-							&& ((AddExpr) factorVar.getParent().getParent().getParent())//
-									.getAddOp() instanceof AddRight)//
-							//&& ((AddExpr) factorVar.getParent().getParent().getParent())
-								//	.getExpr()==factorVar.getParent().getParent()
-						|| factorVar.getParent() instanceof MulTerm//
-							&& factorVar.getParent().getParent() instanceof MulTerm//
-							&& ((MulTerm) factorVar.getParent()).getMulOp() instanceof MulRight
-							&& (((MulTerm) factorVar.getParent()).getTerm() instanceof TermFactor 
-									&& ((TermFactor) ((MulTerm) factorVar.getParent()).getTerm()).getFactor()==factorVar) //moze da se desi da treba da se doda jos ||
-						|| factorVar.getParent() instanceof MulTerm//
-							&& factorVar.getParent().getParent() instanceof TermExpr//
-							&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
-							&& ((AddExpr) factorVar.getParent().getParent().getParent()).getAddOp() instanceof AddRight
-							&& ((AddExpr) factorVar.getParent().getParent().getParent()).getExpr()==factorVar.getParent().getParent())) {//
+									&& ((MulTerm) factorVar.getParent().getParent()).getMulOp() instanceof MulRight//
+									&& ((MulTerm) factorVar.getParent().getParent()).getTerm() == factorVar.getParent()//
+									|| factorVar.getParent().getParent() instanceof TermExpr//
+											&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+											&& ((AddExpr) factorVar.getParent().getParent().getParent())//
+													.getAddOp() instanceof AddRight//
+											&& ((AddExpr) factorVar.getParent().getParent().getParent())
+													.getExpr() == factorVar.getParent().getParent()
+									|| factorVar.getParent().getParent() instanceof AddExpr//
+											&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+											&& ((AddExpr) factorVar.getParent().getParent().getParent())//
+													.getAddOp() instanceof AddRight)//
+							// && ((AddExpr) factorVar.getParent().getParent().getParent())
+							// .getExpr()==factorVar.getParent().getParent()
+							|| factorVar.getParent() instanceof MulTerm//
+									&& factorVar.getParent().getParent() instanceof MulTerm//
+									&& ((MulTerm) factorVar.getParent()).getMulOp() instanceof MulRight
+									&& (((MulTerm) factorVar.getParent()).getTerm() instanceof TermFactor
+											&& ((TermFactor) ((MulTerm) factorVar.getParent()).getTerm())
+													.getFactor() == factorVar) // moze da se desi da treba da se doda
+																				// jos ||
+							|| factorVar.getParent() instanceof MulTerm//
+									&& factorVar.getParent().getParent() instanceof TermExpr//
+									&& factorVar.getParent().getParent().getParent() instanceof AddExpr//
+									&& ((AddExpr) factorVar.getParent().getParent().getParent())
+											.getAddOp() instanceof AddRight
+									&& ((AddExpr) factorVar.getParent().getParent().getParent()).getExpr() == factorVar
+											.getParent().getParent())) {//
 				Code.put(Code.dup2);
 				Code.put(Code.aload);
 			} else
@@ -466,7 +504,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		if (DesignFunc.class != parrent.getClass() && FactorVar.class != parrent.getClass()
 				&& ReadDesign.class != parrent.getClass()) {
 			if (DesignEqExpr.class == parrent.getClass()) {
-				start = true;//ovde problem vidi sto load nema
+				start = true;// ovde problem vidi sto load nema
 				DesignEqExpr expr = (DesignEqExpr) parrent;
 				if (expr.getAssignOp() instanceof AddAss || expr.getAssignOp() instanceof MulAss) {
 					if (feIterArray.containsKey(designator.getName())) {
@@ -476,7 +514,7 @@ public class CodeGenerator extends VisitorAdaptor {
 						Code.put(Code.aload);
 					} else
 						Code.load(designator.obj);
-				}else if(feIterArray.containsKey(designator.getName())) {
+				} else if (feIterArray.containsKey(designator.getName())) {
 					Code.load(feIterArray.get(designator.getName()));
 					Code.load(designator.obj);
 				}
@@ -496,8 +534,9 @@ public class CodeGenerator extends VisitorAdaptor {
 			designs.add(designator.getName());
 		}
 		if (DesignatorClass.class == parrent.getClass() && DesignEqExpr.class == parrent.getParent().getClass()) {
-			start=true;
+			start = true;
 		}
+		//ako slucajno budu stavili return a+=b proveri taj slucaj i dodaj i top
 	}
 
 	@Override

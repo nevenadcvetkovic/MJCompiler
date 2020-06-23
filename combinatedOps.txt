@@ -1,0 +1,53 @@
+//Test 302
+
+program test302
+
+const int jedan = 1;
+
+int i,x,a,z;
+bool ibool;
+
+int niz[];
+{
+
+	int func() int a, b, c;
+	{
+		a=2;
+		b=3;
+		c=17;
+		a+=b+=c;
+		return a;
+	}
+	
+	
+	void main()
+	{
+		niz=new int[3];
+		
+		a=5;
+		//z=3;
+		//x=7;
+		i=4;niz[0]=2;
+		//niz[0]*=niz[0]*=niz[0]+5*5;
+		foreach(iter:niz){
+			//a%=iter%=iter*=iter*=iter*=2;
+		}
+		
+		foreach(iter:niz){
+			print(iter);
+		}
+		print(a);
+		print(niz[0]);
+		print(i);
+		print(z);
+		
+		a+=niz[0]+=niz[1]+=func();
+		
+		print(a);
+		
+		print(chr(65));
+		
+
+	}
+}
+
